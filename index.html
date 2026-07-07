@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhD Outreach Management System - Qiongjie Huang</title>
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --ink: #172033;
+      --muted: #667085;
+      --line: #d9e0e8;
+      --accent: #1c6e72;
+      --accent2: #2f7d52;
+      --warn: #b7791f;
+      --danger: #b42318;
+      --soft: #eaf4f3;
+      --soft2: #eff7f1;
+      --shadow: 0 10px 28px rgba(23, 32, 51, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    header {
+      background: linear-gradient(135deg, #103f43, #1c6e72);
+      color: white;
+      padding: 22px clamp(16px, 3vw, 34px);
+    }
+    .wrap { width: min(1320px, 100%); margin: 0 auto; }
+    .header-row { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; }
+    h1 { margin: 0 0 6px; font-size: 27px; line-height: 1.15; }
+    h2 { margin: 0 0 10px; font-size: 19px; }
+    h3 { margin: 0 0 4px; font-size: 17px; }
+    a { color: var(--accent); }
+    button, input, textarea, select { font: inherit; }
+    .subtitle { max-width: 850px; color: #dcebea; }
+    .btn {
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--ink);
+      border-radius: 7px;
+      padding: 8px 11px;
+      font-weight: 650;
+      cursor: pointer;
+    }
+    .btn.primary { border-color: #155b5e; background: var(--accent); color: white; }
+    .btn.ghost { background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.32); color: white; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: white;
+      border-bottom: 1px solid var(--line);
+    }
+    .tabs { display: flex; gap: 4px; overflow-x: auto; padding: 8px clamp(12px, 3vw, 28px); }
+    .tab {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      padding: 9px 12px;
+      border-radius: 7px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: 650;
+    }
+    .tab.active { background: var(--soft); color: #155b5e; }
+    main { padding: 18px clamp(12px, 3vw, 28px) 34px; }
+    .stats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
+    .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; box-shadow: var(--shadow); }
+    .stat b { display: block; font-size: 22px; line-height: 1.1; }
+    .stat span { color: var(--muted); font-size: 12px; }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); padding: 14px; }
+    .view { display: none; }
+    .view.active { display: block; }
+    .toolbar { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .filters input, .filters select { border: 1px solid var(--line); border-radius: 7px; padding: 8px 9px; background: white; min-width: 150px; }
+    .grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(380px, .72fr); gap: 14px; align-items: start; }
+    .candidate-list { display: grid; gap: 10px; }
+    .card { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: white; cursor: pointer; }
+    .card.active { border-color: var(--accent); box-shadow: inset 3px 0 0 var(--accent); }
+    .card-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+    .meta { color: var(--muted); font-size: 12.5px; }
+    .tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 8px; }
+    .tag { display: inline-flex; border-radius: 999px; padding: 2px 7px; background: var(--soft); color: #155b5e; font-size: 12px; border: 1px solid #cfe4e2; }
+    .tag.green { background: var(--soft2); color: var(--accent2); border-color: #d4ead8; }
+    .tag.warn { background: #fff7e6; color: var(--warn); border-color: #f3dca7; }
+    .tag.danger { background: #fff1f0; color: var(--danger); border-color: #ffd6d2; }
+    .score { min-width: 50px; text-align: center; border-radius: 7px; background: var(--soft2); color: var(--accent2); padding: 5px 7px; font-weight: 750; }
+    .brief { border-left: 4px solid var(--accent); padding: 12px; background: white; border-radius: 8px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+    .profile-grid { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1fr); gap: 14px; }
+    .kv { display: grid; gap: 8px; }
+    .kv div { border-bottom: 1px solid var(--line); padding-bottom: 7px; }
+    .kv b { display: block; color: var(--muted); font-size: 12px; }
+    .bullets { margin: 6px 0 0 18px; padding: 0; }
+    .bullets li { margin: 3px 0; }
+    .source-list { margin: 6px 0 0 18px; padding: 0; }
+    textarea { width: 100%; min-height: 260px; border: 1px solid var(--line); border-radius: 7px; padding: 9px; resize: vertical; }
+    .email-layout { display: grid; grid-template-columns: 320px 1fr; gap: 14px; align-items: start; }
+    .email-item { border: 1px solid var(--line); border-radius: 8px; padding: 10px; cursor: pointer; background: white; }
+    .email-item.active { border-color: var(--accent); background: var(--soft); }
+    .empty { padding: 28px 18px; text-align: center; color: var(--muted); border: 1px dashed #b8c3d1; border-radius: 8px; background: #fbfcfd; }
+    @media (max-width: 980px) {
+      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .grid, .profile-grid, .email-layout { grid-template-columns: 1fr; }
+      .header-row { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <script id="seed-data" type="application/json">{
+  "version": 1,
+  "last_updated": "2026-07-07",
+  "profile": {
+    "name": "Qiongjie Huang",
+    "chinese_name": "黄琼杰",
+    "email": "HQJ123@webmail.hzau.edu.cn",
+    "phone": "+86 153 9516 4743",
+    "location": "Wuhan, Hubei Province, China",
+    "cv_source": "C:\\Users\\Administrator\\Desktop\\Huang_Qiongjie_CV.docx",
+    "cv_last_modified": "2026-07-06 20:37:50",
+    "researchgate": "https://www.researchgate.net/profile/Huang-Qiongjie-2",
+    "degree": "M.S. Candidate / Master of Agriculture, College of Fisheries, Huazhong Agricultural University",
+    "period": "Sep. 2024 - Jun. 2027 (expected)",
+    "master_gpa": "3.58 / 4.00",
+    "undergraduate": "Bachelor of Agriculture, College of Fisheries and Life Science, Dalian Ocean University, Sep. 2020 - Jun. 2024; GPA 4.038 / 5.000",
+    "exchange": "Domestic Undergraduate Exchange Program, College of Fisheries, Huazhong Agricultural University, Sep. 2022 - Jul. 2023; GPA 3.92 / 4.00",
+    "target": "PhD for 2027 entry preferred; fully funded/project-funded positions first, CSC-compatible supervisors as a parallel route.",
+    "core_direction_cn": "厘清人类活动及气候变化等多重胁迫对淡水大型底栖动物群落的影响模式及机制。",
+    "core_direction_en": "Clarifying the patterns and mechanisms by which human activities and climate-change-related multiple stressors affect freshwater macroinvertebrate communities.",
+    "highlight_papers": [
+      "Huang, Q., Yao, N., Bao, S., Xiong, H., Ma, B., & Wang, J. (2025). Elevational variability in the effect of pressures on the taxonomic and functional diversity of macroinvertebrate assemblages. Aquatic Sciences, 87, 68. First author. https://doi.org/10.1007/s00027-025-01194-y",
+      "Li, W., Xu, J., Huang, Q., & Wang, M. (2024). Study on the biodiversity of macroinvertebrate in the Dayang River Basin during summer based on environmental DNA and morphological analysis. Journal of Freshwater Ecology, 39(1), 2358071. Co-author. https://doi.org/10.1080/02705060.2024.2358071",
+      "Huang, Q., Sentis, A., Moi, D. A., & Wang, J. Body size shapes aquatic biotic vulnerability to co-occurring multiple stressors. Ecology Letters. First author, under review.",
+      "Wang, J., Huang, Q., Moi, D. A., Bao, S., Zhang, Y., & He, D. Anthropogenic disturbance amplifies mass ratio effects on stream macroinvertebrate biodiversity-biomass relationships. Ecological Processes. Second author, under review.",
+      "Zhang, R., Huang, Q., Yang, J., Zhou, Q., Chi, S., Zanon, F. M., Huang, M., & Wang, J. Environmental drivers shape spatial patterns of ecological uniqueness in lake macroinvertebrates across China. Water Biology and Security. Second author, under review."
+    ],
+    "research_experience": [
+      "Multiple-Stressor Effects on Freshwater Macroinvertebrate Assemblages, Huazhong Agricultural University, Sep. 2024 - Jun. 2025: analyzed 195 sampling events from 134 sites in three Yangtze River tributary basins, integrating macroinvertebrate communities, 13 functional traits, land-use data, and upstream barrier records.",
+      "Used ArcGIS to extract land-use pressures; calculated taxonomic and functional diversity indices; applied PCA, Kruskal-Wallis/Dunn tests, and linear mixed models in R; found mainly additive effects and elevation-dependent shifts from antagonistic to synergistic pressure interactions.",
+      "Second-Order Meta-Analysis on Body-Size-Dependent Vulnerability, Huazhong Agricultural University / International Collaboration with France and Brazil, Sep. 2025 - present: built a dataset of 22 first-order meta-analyses covering 863 primary studies, 4,240 comparisons, and 244 effect sizes across freshwater, marine, and estuarine ecosystems.",
+      "Performed REML-based second-order meta-analysis in R/metafor with multilevel mixed-effects models and nested StudyID/EffectID random effects to test body size, ecosystem, response level, interaction type, and stressor-combination moderators."
+    ],
+    "methods": [
+      "field sampling",
+      "water-chemistry indicator measurement",
+      "macroinvertebrate biodiversity assessment",
+      "taxonomic diversity indices",
+      "functional diversity and 13 trait variables",
+      "eDNA plus morphology biodiversity assessment",
+      "PCA",
+      "Kruskal-Wallis and Dunn tests",
+      "linear mixed models",
+      "structural equation modelling",
+      "REML second-order meta-analysis",
+      "R/metafor multilevel mixed-effects models",
+      "network analysis",
+      "machine learning",
+      "remote sensing",
+      "R",
+      "Python",
+      "ArcMap/ArcGIS",
+      "QGIS",
+      "Adobe Illustrator",
+      "Word/Excel/PPT"
+    ],
+    "awards": [
+      "National Scholarship, Huazhong Agricultural University, Nov. 2025",
+      "First-Class Scholarship for Master's Students, Huazhong Agricultural University, Nov. 2024 and Nov. 2025",
+      "Merit Student Award (Three-Good Student), Huazhong Agricultural University, Nov. 2025",
+      "Third Prize, Liaoning Provincial College Student Smart Ocean Technology Innovation Competition, Jan. 2024",
+      "First-Class Scholarship for Undergraduate Students, Dalian Ocean University, 2021-2022",
+      "Second-Class Scholarship for Undergraduate Students, Dalian Ocean University, 2020-2021"
+    ],
+    "languages": "Chinese native; English CET-6, proficient in academic writing and daily communication; Japanese JLPT-N2, proficient",
+    "reference": "Jun Wang, Associate Professor / Master's Advisor, Huazhong Agricultural University, wangjun89@mail.hzau.edu.cn"
+  },
+  "search_policy": {
+    "regions": [
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "daily_target_total": 3,
+    "region_rule": "Prefer one verified candidate from Europe, Asia, and South America. If a region lacks a verified current opening with feasible timing, substitute the strongest longer-window full-funding prospect and explain the substitution.",
+    "must_have": [
+      "Official or credible current PhD opening, recruitment call, funded position, supervisor page explicitly inviting PhD applicants, or a near-future 2027 intake page with clear timeline.",
+      "Deadline/opening window is future and feasible; preferred buffer >= 30 days, acceptable buffer 14-29 days, urgent exception < 14 days only if match and funding are unusually strong.",
+      "Supervisor has strong standing such as Professor, Associate Professor, PI, Lab Head, endowed chair, fellow, ERC/MSCA/national grant PI, academy/society fellow, centre leader, or comparable recognized title.",
+      "Research connection to freshwater macroinvertebrates, multiple anthropogenic/climate stressors, biodiversity, eDNA/morphology, functional traits/body size, river basin conservation, ecological modelling, hydrology-biodiversity links, or biomonitoring.",
+      "Evidence of recent lab activity, publications, grants, projects, students, recruitment, news, datasets, or programme activity within roughly the last three years.",
+      "Funding route is explicit or realistically actionable: project salary, studentship, tuition waiver+stipend, national scholarship, university fellowship, or CSC-host/supervisor compatibility.",
+      "For Asian candidates, exclude Japan, mainland China, Hong Kong, and Macau.",
+      "For European candidates, prioritize France, Nordic countries, and Mediterranean Europe, and require QS World University Rankings 1-400 when a QS-ranked university host exists.",
+      "For European research institutes or joint doctoral programmes, record the degree-awarding/host university QS rank where possible, or explicitly mark QS rank as needs verification.",
+      "All candidates should have a host or degree-awarding university in QS World University Rankings 1-400, unless explicitly justified as an exception.",
+      "Each candidate must include qs_rank, qs_evidence, and qs_rule_fit."
+    ],
+    "exclude": [
+      "No source links or unverifiable supervisor/opening.",
+      "Deadline already passed.",
+      "Deadline within 14 days and no exceptional funding/topic fit.",
+      "Only master's, visiting scholar, unpaid internship, or self-funded-only opportunity unless it is a strategic CSC host lead.",
+      "Purely marine-only or terrestrial-only work unless aquatic multiple-stressor fit is very strong.",
+      "Stale lab pages with no recent output/funding/student evidence.",
+      "Asian opportunities located in Japan, mainland China, Hong Kong, or Macau.",
+      "European university-hosted opportunities outside QS 1-400 unless there is an exceptional PI/funding reason and the exception is clearly justified.",
+      "Any university-hosted opportunity outside QS 1-400 unless there is an exceptional PI/funding/topic reason and the exception is clearly justified."
+    ],
+    "entry_timing": "Default search target is 2027 PhD entry because the candidate's M.S. is expected in Jun. 2027. Late-2026 start is acceptable only if the supervisor explicitly allows a later start or remote/preparatory timeline.",
+    "deadline_policy": "Prioritize full-funding opportunities with at least 30 days before deadline. Avoid positions closing within 14 days unless they are exceptionally strong and clearly marked as URGENT / near-deadline. Do not fill the daily quota with near-deadline items when better medium-window prospects exist.",
+    "funding_policy": "Rank project-funded PhD employment/studentships and full tuition+stipend scholarships above self-funded admission calls. CSC-compatible host routes are useful but should not replace fully funded/project-funded opportunities.",
+    "daily_output_notes": "For each pushed candidate, include deadline date or open/rolling status, preparation-window label, full-funding strength, CSC compatibility, and one concrete cold-email angle based on the CV.",
+    "asia_exclusion_rule": "Do not recommend Asian candidates in Japan, mainland China, Hong Kong, or Macau. For Asia, prioritize other locations such as Singapore, South Korea, Taiwan, Thailand, Malaysia, etc., when they fit the topic and funding rules.",
+    "europe_preference_rule": "Prioritize France, Nordic countries, and Mediterranean Europe. Nordic means Denmark, Sweden, Norway, Finland, Iceland. Mediterranean Europe means Spain, Portugal, Italy, Greece, Malta, Cyprus, Croatia, Slovenia, and comparable Mediterranean-coast institutions. European candidates must still satisfy the global QS 1-400 rule unless explicitly justified as an exception.",
+    "global_qs_rule": "For all candidates in Europe, Asia, South America, or substitute regions, the host or degree-awarding university should be QS World University Rankings 1-400. Record qs_rank, qs_evidence, and qs_rule_fit. For research institutes, national institutes, labs, or joint doctoral programmes without one single QS-ranked institution, identify the degree-awarding university, enrolling university, or formal host university and apply the QS 1-400 rule to that university. If QS cannot be verified, mark QS as needs verification and do not treat the candidate as top-priority unless funding/topic fit is exceptional."
+  },
+  "daily_briefs": [
+    {
+      "id": "brief-2026-07-07-global-qs-rule",
+      "date": "2026-07-07",
+      "summary": "Global QS rule updated: QS World University Rankings 1-400 now applies to all candidates, not only Europe.",
+      "candidate_ids": [],
+      "search_notes": "For research institutes or joint doctoral programmes, use the degree-awarding/enrolling/host university QS rank. If QS cannot be verified, mark as needs verification and do not treat as top-priority unless exceptional."
+    },
+    {
+      "id": "brief-2026-07-07-region-ranking-preferences",
+      "date": "2026-07-07",
+      "summary": "Search preferences updated: Asia now excludes Japan, mainland China, Hong Kong and Macau; Europe now prioritizes France, Nordic and Mediterranean Europe with QS 1-400 university hosts.",
+      "candidate_ids": [],
+      "search_notes": "These are forward-looking screening rules for all daily runs. Existing historical records are retained but should not be reused if they violate the new regional filters."
+    },
+    {
+      "id": "brief-2026-07-07-cv-system-fix",
+      "date": "2026-07-07",
+      "summary": "System profile rebuilt from the latest CV and search rules tightened: prioritize 2027-entry/full-funding prospects with >=30-day preparation windows; near-deadline items are now marked as urgent reference only unless exceptional.",
+      "candidate_ids": [
+        "2026-07-07-europe-schilling",
+        "2026-07-07-asia-yin",
+        "2026-07-07-south-america-delariva"
+      ],
+      "search_notes": "Updated from C:\\Users\\Administrator\\Desktop\\Huang_Qiongjie_CV.docx. Added GPA, expanded publication list, research experience metrics, awards, and stronger method keywords. This addresses the issue that prior daily candidates included two 2026-07-10 deadlines; future runs should prefer longer-window opportunities and not treat urgent openings as normal daily recommendations."
+    },
+    {
+      "id": "brief-2026-07-07",
+      "date": "2026-07-07",
+      "summary": "Added 3 verified candidates: Basel funded headwater-catchment PhD, IHB/CAS macroinvertebrate doctoral route, and UEM Brazil biomonitoring doctorate. Europe is a quantitative river-basin substitute because no open macroinvertebrate-specific European PhD vacancy was verified today.",
+      "candidate_ids": [
+        "2026-07-07-europe-schilling",
+        "2026-07-07-asia-yin",
+        "2026-07-07-south-america-delariva"
+      ],
+      "search_notes": "Searched Academic Positions, FindAPhD, EURAXESS-style results, IHB/UCAS admissions, and Brazil PPG/FAPESP-style doctoral calls. South America has a current 2026-07-10 UEM doctorate selection; Europe exact macroinvertebrate openings were not verified, so selected a fully funded University of Basel headwater-catchment ML project. Cold Email skill file was read, but its local CV profile file was missing; used the supplied candidate profile instead."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2026-07-07-europe-schilling",
+      "date_found": "2026-07-07",
+      "region": "Europe",
+      "country": "Switzerland",
+      "university": "University of Basel",
+      "supervisor": "Oliver S. Schilling",
+      "title": "Professor / Hydrogeology Research Group; PI of a fully funded headwater-catchment PhD project",
+      "email": "",
+      "lab_url": "https://duw.unibas.ch/en/research-groups/hydrogeology/",
+      "admissions_url": "https://academicpositions.com/ad/university-of-basel/2026/phd-on-hydrological-model-data-interaction-and-machine-learning-for-headwater-catchment-analyses/249866",
+      "sources": [
+        {
+          "label": "Academic Positions listing: PhD on hydrological model-data interaction and machine learning for headwater catchment analyses",
+          "url": "https://academicpositions.com/ad/university-of-basel/2026/phd-on-hydrological-model-data-interaction-and-machine-learning-for-headwater-catchment-analyses/249866"
+        },
+        {
+          "label": "Academic Positions Switzerland search result showing published timing and 2026-07-10 closing date",
+          "url": "https://academicpositions.com/jobs/field/biogeography/country/switzerland"
+        },
+        {
+          "label": "Secondary summary noting FutureFlow, Hydrogeology Research Group and four-year fully funded structure",
+          "url": "https://www.globalsouthopportunities.com/2026/06/21/model/"
+        }
+      ],
+      "funding": "Fully funded 4-year PhD position; advertised closing date 2026-07-10. Salary/stipend route appears project-funded rather than CSC-dependent.",
+      "csc_fit": "Possible but not necessary. CSC can be mentioned only as backup co-funding; the strongest route is the advertised funded employment/studentship.",
+      "requirements": "MSc in hydrology, environmental sciences, geosciences, civil/environmental engineering, data science or related field; Python/ML and quantitative modelling are important. Apply urgently before 2026-07-10.",
+      "research_directions": "Hydrological model-data interaction, machine learning for headwater catchment analyses, FutureFlow ANR-SNSF project, river-source catchment forecasting and uncertainty.",
+      "match_relation": "Not a macroinvertebrate vacancy, but a strong quantitative river-basin modelling opening. Huang can pitch her LMM/SEM/network/ML and GIS experience, connecting biological vulnerability under multiple stressors to hydrological drivers in headwater catchments.",
+      "hats": "Professor-level PI / Hydrogeology Research Group lead; PI-level role in an international ANR-SNSF FutureFlow project, per listing summaries.",
+      "recent_outputs": "Evidence today is vacancy/project health rather than paper-level verification: 2026 fully funded PhD opening, FutureFlow project, headwater catchment modelling. Representative recent papers should be checked before sending.",
+      "grants_or_lab_health": "Strong: current 4-year funded PhD recruitment, international ANR-SNSF project, active research group. Publication list still待核对 before final application tailoring.",
+      "fit_score": 72,
+      "funding_score": 88,
+      "lab_health_score": 84,
+      "possibility_score": 76,
+      "status": "时间过近-仅保留参考",
+      "attitude": "未知",
+      "next_action_date": "2026-07-08",
+      "email_subject": "Prospective PhD applicant - headwater catchments and freshwater multiple-stressor ecology",
+      "email_draft": "Dear Professor Schilling,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors affect freshwater macroinvertebrate communities.\n\nI saw your advertised PhD project on hydrological model-data interaction and machine learning for headwater catchment analyses within the FutureFlow initiative. Although my current work is organism- and community-centred, the project connects strongly with my interest in linking hydrological and anthropogenic drivers to freshwater biodiversity responses. My first-author Aquatic Sciences paper examines elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity, and my manuscript under review at Ecology Letters focuses on body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nI would be very interested in discussing whether my background in field sampling, water chemistry, functional diversity, GIS, R/Python, LMM/SEM, network analysis and machine learning could fit this PhD project, particularly where biological response data and catchment-scale predictors can be integrated. I am primarily seeking fully funded PhD opportunities and can also explore CSC funding if co-funding is useful.\n\nThank you very much for your time and consideration.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
+      "notes": "Europe substitute: no verified open freshwater macroinvertebrate PhD vacancy found today; selected because it is current, fully funded, river-basin/headwater modelling, and quantitatively compatible. Need verify exact supervisor email and official University of Basel job page before sending.",
+      "application_deadline": "2026-07-10",
+      "deadline_priority_notes": "URGENT: closes in 3 days from 2026-07-07; keep as reference or emergency application only.",
+      "qs_rank": "待核对",
+      "qs_evidence": "待核对",
+      "qs_rule_fit": "待核对"
+    },
+    {
+      "id": "2026-07-07-asia-yin",
+      "date_found": "2026-07-07",
+      "region": "Asia",
+      "country": "China",
+      "university": "Institute of Hydrobiology, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
+      "supervisor": "Xuwang Yin",
+      "title": "Professor; explicitly listed in 2026 IHB PhD/joint research-doctorate recruitment signal",
+      "email": "",
+      "lab_url": "http://www.ihb.cas.cn/",
+      "admissions_url": "https://admission.ucas.ac.cn/info/ZhaoshengDanweiDetail/9adf9e50-424b-44c8-b2dc-900ef9344373/8011922026",
+      "sources": [
+        {
+          "label": "UCAS/IHB 2026 doctoral admissions unit page",
+          "url": "https://admission.ucas.ac.cn/info/ZhaoshengDanweiDetail/9adf9e50-424b-44c8-b2dc-900ef9344373/8011922026"
+        },
+        {
+          "label": "IHB education/admissions portal",
+          "url": "http://edu.ihb.cas.cn/"
+        },
+        {
+          "label": "IHB institute homepage",
+          "url": "http://www.ihb.cas.cn/"
+        }
+      ],
+      "funding": "CAS/UCAS doctoral route; likely institutional stipend/scholarship after admission, but exact scholarship package and international-applicant route need confirmation with IHB Graduate Office.",
+      "csc_fit": "For a Chinese citizen, CSC host logic is weaker than European/overseas hosts. Compatibility is mainly through CAS/UCAS domestic doctoral funding or possible joint-training/sandwich routes later.",
+      "requirements": "IHB 2026 doctoral admissions are application-assessment based; the page reports approximately 73 PhD places, including joint research-doctorate places. Need confirm autumn external-application window and whether Yin Xuwang has an open quota for Huang's entry year.",
+      "research_directions": "Freshwater ecosystem assessment, benthic macroinvertebrates, river ecological health, biological monitoring and conservation of inland waters.",
+      "match_relation": "Very high topic fit: Huang's Aquatic Sciences first-author paper on multiple-pressure effects on macroinvertebrate taxonomic/functional diversity can be connected directly to freshwater bioassessment and river health monitoring; the Ecology Letters manuscript adds trait/body-size vulnerability under co-occurring stressors.",
+      "hats": "Professor and named doctoral/joint research-doctorate supervisor signal in IHB/UCAS 2026 recruitment context; CAS institute platform is strong for inland-water ecology.",
+      "recent_outputs": "Admissions evidence: 2026 IHB doctoral recruitment and IHB platform. Representative recent publications for Yin Xuwang need targeted verification before email personalization.",
+      "grants_or_lab_health": "Strong institutional health: CAS Institute of Hydrobiology doctoral recruitment, large 2026 intake, inland-water national platform. Specific active grant list待核对.",
+      "fit_score": 88,
+      "funding_score": 72,
+      "lab_health_score": 82,
+      "possibility_score": 74,
+      "status": "地区排除-不再推荐",
+      "attitude": "未知",
+      "next_action_date": "2026-07-08",
+      "email_subject": "Prospective PhD applicant - freshwater macroinvertebrates and river bioassessment",
+      "email_draft": "Dear Professor Yin,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at the College of Fisheries, Huazhong Agricultural University. My research focuses on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities.\n\nI am very interested in your work on freshwater ecosystem assessment, benthic macroinvertebrates and river ecological health. This direction is closely aligned with my first-author Aquatic Sciences paper on elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity. It also connects with my manuscript currently under review at Ecology Letters, where I examine how body size shapes aquatic biotic vulnerability to co-occurring multiple stressors.\n\nI would be grateful to ask whether you may consider recruiting PhD students through the 2026 IHB/UCAS doctoral route or related research-doctorate quota. My background includes field sampling, water chemistry, macroinvertebrate biodiversity assessment, functional diversity, LMM/SEM, network analysis, machine learning, R/Python and GIS. I hope to further develop trait-based and basin-scale approaches for freshwater bioassessment and conservation.\n\nThank you very much for your time and consideration. I would be happy to send my CV and a short research statement if useful.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
+      "notes": "Asia exact-topic candidate. Need verify current email, exact open quota, and recent publication/project details before sending. New Asia rule excludes mainland China, Hong Kong, Macau and Japan; keep this record as historical only.",
+      "application_deadline": "Open/2026 UCAS-IHB cycle",
+      "deadline_priority_notes": "No exact near deadline verified in the stored sources; verify quota and autumn timeline.",
+      "qs_rank": "待核对",
+      "qs_evidence": "待核对",
+      "qs_rule_fit": "待核对"
+    },
+    {
+      "id": "2026-07-07-south-america-delariva",
+      "date_found": "2026-07-07",
+      "region": "South America",
+      "country": "Brazil",
+      "university": "Universidade Estadual de Maringá / Universidade Estadual do Oeste do Paraná",
+      "supervisor": "Rosilene Luciana Delariva",
+      "title": "Associate Professor; doctoral supervisor in Comparative Biology / fish ecology and biomonitoring",
+      "email": "rosilene.delariva@unioeste.br",
+      "lab_url": "https://pgb.uem.br/corpo-docente/rosilene-luciana-delariva",
+      "admissions_url": "https://pgb.uem.br/edital-de-selecao-de-doutorado.pdf",
+      "sources": [
+        {
+          "label": "UEM 2026 Doctorate Selection call; online registration 2026-07-07 to 2026-07-10",
+          "url": "https://pgb.uem.br/edital-de-selecao-de-doutorado.pdf"
+        },
+        {
+          "label": "UEM faculty page for Rosilene Luciana Delariva",
+          "url": "https://pgb.uem.br/corpo-docente/rosilene-luciana-delariva"
+        },
+        {
+          "label": "Unioeste permanent faculty page listing fish ecology and biomonitoring area",
+          "url": "https://www.unioeste.br/portal/pos-pprn/comunidade-pprn/docentes/permanentes"
+        },
+        {
+          "label": "PLOS ONE 2022 paper: Effects of human disturbance on habitat and fish diversity in Neotropical streams",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274191"
+        }
+      ],
+      "funding": "Open doctorate selection, not automatically a full scholarship. Brazilian CAPES/CNPq/program scholarships may be possible after admission; funding must be confirmed with supervisor/program. Deadline is urgent: 2026-07-10.",
+      "csc_fit": "CSC-host compatibility uncertain. Brazil is possible for CSC only if the host/program accepts CSC-supported international doctoral students; this should be asked directly. Treat as scholarship-uncertain unless Rosilene/program confirms funding.",
+      "requirements": "Candidates must contact possible supervisors and be approved by the supervisor before formal registration; online registration is 2026-07-07 to 2026-07-10. Master's degree/defence timing and full-time commitment are required by the call.",
+      "research_directions": "Fish ecology, functional biology of fishes, biomonitoring, Neotropical streams, reservoir impacts, trophic ecology, freshwater ecosystem health.",
+      "match_relation": "Not macroinvertebrate-centred, but highly relevant to freshwater bioassessment under human disturbance. Huang can frame her macroinvertebrate taxonomic/functional diversity work as complementary to Delariva's fish-biomonitoring approach, proposing cross-taxon indicators and trait-based vulnerability in Neotropical streams.",
+      "hats": "Associate Professor; doctoral supervisor with current open line in UEM Comparative Biology; active postgraduate supervision and biomonitoring profile.",
+      "recent_outputs": "PLOS ONE 2022 paper on human disturbance, habitat and fish diversity in Neotropical streams; 2024 Pollution Bulletin review on global microplastic ingestion by fish; current 2026 doctoral selection line in ecology/biomonitoring.",
+      "grants_or_lab_health": "Good supervision/lab signal: UEM doctoral call lists her line with an open supervisor-approval process; Unioeste permanent faculty profile lists fish ecology and biomonitoring. Funding remains待核对.",
+      "fit_score": 78,
+      "funding_score": 55,
+      "lab_health_score": 78,
+      "possibility_score": 68,
+      "status": "时间过近-仅保留参考",
+      "attitude": "未知",
+      "next_action_date": "2026-07-08",
+      "email_subject": "Prospective PhD applicant - freshwater biomonitoring and multiple-stressor ecology",
+      "email_draft": "Dear Professor Delariva,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on freshwater macroinvertebrate responses to human activities and climate-change-related multiple stressors.\n\nI found the UEM Comparative Biology doctoral selection call and your research line in fish ecology, functional biology and biomonitoring. I was particularly interested in your work on human disturbance, habitat and fish diversity in Neotropical streams, because it connects closely with my first-author Aquatic Sciences paper on elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity. My manuscript currently under review at Ecology Letters further examines body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nAlthough my focal organisms are macroinvertebrates, I hope to develop cross-taxon and trait-based approaches for freshwater biomonitoring and river-basin conservation. My experience includes field sampling, water chemistry, biodiversity assessment, functional diversity, LMM/SEM, network analysis, machine learning, R/Python and GIS.\n\nMay I ask whether you would consider supporting an international PhD applicant for the current doctoral selection route, and whether program/CAPES/CNPq or CSC-compatible funding might be possible?\n\nThank you very much for your time and consideration.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
+      "notes": "South America current-open candidate. Strong freshwater biomonitoring fit but lower funding certainty; urgent because registration closes 2026-07-10.",
+      "application_deadline": "2026-07-10",
+      "deadline_priority_notes": "URGENT: closes in 3 days from 2026-07-07 and funding is not guaranteed; keep as reference unless applying immediately.",
+      "qs_rank": "待核对",
+      "qs_evidence": "待核对",
+      "qs_rule_fit": "待核对"
+    }
+  ]
+}</script>
+  <header>
+    <div class="wrap header-row">
+      <div>
+        <h1>PhD 导师与全奖机会管理系统</h1>
+        <div class="subtitle">基于黄琼杰最新 CV，跟踪欧洲、亚洲、南美的淡水多重胁迫、底栖动物、生物多样性、功能性状、eDNA 与生态建模方向导师。每日推送会写入本地 JSON 并重建此 HTML。</div>
+      </div>
+      <div><button class="btn ghost" onclick="exportData()">导出 JSON</button></div>
+    </div>
+  </header>
+  <nav>
+    <div class="wrap tabs">
+      <button class="tab active" data-view="dashboard" onclick="showView('dashboard')">每日推送</button>
+      <button class="tab" data-view="pipeline" onclick="showView('pipeline')">导师库</button>
+      <button class="tab" data-view="emails" onclick="showView('emails')">邮件草稿</button>
+      <button class="tab" data-view="profile" onclick="showView('profile')">CV 画像与规则</button>
+    </div>
+  </nav>
+  <main class="wrap">
+    <section class="stats" id="stats"></section>
+    <section id="dashboard" class="view active">
+      <div class="toolbar">
+        <div><h2>每日 brief</h2><div class="meta" id="lastUpdated"></div></div>
+        <div class="filters"><button class="btn" onclick="window.print()">打印 / 保存 PDF</button></div>
+      </div>
+      <div id="briefList"></div>
+    </section>
+    <section id="pipeline" class="view">
+      <div class="toolbar">
+        <div class="filters">
+          <input id="searchBox" placeholder="搜索导师/学校/方向" oninput="renderPipeline()">
+          <select id="regionFilter" onchange="renderPipeline()">
+            <option value="">全部地区</option><option>Europe</option><option>Asia</option><option>South America</option>
+          </select>
+          <select id="statusFilter" onchange="renderPipeline()"><option value="">全部状态</option></select>
+        </div>
+      </div>
+      <div class="grid"><div class="candidate-list" id="candidateList"></div><div class="panel" id="candidateDetail"></div></div>
+    </section>
+    <section id="emails" class="view">
+      <div class="email-layout"><div class="panel"><h2>选择导师</h2><div class="candidate-list" id="emailList"></div></div><div class="panel" id="emailDetail"></div></div>
+    </section>
+    <section id="profile" class="view">
+      <div class="profile-grid"><div class="panel" id="profilePanel"></div><div class="panel" id="policyPanel"></div></div>
+    </section>
+  </main>
+  <script>
+    const data = JSON.parse(document.getElementById("seed-data").textContent);
+    let selectedId = data.candidates?.[0]?.id || null;
+
+    function esc(v) {
+      return String(v ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+    }
+    function showView(name) {
+      document.querySelectorAll(".view").forEach(v => v.classList.toggle("active", v.id === name));
+      document.querySelectorAll(".tab").forEach(t => t.classList.toggle("active", t.dataset.view === name));
+      renderAll();
+    }
+    function selectCandidate(id) { selectedId = id; renderAll(); }
+    function currentCandidate() { return data.candidates?.find(c => c.id === selectedId) || data.candidates?.[0]; }
+    function deadlineTag(c) {
+      const text = c.application_deadline || "deadline 待核对";
+      const urgent = /URGENT|closes in|时间过近|2026-07-10/i.test((c.deadline_priority_notes || "") + text);
+      return `<span class="tag ${urgent ? "danger" : "warn"}">${esc(text)}</span>`;
+    }
+    function card(c) {
+      const active = c.id === selectedId ? " active" : "";
+      return `<article class="card${active}" onclick="selectCandidate('${esc(c.id)}')">
+        <div class="card-top">
+          <div><h3>${esc(c.supervisor)}</h3><div class="meta">${esc(c.title)} · ${esc(c.university)} · ${esc(c.country)}</div></div>
+          <div class="score">${esc(c.fit_score ?? "-")}</div>
+        </div>
+        <div class="tags">
+          <span class="tag">${esc(c.region)}</span>
+          <span class="tag green">Funding ${esc(c.funding_score ?? "-")}</span>
+          <span class="tag">Possibility ${esc(c.possibility_score ?? "-")}</span>
+          ${deadlineTag(c)}
+          <span class="tag">${esc(c.status || "待筛选")}</span>
+        </div>
+        <div class="meta" style="margin-top:8px">${esc((c.match_relation || "").slice(0, 210))}</div>
+      </article>`;
+    }
+    function renderStats() {
+      const cs = data.candidates || [];
+      const urgent = cs.filter(c => /URGENT|时间过近|2026-07-10/i.test((c.deadline_priority_notes || "") + (c.application_deadline || ""))).length;
+      const highFit = cs.filter(c => Number(c.fit_score || 0) >= 80).length;
+      const funded = cs.filter(c => Number(c.funding_score || 0) >= 75).length;
+      const regions = new Set(cs.map(c => c.region).filter(Boolean)).size;
+      const cards = [["导师总数", cs.length], ["高匹配", highFit], ["强资金线索", funded], ["近截止警报", urgent], ["覆盖地区", regions]];
+      document.getElementById("stats").innerHTML = cards.map(([k,v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join("");
+      document.getElementById("lastUpdated").textContent = `数据更新：${data.last_updated || ""}；CV 来源：${data.profile?.cv_source || "未记录"}`;
+    }
+    function renderBriefs() {
+      const briefs = data.daily_briefs || [];
+      document.getElementById("briefList").innerHTML = briefs.length ? briefs.map(b => {
+        const items = (b.candidate_ids || []).map(id => data.candidates.find(c => c.id === id)).filter(Boolean);
+        return `<article class="brief"><h3>${esc(b.date)} · ${esc(b.id)}</h3><div>${esc(b.summary)}</div><div class="meta" style="margin-top:6px">${esc(b.search_notes || "")}</div><div class="candidate-list" style="margin-top:10px">${items.map(card).join("")}</div></article>`;
+      }).join("") : `<div class="empty">暂无每日推送。</div>`;
+    }
+    function renderStatusOptions() {
+      const el = document.getElementById("statusFilter");
+      const old = el.value;
+      const statuses = [...new Set((data.candidates || []).map(c => c.status).filter(Boolean))];
+      el.innerHTML = `<option value="">全部状态</option>` + statuses.map(s => `<option>${esc(s)}</option>`).join("");
+      el.value = old;
+    }
+    function renderPipeline() {
+      renderStatusOptions();
+      const q = (document.getElementById("searchBox")?.value || "").toLowerCase();
+      const region = document.getElementById("regionFilter")?.value || "";
+      const status = document.getElementById("statusFilter")?.value || "";
+      let cs = [...(data.candidates || [])];
+      if (q) cs = cs.filter(c => JSON.stringify(c).toLowerCase().includes(q));
+      if (region) cs = cs.filter(c => c.region === region);
+      if (status) cs = cs.filter(c => c.status === status);
+      cs.sort((a,b) => Number(b.possibility_score || 0) - Number(a.possibility_score || 0));
+      document.getElementById("candidateList").innerHTML = cs.length ? cs.map(card).join("") : `<div class="empty">没有符合条件的导师。</div>`;
+      renderDetail();
+    }
+    function renderDetail() {
+      const c = currentCandidate();
+      const el = document.getElementById("candidateDetail");
+      if (!c) { el.innerHTML = `<div class="empty">暂无候选。</div>`; return; }
+      el.innerHTML = `<h2>${esc(c.supervisor)}</h2>
+        <div class="meta">${esc(c.title)} · ${esc(c.university)} · ${esc(c.country)}</div>
+        <div class="tags"><span class="tag">Fit ${esc(c.fit_score)}</span><span class="tag green">Funding ${esc(c.funding_score)}</span><span class="tag">Lab ${esc(c.lab_health_score)}</span>${deadlineTag(c)}</div>
+        <h3 style="margin-top:14px">资金与 CSC</h3><p>${esc(c.funding)}</p><p>${esc(c.csc_fit)}</p>
+        <h3>匹配关系</h3><p>${esc(c.match_relation)}</p>
+        <h3>套磁切入点 / 要求</h3><p>${esc(c.requirements)}</p>
+        <h3>近期产出与实验室健康</h3><p>${esc(c.recent_outputs)}</p><p>${esc(c.grants_or_lab_health)}</p>
+        <h3>截止风险</h3><p>${esc(c.deadline_priority_notes || "待核对")}</p>
+        <h3>来源</h3><ul class="source-list">${(c.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noreferrer">${esc(s.label || s.url)}</a></li>`).join("")}</ul>`;
+    }
+    function renderEmails() {
+      document.getElementById("emailList").innerHTML = (data.candidates || []).map(c => `<div class="email-item ${c.id === selectedId ? "active" : ""}" onclick="selectCandidate('${esc(c.id)}')"><b>${esc(c.supervisor)}</b><div class="meta">${esc(c.university)}</div></div>`).join("");
+      const c = currentCandidate();
+      document.getElementById("emailDetail").innerHTML = c ? `<h2>${esc(c.email_subject || "Email draft")}</h2><div class="meta">${esc(c.email || "email 待核对")}</div><textarea readonly>${esc(c.email_draft || "")}</textarea>` : `<div class="empty">暂无邮件草稿。</div>`;
+    }
+    function renderProfile() {
+      const p = data.profile || {};
+      document.getElementById("profilePanel").innerHTML = `<h2>最新 CV 画像</h2><div class="kv">
+        <div><b>姓名</b>${esc(p.name)} / ${esc(p.chinese_name)}</div>
+        <div><b>硕士</b>${esc(p.degree)}<br>${esc(p.period)}；GPA ${esc(p.master_gpa)}</div>
+        <div><b>目标</b>${esc(p.target)}</div>
+        <div><b>核心方向</b>${esc(p.core_direction_en)}</div>
+        <div><b>方法关键词</b>${esc((p.methods || []).join(", "))}</div>
+        <div><b>语言</b>${esc(p.languages)}</div>
+      </div><h3 style="margin-top:14px">论文</h3><ul class="bullets">${(p.highlight_papers || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+      <h3 style="margin-top:14px">研究经历</h3><ul class="bullets">${(p.research_experience || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+      const sp = data.search_policy || {};
+      document.getElementById("policyPanel").innerHTML = `<h2>每日检索规则</h2><div class="kv">
+        <div><b>入学时间</b>${esc(sp.entry_timing)}</div>
+        <div><b>截止日期策略</b>${esc(sp.deadline_policy)}</div>
+        <div><b>资金策略</b>${esc(sp.funding_policy)}</div>
+        <div><b>地区规则</b>${esc(sp.region_rule)}</div>
+      </div><h3 style="margin-top:14px">Must-have</h3><ul class="bullets">${(sp.must_have || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+      <h3 style="margin-top:14px">Exclude</h3><ul class="bullets">${(sp.exclude || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    }
+    function exportData() {
+      const blob = new Blob([JSON.stringify(data, null, 2)], {type: "application/json"});
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `phd-outreach-data-${data.last_updated || "export"}.json`;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+    function renderAll() { renderStats(); renderBriefs(); renderPipeline(); renderEmails(); renderProfile(); }
+    renderAll();
+  </script>
+</body>
+</html>

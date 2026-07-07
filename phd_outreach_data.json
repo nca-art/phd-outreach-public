@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "last_updated": "2026-07-07",
+  "profile": {
+    "name": "Qiongjie Huang",
+    "chinese_name": "黄琼杰",
+    "email": "HQJ123@webmail.hzau.edu.cn",
+    "phone": "+86 153 9516 4743",
+    "location": "Wuhan, Hubei Province, China",
+    "cv_source": "C:\\Users\\Administrator\\Desktop\\Huang_Qiongjie_CV.docx",
+    "cv_last_modified": "2026-07-06 20:37:50",
+    "researchgate": "https://www.researchgate.net/profile/Huang-Qiongjie-2",
+    "degree": "M.S. Candidate / Master of Agriculture, College of Fisheries, Huazhong Agricultural University",
+    "period": "Sep. 2024 - Jun. 2027 (expected)",
+    "master_gpa": "3.58 / 4.00",
+    "undergraduate": "Bachelor of Agriculture, College of Fisheries and Life Science, Dalian Ocean University, Sep. 2020 - Jun. 2024; GPA 4.038 / 5.000",
+    "exchange": "Domestic Undergraduate Exchange Program, College of Fisheries, Huazhong Agricultural University, Sep. 2022 - Jul. 2023; GPA 3.92 / 4.00",
+    "target": "PhD for 2027 entry preferred; fully funded/project-funded positions first, CSC-compatible supervisors as a parallel route.",
+    "core_direction_cn": "厘清人类活动及气候变化等多重胁迫对淡水大型底栖动物群落的影响模式及机制。",
+    "core_direction_en": "Clarifying the patterns and mechanisms by which human activities and climate-change-related multiple stressors affect freshwater macroinvertebrate communities.",
+    "highlight_papers": [
+      "Huang, Q., Yao, N., Bao, S., Xiong, H., Ma, B., & Wang, J. (2025). Elevational variability in the effect of pressures on the taxonomic and functional diversity of macroinvertebrate assemblages. Aquatic Sciences, 87, 68. First author. https://doi.org/10.1007/s00027-025-01194-y",
+      "Li, W., Xu, J., Huang, Q., & Wang, M. (2024). Study on the biodiversity of macroinvertebrate in the Dayang River Basin during summer based on environmental DNA and morphological analysis. Journal of Freshwater Ecology, 39(1), 2358071. Co-author. https://doi.org/10.1080/02705060.2024.2358071",
+      "Huang, Q., Sentis, A., Moi, D. A., & Wang, J. Body size shapes aquatic biotic vulnerability to co-occurring multiple stressors. Ecology Letters. First author, under review.",
+      "Wang, J., Huang, Q., Moi, D. A., Bao, S., Zhang, Y., & He, D. Anthropogenic disturbance amplifies mass ratio effects on stream macroinvertebrate biodiversity-biomass relationships. Ecological Processes. Second author, under review.",
+      "Zhang, R., Huang, Q., Yang, J., Zhou, Q., Chi, S., Zanon, F. M., Huang, M., & Wang, J. Environmental drivers shape spatial patterns of ecological uniqueness in lake macroinvertebrates across China. Water Biology and Security. Second author, under review."
+    ],
+    "research_experience": [
+      "Multiple-Stressor Effects on Freshwater Macroinvertebrate Assemblages, Huazhong Agricultural University, Sep. 2024 - Jun. 2025: analyzed 195 sampling events from 134 sites in three Yangtze River tributary basins, integrating macroinvertebrate communities, 13 functional traits, land-use data, and upstream barrier records.",
+      "Used ArcGIS to extract land-use pressures; calculated taxonomic and functional diversity indices; applied PCA, Kruskal-Wallis/Dunn tests, and linear mixed models in R; found mainly additive effects and elevation-dependent shifts from antagonistic to synergistic pressure interactions.",
+      "Second-Order Meta-Analysis on Body-Size-Dependent Vulnerability, Huazhong Agricultural University / International Collaboration with France and Brazil, Sep. 2025 - present: built a dataset of 22 first-order meta-analyses covering 863 primary studies, 4,240 comparisons, and 244 effect sizes across freshwater, marine, and estuarine ecosystems.",
+      "Performed REML-based second-order meta-analysis in R/metafor with multilevel mixed-effects models and nested StudyID/EffectID random effects to test body size, ecosystem, response level, interaction type, and stressor-combination moderators."
+    ],
+    "methods": [
+      "field sampling",
+      "water-chemistry indicator measurement",
+      "macroinvertebrate biodiversity assessment",
+      "taxonomic diversity indices",
+      "functional diversity and 13 trait variables",
+      "eDNA plus morphology biodiversity assessment",
+      "PCA",
+      "Kruskal-Wallis and Dunn tests",
+      "linear mixed models",
+      "structural equation modelling",
+      "REML second-order meta-analysis",
+      "R/metafor multilevel mixed-effects models",
+      "network analysis",
+      "machine learning",
+      "remote sensing",
+      "R",
+      "Python",
+      "ArcMap/ArcGIS",
+      "QGIS",
+      "Adobe Illustrator",
+      "Word/Excel/PPT"
+    ],
+    "awards": [
+      "National Scholarship, Huazhong Agricultural University, Nov. 2025",
+      "First-Class Scholarship for Master's Students, Huazhong Agricultural University, Nov. 2024 and Nov. 2025",
+      "Merit Student Award (Three-Good Student), Huazhong Agricultural University, Nov. 2025",
+      "Third Prize, Liaoning Provincial College Student Smart Ocean Technology Innovation Competition, Jan. 2024",
+      "First-Class Scholarship for Undergraduate Students, Dalian Ocean University, 2021-2022",
+      "Second-Class Scholarship for Undergraduate Students, Dalian Ocean University, 2020-2021"
+    ],
+    "languages": "Chinese native; English CET-6, proficient in academic writing and daily communication; Japanese JLPT-N2, proficient",
+    "reference": "Jun Wang, Associate Professor / Master's Advisor, Huazhong Agricultural University, wangjun89@mail.hzau.edu.cn"
+  },
+  "search_policy": {
+    "regions": [
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "daily_target_total": 3,
+    "region_rule": "Prefer one verified candidate from Europe, Asia, and South America. If a region lacks a verified current opening with feasible timing, substitute the strongest longer-window full-funding prospect and explain the substitution.",
+    "must_have": [
+      "Official or credible current PhD opening, recruitment call, funded position, supervisor page explicitly inviting PhD applicants, or a near-future 2027 intake page with clear timeline.",
+      "Deadline/opening window is future and feasible; preferred buffer >= 30 days, acceptable buffer 14-29 days, urgent exception < 14 days only if match and funding are unusually strong.",
+      "Supervisor has strong standing such as Professor, Associate Professor, PI, Lab Head, endowed chair, fellow, ERC/MSCA/national grant PI, academy/society fellow, centre leader, or comparable recognized title.",
+      "Research connection to freshwater macroinvertebrates, multiple anthropogenic/climate stressors, biodiversity, eDNA/morphology, functional traits/body size, river basin conservation, ecological modelling, hydrology-biodiversity links, or biomonitoring.",
+      "Evidence of recent lab activity, publications, grants, projects, students, recruitment, news, datasets, or programme activity within roughly the last three years.",
+      "Funding route is explicit or realistically actionable: project salary, studentship, tuition waiver+stipend, national scholarship, university fellowship, or CSC-host/supervisor compatibility.",
+      "For Asian candidates, exclude Japan, mainland China, Hong Kong, and Macau.",
+      "For European candidates, prioritize France, Nordic countries, and Mediterranean Europe, and require QS World University Rankings 1-400 when a QS-ranked university host exists.",
+      "For European research institutes or joint doctoral programmes, record the degree-awarding/host university QS rank where possible, or explicitly mark QS rank as needs verification.",
+      "All candidates should have a host or degree-awarding university in QS World University Rankings 1-400, unless explicitly justified as an exception.",
+      "Each candidate must include qs_rank, qs_evidence, and qs_rule_fit."
+    ],
+    "exclude": [
+      "No source links or unverifiable supervisor/opening.",
+      "Deadline already passed.",
+      "Deadline within 14 days and no exceptional funding/topic fit.",
+      "Only master's, visiting scholar, unpaid internship, or self-funded-only opportunity unless it is a strategic CSC host lead.",
+      "Purely marine-only or terrestrial-only work unless aquatic multiple-stressor fit is very strong.",
+      "Stale lab pages with no recent output/funding/student evidence.",
+      "Asian opportunities located in Japan, mainland China, Hong Kong, or Macau.",
+      "European university-hosted opportunities outside QS 1-400 unless there is an exceptional PI/funding reason and the exception is clearly justified.",
+      "Any university-hosted opportunity outside QS 1-400 unless there is an exceptional PI/funding/topic reason and the exception is clearly justified."
+    ],
+    "entry_timing": "Default search target is 2027 PhD entry because the candidate's M.S. is expected in Jun. 2027. Late-2026 start is acceptable only if the supervisor explicitly allows a later start or remote/preparatory timeline.",
+    "deadline_policy": "Prioritize full-funding opportunities with at least 30 days before deadline. Avoid positions closing within 14 days unless they are exceptionally strong and clearly marked as URGENT / near-deadline. Do not fill the daily quota with near-deadline items when better medium-window prospects exist.",
+    "funding_policy": "Rank project-funded PhD employment/studentships and full tuition+stipend scholarships above self-funded admission calls. CSC-compatible host routes are useful but should not replace fully funded/project-funded opportunities.",
+    "daily_output_notes": "For each pushed candidate, include deadline date or open/rolling status, preparation-window label, full-funding strength, CSC compatibility, and one concrete cold-email angle based on the CV.",
+    "asia_exclusion_rule": "Do not recommend Asian candidates in Japan, mainland China, Hong Kong, or Macau. For Asia, prioritize other locations such as Singapore, South Korea, Taiwan, Thailand, Malaysia, etc., when they fit the topic and funding rules.",
+    "europe_preference_rule": "Prioritize France, Nordic countries, and Mediterranean Europe. Nordic means Denmark, Sweden, Norway, Finland, Iceland. Mediterranean Europe means Spain, Portugal, Italy, Greece, Malta, Cyprus, Croatia, Slovenia, and comparable Mediterranean-coast institutions. European candidates must still satisfy the global QS 1-400 rule unless explicitly justified as an exception.",
+    "global_qs_rule": "For all candidates in Europe, Asia, South America, or substitute regions, the host or degree-awarding university should be QS World University Rankings 1-400. Record qs_rank, qs_evidence, and qs_rule_fit. For research institutes, national institutes, labs, or joint doctoral programmes without one single QS-ranked institution, identify the degree-awarding university, enrolling university, or formal host university and apply the QS 1-400 rule to that university. If QS cannot be verified, mark QS as needs verification and do not treat the candidate as top-priority unless funding/topic fit is exceptional."
+  },
+  "daily_briefs": [
+    {
+      "id": "brief-2026-07-07-global-qs-rule",
+      "date": "2026-07-07",
+      "summary": "Global QS rule updated: QS World University Rankings 1-400 now applies to all candidates, not only Europe.",
+      "candidate_ids": [],
+      "search_notes": "For research institutes or joint doctoral programmes, use the degree-awarding/enrolling/host university QS rank. If QS cannot be verified, mark as needs verification and do not treat as top-priority unless exceptional."
+    },
+    {
+      "id": "brief-2026-07-07-region-ranking-preferences",
+      "date": "2026-07-07",
+      "summary": "Search preferences updated: Asia now excludes Japan, mainland China, Hong Kong and Macau; Europe now prioritizes France, Nordic and Mediterranean Europe with QS 1-400 university hosts.",
+      "candidate_ids": [],
+      "search_notes": "These are forward-looking screening rules for all daily runs. Existing historical records are retained but should not be reused if they violate the new regional filters."
+    },
+    {
+      "id": "brief-2026-07-07-cv-system-fix",
+      "date": "2026-07-07",
+      "summary": "System profile rebuilt from the latest CV and search rules tightened: prioritize 2027-entry/full-funding prospects with >=30-day preparation windows; near-deadline items are now marked as urgent reference only unless exceptional.",
+      "candidate_ids": [
+        "2026-07-07-europe-schilling",
+        "2026-07-07-asia-yin",
+        "2026-07-07-south-america-delariva"
+      ],
+      "search_notes": "Updated from C:\\Users\\Administrator\\Desktop\\Huang_Qiongjie_CV.docx. Added GPA, expanded publication list, research experience metrics, awards, and stronger method keywords. This addresses the issue that prior daily candidates included two 2026-07-10 deadlines; future runs should prefer longer-window opportunities and not treat urgent openings as normal daily recommendations."
+    },
+    {
+      "id": "brief-2026-07-07",
+      "date": "2026-07-07",
+      "summary": "Added 3 verified candidates: Basel funded headwater-catchment PhD, IHB/CAS macroinvertebrate doctoral route, and UEM Brazil biomonitoring doctorate. Europe is a quantitative river-basin substitute because no open macroinvertebrate-specific European PhD vacancy was verified today.",
+      "candidate_ids": [
+        "2026-07-07-europe-schilling",
+        "2026-07-07-asia-yin",
+        "2026-07-07-south-america-delariva"
+      ],
+      "search_notes": "Searched Academic Positions, FindAPhD, EURAXESS-style results, IHB/UCAS admissions, and Brazil PPG/FAPESP-style doctoral calls. South America has a current 2026-07-10 UEM doctorate selection; Europe exact macroinvertebrate openings were not verified, so selected a fully funded University of Basel headwater-catchment ML project. Cold Email skill file was read, but its local CV profile file was missing; used the supplied candidate profile instead."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2026-07-07-europe-schilling",
+      "date_found": "2026-07-07",
+      "region": "Europe",
+      "country": "Switzerland",
+      "university": "University of Basel",
+      "supervisor": "Oliver S. Schilling",
+      "title": "Professor / Hydrogeology Research Group; PI of a fully funded headwater-catchment PhD project",
+      "email": "",
+      "lab_url": "https://duw.unibas.ch/en/research-groups/hydrogeology/",
+      "admissions_url": "https://academicpositions.com/ad/university-of-basel/2026/phd-on-hydrological-model-data-interaction-and-machine-learning-for-headwater-catchment-analyses/249866",
+      "sources": [
+        {
+          "label": "Academic Positions listing: PhD on hydrological model-data interaction and machine learning for headwater catchment analyses",
+          "url": "https://academicpositions.com/ad/university-of-basel/2026/phd-on-hydrological-model-data-interaction-and-machine-learning-for-headwater-catchment-analyses/249866"
+        },
+        {
+          "label": "Academic Positions Switzerland search result showing published timing and 2026-07-10 closing date",
+          "url": "https://academicpositions.com/jobs/field/biogeography/country/switzerland"
+        },
+        {
+          "label": "Secondary summary noting FutureFlow, Hydrogeology Research Group and four-year fully funded structure",
+          "url": "https://www.globalsouthopportunities.com/2026/06/21/model/"
+        }
+      ],
+      "funding": "Fully funded 4-year PhD position; advertised closing date 2026-07-10. Salary/stipend route appears project-funded rather than CSC-dependent.",
+      "csc_fit": "Possible but not necessary. CSC can be mentioned only as backup co-funding; the strongest route is the advertised funded employment/studentship.",
+      "requirements": "MSc in hydrology, environmental sciences, geosciences, civil/environmental engineering, data science or related field; Python/ML and quantitative modelling are important. Apply urgently before 2026-07-10.",
+      "research_directions": "Hydrological model-data interaction, machine learning for headwater catchment analyses, FutureFlow ANR-SNSF project, river-source catchment forecasting and uncertainty.",
+      "match_relation": "Not a macroinvertebrate vacancy, but a strong quantitative river-basin modelling opening. Huang can pitch her LMM/SEM/network/ML and GIS experience, connecting biological vulnerability under multiple stressors to hydrological drivers in headwater catchments.",
+      "hats": "Professor-level PI / Hydrogeology Research Group lead; PI-level role in an international ANR-SNSF FutureFlow project, per listing summaries.",
+      "recent_outputs": "Evidence today is vacancy/project health rather than paper-level verification: 2026 fully funded PhD opening, FutureFlow project, headwater catchment modelling. Representative recent papers should be checked before sending.",
+      "grants_or_lab_health": "Strong: current 4-year funded PhD recruitment, international ANR-SNSF project, active research group. Publication list still待核对 before final application tailoring.",
+      "fit_score": 72,
+      "funding_score": 88,
+      "lab_health_score": 84,
+      "possibility_score": 76,
+      "status": "时间过近-仅保留参考",
+      "attitude": "未知",
+      "next_action_date": "2026-07-08",
+      "email_subject": "Prospective PhD applicant - headwater catchments and freshwater multiple-stressor ecology",
+      "email_draft": "Dear Professor Schilling,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors affect freshwater macroinvertebrate communities.\n\nI saw your advertised PhD project on hydrological model-data interaction and machine learning for headwater catchment analyses within the FutureFlow initiative. Although my current work is organism- and community-centred, the project connects strongly with my interest in linking hydrological and anthropogenic drivers to freshwater biodiversity responses. My first-author Aquatic Sciences paper examines elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity, and my manuscript under review at Ecology Letters focuses on body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nI would be very interested in discussing whether my background in field sampling, water chemistry, functional diversity, GIS, R/Python, LMM/SEM, network analysis and machine learning could fit this PhD project, particularly where biological response data and catchment-scale predictors can be integrated. I am primarily seeking fully funded PhD opportunities and can also explore CSC funding if co-funding is useful.\n\nThank you very much for your time and consideration.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
+      "notes": "Europe substitute: no verified open freshwater macroinvertebrate PhD vacancy found today; selected because it is current, fully funded, river-basin/headwater modelling, and quantitatively compatible. Need verify exact supervisor email and official University of Basel job page before sending.",
+      "application_deadline": "2026-07-10",
+      "deadline_priority_notes": "URGENT: closes in 3 days from 2026-07-07; keep as reference or emergency application only.",
+      "qs_rank": "待核对",
+      "qs_evidence": "待核对",
+      "qs_rule_fit": "待核对"
+    },
+    {
+      "id": "2026-07-07-asia-yin",
+      "date_found": "2026-07-07",
+      "region": "Asia",
+      "country": "China",
+      "university": "Institute of Hydrobiology, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
+      "supervisor": "Xuwang Yin",
+      "title": "Professor; explicitly listed in 2026 IHB PhD/joint research-doctorate recruitment signal",
+      "email": "",
+      "lab_url": "http://www.ihb.cas.cn/",
+      "admissions_url": "https://admission.ucas.ac.cn/info/ZhaoshengDanweiDetail/9adf9e50-424b-44c8-b2dc-900ef9344373/8011922026",
+      "sources": [
+        {
+          "label": "UCAS/IHB 2026 doctoral admissions unit page",
+          "url": "https://admission.ucas.ac.cn/info/ZhaoshengDanweiDetail/9adf9e50-424b-44c8-b2dc-900ef9344373/8011922026"
+        },
+        {
+          "label": "IHB education/admissions portal",
+          "url": "http://edu.ihb.cas.cn/"
+        },
+        {
+          "label": "IHB institute homepage",
+          "url": "http://www.ihb.cas.cn/"
+        }
+      ],
+      "funding": "CAS/UCAS doctoral route; likely institutional stipend/scholarship after admission, but exact scholarship package and international-applicant route need confirmation with IHB Graduate Office.",
+      "csc_fit": "For a Chinese citizen, CSC host logic is weaker than European/overseas hosts. Compatibility is mainly through CAS/UCAS domestic doctoral funding or possible joint-training/sandwich routes later.",
+      "requirements": "IHB 2026 doctoral admissions are application-assessment based; the page reports approximately 73 PhD places, including joint research-doctorate places. Need confirm autumn external-application window and whether Yin Xuwang has an open quota for Huang's entry year.",
+      "research_directions": "Freshwater ecosystem assessment, benthic macroinvertebrates, river ecological health, biological monitoring and conservation of inland waters.",
+      "match_relation": "Very high topic fit: Huang's Aquatic Sciences first-author paper on multiple-pressure effects on macroinvertebrate taxonomic/functional diversity can be connected directly to freshwater bioassessment and river health monitoring; the Ecology Letters manuscript adds trait/body-size vulnerability under co-occurring stressors.",
+      "hats": "Professor and named doctoral/joint research-doctorate supervisor signal in IHB/UCAS 2026 recruitment context; CAS institute platform is strong for inland-water ecology.",
+      "recent_outputs": "Admissions evidence: 2026 IHB doctoral recruitment and IHB platform. Representative recent publications for Yin Xuwang need targeted verification before email personalization.",
+      "grants_or_lab_health": "Strong institutional health: CAS Institute of Hydrobiology doctoral recruitment, large 2026 intake, inland-water national platform. Specific active grant list待核对.",
+      "fit_score": 88,
+      "funding_score": 72,
+      "lab_health_score": 82,
+      "possibility_score": 74,
+      "status": "地区排除-不再推荐",
+      "attitude": "未知",
+      "next_action_date": "2026-07-08",
+      "email_subject": "Prospective PhD applicant - freshwater macroinvertebrates and river bioassessment",
+      "email_draft": "Dear Professor Yin,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at the College of Fisheries, Huazhong Agricultural University. My research focuses on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities.\n\nI am very interested in your work on freshwater ecosystem assessment, benthic macroinvertebrates and river ecological health. This direction is closely aligned with my first-author Aquatic Sciences paper on elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity. It also connects with my manuscript currently under review at Ecology Letters, where I examine how body size shapes aquatic biotic vulnerability to co-occurring multiple stressors.\n\nI would be grateful to ask whether you may consider recruiting PhD students through the 2026 IHB/UCAS doctoral route or related research-doctorate quota. My background includes field sampling, water chemistry, macroinvertebrate biodiversity assessment, functional diversity, LMM/SEM, network analysis, machine learning, R/Python and GIS. I hope to further develop trait-based and basin-scale approaches for freshwater bioassessment and conservation.\n\nThank you very much for your time and consideration. I would be happy to send my CV and a short research statement if useful.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
+      "notes": "Asia exact-topic candidate. Need verify current email, exact open quota, and recent publication/project details before sending. New Asia rule excludes mainland China, Hong Kong, Macau and Japan; keep this record as historical only.",
+      "application_deadline": "Open/2026 UCAS-IHB cycle",
+      "deadline_priority_notes": "No exact near deadline verified in the stored sources; verify quota and autumn timeline.",
+      "qs_rank": "待核对",
+      "qs_evidence": "待核对",
+      "qs_rule_fit": "待核对"
+    },
+    {
+      "id": "2026-07-07-south-america-delariva",
+      "date_found": "2026-07-07",
+      "region": "South America",
+      "country": "Brazil",
+      "university": "Universidade Estadual de Maringá / Universidade Estadual do Oeste do Paraná",
+      "supervisor": "Rosilene Luciana Delariva",
+      "title": "Associate Professor; doctoral supervisor in Comparative Biology / fish ecology and biomonitoring",
+      "email": "rosilene.delariva@unioeste.br",
+      "lab_url": "https://pgb.uem.br/corpo-docente/rosilene-luciana-delariva",
+      "admissions_url": "https://pgb.uem.br/edital-de-selecao-de-doutorado.pdf",
+      "sources": [
+        {
+          "label": "UEM 2026 Doctorate Selection call; online registration 2026-07-07 to 2026-07-10",
+          "url": "https://pgb.uem.br/edital-de-selecao-de-doutorado.pdf"
+        },
+        {
+          "label": "UEM faculty page for Rosilene Luciana Delariva",
+          "url": "https://pgb.uem.br/corpo-docente/rosilene-luciana-delariva"
+        },
+        {
+          "label": "Unioeste permanent faculty page listing fish ecology and biomonitoring area",
+          "url": "https://www.unioeste.br/portal/pos-pprn/comunidade-pprn/docentes/permanentes"
+        },
+        {
+          "label": "PLOS ONE 2022 paper: Effects of human disturbance on habitat and fish diversity in Neotropical streams",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274191"
+        }
+      ],
+      "funding": "Open doctorate selection, not automatically a full scholarship. Brazilian CAPES/CNPq/program scholarships may be possible after admission; funding must be confirmed with supervisor/program. Deadline is urgent: 2026-07-10.",
+      "csc_fit": "CSC-host compatibility uncertain. Brazil is possible for CSC only if the host/program accepts CSC-supported international doctoral students; this should be asked directly. Treat as scholarship-uncertain unless Rosilene/program confirms funding.",
+      "requirements": "Candidates must contact possible supervisors and be approved by the supervisor before formal registration; online registration is 2026-07-07 to 2026-07-10. Master's degree/defence timing and full-time commitment are required by the call.",
+      "research_directions": "Fish ecology, functional biology of fishes, biomonitoring, Neotropical streams, reservoir impacts, trophic ecology, freshwater ecosystem health.",
+      "match_relation": "Not macroinvertebrate-centred, but highly relevant to freshwater bioassessment under human disturbance. Huang can frame her macroinvertebrate taxonomic/functional diversity work as complementary to Delariva's fish-biomonitoring approach, proposing cross-taxon indicators and trait-based vulnerability in Neotropical streams.",
+      "hats": "Associate Professor; doctoral supervisor with current open line in UEM Comparative Biology; active postgraduate supervision and biomonitoring profile.",
+      "recent_outputs": "PLOS ONE 2022 paper on human disturbance, habitat and fish diversity in Neotropical streams; 2024 Pollution Bulletin review on global microplastic ingestion by fish; current 2026 doctoral selection line in ecology/biomonitoring.",
+      "grants_or_lab_health": "Good supervision/lab signal: UEM doctoral call lists her line with an open supervisor-approval process; Unioeste permanent faculty profile lists fish ecology and biomonitoring. Funding remains待核对.",
+      "fit_score": 78,
+      "funding_score": 55,
+      "lab_health_score": 78,
+      "possibility_score": 68,
+      "status": "时间过近-仅保留参考",
+      "attitude": "未知",
+      "next_action_date": "2026-07-08",
+      "email_subject": "Prospective PhD applicant - freshwater biomonitoring and multiple-stressor ecology",
+      "email_draft": "Dear Professor Delariva,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on freshwater macroinvertebrate responses to human activities and climate-change-related multiple stressors.\n\nI found the UEM Comparative Biology doctoral selection call and your research line in fish ecology, functional biology and biomonitoring. I was particularly interested in your work on human disturbance, habitat and fish diversity in Neotropical streams, because it connects closely with my first-author Aquatic Sciences paper on elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity. My manuscript currently under review at Ecology Letters further examines body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nAlthough my focal organisms are macroinvertebrates, I hope to develop cross-taxon and trait-based approaches for freshwater biomonitoring and river-basin conservation. My experience includes field sampling, water chemistry, biodiversity assessment, functional diversity, LMM/SEM, network analysis, machine learning, R/Python and GIS.\n\nMay I ask whether you would consider supporting an international PhD applicant for the current doctoral selection route, and whether program/CAPES/CNPq or CSC-compatible funding might be possible?\n\nThank you very much for your time and consideration.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
+      "notes": "South America current-open candidate. Strong freshwater biomonitoring fit but lower funding certainty; urgent because registration closes 2026-07-10.",
+      "application_deadline": "2026-07-10",
+      "deadline_priority_notes": "URGENT: closes in 3 days from 2026-07-07 and funding is not guaranteed; keep as reference unless applying immediately.",
+      "qs_rank": "待核对",
+      "qs_evidence": "待核对",
+      "qs_rule_fit": "待核对"
+    }
+  ]
+}
