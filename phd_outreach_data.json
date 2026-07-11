@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "profile": {
     "name": "Qiongjie Huang",
     "chinese_name": "Qiongjie Huang",
@@ -106,6 +106,17 @@
     "global_qs_rule": "For all candidates in Europe, Asia, South America, or substitute regions, the host or degree-awarding university should be QS World University Rankings 1-400. Record qs_rank, qs_evidence, and qs_rule_fit. For research institutes, national institutes, labs, or joint doctoral programmes without one single QS-ranked institution, identify the degree-awarding university, enrolling university, or formal host university and apply the QS 1-400 rule to that university. If QS cannot be verified, mark QS as needs verification and do not treat the candidate as top-priority unless funding/topic fit is exceptional."
   },
   "daily_briefs": [
+    {
+      "id": "brief-2026-07-11",
+      "date": "2026-07-11",
+      "summary": "Added three QS 1-400, region-balanced supervisor leads for freshwater multiple-stressor ecology: Aarhus/Jeppesen (Nordic Europe), SKKU/Lee (South Korea), and UNICAMP/Romero (Brazil). No fully advertised new PhD vacancy was verified today; all are high-fit 2027 supervisor/funding-route leads with funding to confirm.",
+      "candidate_ids": [
+        "2026-07-11-europe-jeppesen",
+        "2026-07-11-asia-lee",
+        "2026-07-11-south-america-romero"
+      ],
+      "search_notes": "Searched current official university/lab/admission/ranking sources. Avoided existing supervisors and Asia exclusions. Europe candidate satisfies Nordic preference. Funding fields distinguish verified institutional scholarship routes from unconfirmed project funding."
+    },
     {
       "id": "brief-2026-07-10",
       "date": "2026-07-10",
@@ -636,6 +647,177 @@
       "deadline_priority_notes": "Good preparation window: 63 days from 2026-07-10; contact first because advisor support and stipend route are gating issues.",
       "qs_rank": "#133",
       "qs_evidence": "QS World University Rankings 2027, Universidade de S?o Paulo profile",
+      "qs_year": "QS WUR 2027",
+      "qs_rule_fit": "Yes - QS 1-400"
+    },
+    {
+      "id": "2026-07-11-europe-jeppesen",
+      "date_found": "2026-07-11",
+      "region": "Europe",
+      "country": "Denmark",
+      "university": "Aarhus University",
+      "supervisor": "Erik Jeppesen",
+      "title": "Professor, Department of Ecoscience - Freshwater Ecology; WATEC and Arctic Research Centre professor",
+      "email": "ej@ecos.au.dk",
+      "lab_url": "https://pure.au.dk/portal/en/persons/ej%40ecos.au.dk/",
+      "admissions_url": "https://phd.au.dk/phd-fellowships-and-scholarships",
+      "sources": [
+        {
+          "label": "Aarhus University PURE profile: Professor in Freshwater Ecology / WATEC / Arctic Research Centre",
+          "url": "https://pure.au.dk/portal/en/persons/ej%40ecos.au.dk/"
+        },
+        {
+          "label": "Aarhus University PhD fellowships and scholarships: individual/predefined projects and funding prerequisite",
+          "url": "https://phd.au.dk/phd-fellowships-and-scholarships"
+        },
+        {
+          "label": "QS profile: Aarhus University ranked #=128 in QS World University Rankings 2027",
+          "url": "https://www.topuniversities.com/universities/aarhus-university"
+        },
+        {
+          "label": "Aarhus PURE 2026 output: Effects of Eutrophication and Warming on Lake Ecosystems",
+          "url": "https://pure.au.dk/portal/en/publications/effects-of-eutrophication-and-warming-on-lake-ecosystems/"
+        }
+      ],
+      "funding": "No specific newly advertised PhD vacancy with Jeppesen was verified today. Viable routes are Aarhus Graduate School of Natural/Technical Sciences scholarships, predefined PhD calls, or an individual project with documented funding; AU states documented full funding is required for PhD admission.",
+      "csc_fit": "Good CSC-compatible host route if Professor Jeppesen supports a 2027 proposal; CSC can cover living support while AU/graduate school confirms admission and any host-side requirements. Also monitor AU predefined funded PhD calls.",
+      "requirements": "Prepare a focused research proposal, CV, transcripts, English documentation, first-author Aquatic Sciences paper, Ecology Letters under-review abstract, and evidence of quantitative ecology/R skills. Ask whether the freshwater ecology group expects a 3-year or 4-year PhD route and whether a co-supervisor is needed.",
+      "research_directions": "Freshwater ecology, shallow lakes, eutrophication, warming, climate change, lake/reservoir restoration, macrophytes, plankton, mesocosms and large-scale freshwater ecosystem responses.",
+      "match_relation": "Strong multiple-stressor freshwater fit. Huang can connect her Yangtze tributary macroinvertebrate trait/diversity work and Ecology Letters body-size meta-analysis to Jeppesen research on eutrophication, warming, land-use signals and lake community responses.",
+      "hats": "Professor at Aarhus University Department of Ecoscience - Freshwater Ecology; Professor at WATEC; Professor at Arctic Research Centre; exceptionally high-output limnology PI with current 2026 publications.",
+      "recent_outputs": "Aarhus PURE lists research activity through 2026 and 1061 research outputs. Recent items include 2026 papers on eutrophication and warming in lake ecosystems, lake nitrous oxide drivers and climate-driven dispersal of pathogenic bacteria in large lakes/reservoirs.",
+      "grants_or_lab_health": "Strong lab-health signal from active AU professor profile, WATEC/Arctic Centre appointments, ongoing 2026 outputs and PhD supervision page. Funding route must be verified because no dedicated open vacancy was found today.",
+      "fit_score": 91,
+      "funding_score": 62,
+      "lab_health_score": 93,
+      "possibility_score": 76,
+      "status": "???",
+      "attitude": "??",
+      "next_action_date": "2026-07-12",
+      "email_subject": "Prospective PhD applicant - freshwater multiple-stressor ecology and lake community responses",
+      "email_draft": "Dear Professor Jeppesen,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related stressors shape freshwater macroinvertebrate communities.\n\nI have been following your work on shallow lakes, eutrophication, warming and large-scale freshwater ecosystem responses. Your recent synthesis on eutrophication and warming in lake ecosystems is especially close to my interests in linking stressor gradients with community structure and functional vulnerability. In my first-author Aquatic Sciences paper, I analysed macroinvertebrate taxonomic and functional diversity across Yangtze tributary basins; my Ecology Letters manuscript under review uses a second-order meta-analysis to examine body-size vulnerability under global-change pressures.\n\nI am now exploring PhD opportunities for 2027 entry and would be very interested in developing a project on freshwater community responses to interacting nutrient, land-use and climate stressors. May I ask whether your group may consider prospective doctoral students through Aarhus scholarships, predefined PhD calls, or a CSC-supported route?\n\nBest regards,\nQiongjie Huang",
+      "notes": "Europe priority fit: Denmark is Nordic and satisfies the Europe preference rule. High-priority supervisor lead, not a verified live funded vacancy.",
+      "application_deadline": "Open/2027 route - no live project deadline verified on 2026-07-11",
+      "deadline_priority_notes": "Preparation window is suitable for 2027 entry: contact now, monitor AU graduate school predefined calls, and prepare a CSC/individual-project proposal by autumn 2026.",
+      "qs_rank": "#=128",
+      "qs_evidence": "QS TopUniversities profile for Aarhus University, QS World University Rankings 2027 rank #=128",
+      "qs_year": "QS WUR 2027",
+      "qs_rule_fit": "Yes - QS 1-400",
+      "europe_priority_fit": "Yes - Denmark is Nordic; matches the Europe preference rule."
+    },
+    {
+      "id": "2026-07-11-asia-lee",
+      "date_found": "2026-07-11",
+      "region": "Asia",
+      "country": "South Korea",
+      "university": "Sungkyunkwan University (SKKU)",
+      "supervisor": "Jae-Seong Lee",
+      "title": "Distinguished Chair Professor / SKKU Fellow, Biological Sciences; aquatic ecotoxicology and molecular environmental biology",
+      "email": "jslee2@skku.edu",
+      "lab_url": "https://professor.skku.edu/researcher_eng/professorList.do?categoryId=G&jojikCode1=3172&jojikCode2=710181&mode=view&perId=LZStrFoJgCg0gtgYgLgGwCoE4BOBGADgDgBJQBCOADEoQIoC8VQA+",
+      "admissions_url": "https://admission-global.skku.edu/eng/grad/scholarship_grad.html",
+      "sources": [
+        {
+          "label": "SKKU faculty profile: Distinguished Chair Professor, research interests microplastic and hypoxia, email",
+          "url": "https://professor.skku.edu/researcher_eng/professorList.do?categoryId=G&jojikCode1=3172&jojikCode2=710181&mode=view&perId=LZStrFoJgCg0gtgYgLgGwCoE4BOBGADgDgBJQBCOADEoQIoC8VQA+"
+        },
+        {
+          "label": "SKKU graduate scholarship page: STEM scholarship requires professor recommendation and can cover up to 100% tuition",
+          "url": "https://admission-global.skku.edu/eng/grad/scholarship_grad.html"
+        },
+        {
+          "label": "SKKU 4th BK21 page: PhD students in participating groups may receive monthly scholarship support",
+          "url": "https://www.skku.edu/eng/Research/industry/BK21_4.do"
+        },
+        {
+          "label": "QS profile: SKKU ranked #108 in QS World University Rankings 2027",
+          "url": "https://www.topuniversities.com/universities/sungkyunkwan-university-skku"
+        },
+        {
+          "label": "SKKU news: Lee recognised for aquatic model-species toxicity research",
+          "url": "https://www.skku.edu/skku/campus/skk_comm/popup_news_en.do?article.offset=0&articleLimit=10&articleNo=128964&mode=view"
+        }
+      ],
+      "funding": "No dedicated project-funded PhD vacancy was verified today. SKKU official scholarship routes include STEM tuition scholarship up to 100% with advising-professor recommendation and BK21 monthly support for eligible students in participating project groups; stipend eligibility must be confirmed with the lab.",
+      "csc_fit": "Good Asia-compliant non-excluded host route. CSC can be a backup or co-funding route if SKKU/lab support is partial; ask first about STEM scholarship, BK21 participation and lab-funded RA support.",
+      "requirements": "Before applying, contact Professor Lee because SKKU STEM scholarship requires professor recommendation. Prepare CV, transcripts, English score, research proposal, publication list, aquatic ecotoxicology/multiple-stressor statement and evidence of R/Python modelling skills.",
+      "research_directions": "Aquatic ecotoxicology, molecular environmental biology, microplastics, hypoxia, ocean acidification, host-microbiome interactions, aquatic model species including rotifers, copepods, Daphnia and fish.",
+      "match_relation": "Strong stressor-mechanism fit for Huang, especially the body-size vulnerability and multiple-stressor manuscript. The organism system differs from river macroinvertebrate biomonitoring, but Lee lab offers a mechanistic ecotoxicology route linking microplastics/hypoxia to aquatic-community vulnerability.",
+      "hats": "Distinguished Chair Professor, SKKU Fellow, Chair Professor at SKKU, Fellow of the Korean Academy of Science and Technology, Alexander von Humboldt Research Award recipient.",
+      "recent_outputs": "SKKU faculty profile and 2025 SKKU news show active leadership; recent publication evidence includes model aquatic species toxicity, microplastic and hypoxia work, and the Aquatic Ecotoxicology book listed on the faculty page.",
+      "grants_or_lab_health": "Strong PI-status and institutional funding ecosystem; exact BK21/lab stipend availability for 2027 requires direct confirmation.",
+      "fit_score": 84,
+      "funding_score": 68,
+      "lab_health_score": 90,
+      "possibility_score": 75,
+      "status": "???",
+      "attitude": "??",
+      "next_action_date": "2026-07-12",
+      "email_subject": "Prospective PhD applicant - aquatic multiple-stressor ecotoxicology and trait vulnerability",
+      "email_draft": "Dear Professor Lee,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying freshwater macroinvertebrate responses to human activities and climate-change-related stressors.\n\nYour work on aquatic ecotoxicology, especially microplastics, hypoxia and model aquatic organisms, is highly relevant to my interest in the mechanisms behind stressor vulnerability. In my first-author Aquatic Sciences paper, I analysed macroinvertebrate taxonomic and functional diversity across Yangtze tributary basins. I also have a first-author Ecology Letters manuscript under review using a second-order meta-analysis to test how body size shapes vulnerability under global-change pressures.\n\nFor PhD study, I hope to connect community-level freshwater biomonitoring with mechanistic ecotoxicology, for example by linking trait and body-size responses to combined pollution and climate stressors. I am exploring 2027-entry PhD routes and would be grateful to know whether your group may consider a doctoral applicant through SKKU STEM/BK21 support, lab funding, or a CSC-compatible route.\n\nBest regards,\nQiongjie Huang",
+      "notes": "Asia rule compliant: South Korea is outside Japan/mainland China/Hong Kong/Macau. High-fit mechanistic ecotoxicology lead; funding needs supervisor confirmation.",
+      "application_deadline": "Open/2027 route - SKKU graduate admission/scholarship cycle needs monitoring",
+      "deadline_priority_notes": "Contact before formal application because professor recommendation is required for SKKU STEM scholarship; prepare for the next international graduate admission cycle.",
+      "qs_rank": "#108",
+      "qs_evidence": "QS TopUniversities profile for Sungkyunkwan University (SKKU), QS World University Rankings 2027 rank #108",
+      "qs_year": "QS WUR 2027",
+      "qs_rule_fit": "Yes - QS 1-400"
+    },
+    {
+      "id": "2026-07-11-south-america-romero",
+      "date_found": "2026-07-11",
+      "region": "South America",
+      "country": "Brazil",
+      "university": "Universidade Estadual de Campinas (Unicamp)",
+      "supervisor": "Gustavo Quevedo Romero",
+      "title": "Full Professor at UNICAMP; coordinator, Laboratory of Multitrophic Interactions and Biodiversity",
+      "email": "gqromero@unicamp.br",
+      "lab_url": "https://gqromero.wixsite.com/lab",
+      "admissions_url": "https://www.ib.unicamp.br/pos_ecologia/editais-de-selecao",
+      "sources": [
+        {
+          "label": "FAPESP researcher profile: Full Professor at UNICAMP; coordinates FAPESP thematic project on climate change, land use and freshwater ecosystems",
+          "url": "https://bv.fapesp.br/en/pesquisador/2748/gustavo-quevedo-romero/"
+        },
+        {
+          "label": "Romero Lab: global change, trophic diversity, body size, traits and ecosystem functioning",
+          "url": "https://gqromero.wixsite.com/lab"
+        },
+        {
+          "label": "UNICAMP Ecology selection page: doctoral selection calls are posted here",
+          "url": "https://www.ib.unicamp.br/pos_ecologia/editais-de-selecao"
+        },
+        {
+          "label": "UNICAMP graduate grants page: CAPES/CNPq quotas and FAPESP applications after enrollment",
+          "url": "https://portal.ige.unicamp.br/en/graduate/grants"
+        },
+        {
+          "label": "QS profile: UNICAMP ranked #=277 in QS World University Rankings 2027",
+          "url": "https://www.topuniversities.com/universities/universidade-estadual-de-campinas-unicamp"
+        }
+      ],
+      "funding": "No currently open PhD scholarship tied to Romero was verified today. Strong funding routes exist: FAPESP thematic-project context, CAPES/CNPq programme quotas after enrollment, and FAPESP scholarship applications with the advisor. Treat funding as promising but not secured.",
+      "csc_fit": "CSC host route may be possible if UNICAMP accepts external funding and Professor Romero supports the project; however, Brazil-side FAPESP/CAPES/CNPq routes should be checked first because the lab has an active FAPESP thematic project signal.",
+      "requirements": "Monitor UNICAMP PPG-Ecologia doctoral calls, confirm international application requirements, Portuguese/English exam expectations, advisor pre-approval and scholarship eligibility. Prepare a proposal connecting land-use/climate stressors to freshwater community functional diversity and body-size vulnerability.",
+      "research_directions": "Global change impacts on freshwater ecosystems, warming, precipitation variation, land use, food-web structure, trophic diversity, body size, species and trait composition, biodiversity and ecosystem functioning.",
+      "match_relation": "Very strong South America topic fit. Huang can directly connect the Ecology Letters body-size meta-analysis and Aquatic Sciences trait-diversity paper to Romero Lab interests in body size, trait composition, global-change stressors and freshwater ecosystem functioning.",
+      "hats": "Full Professor at UNICAMP; coordinator of the Laboratory of Multitrophic Interactions and Biodiversity; former coordinator of UNICAMP Graduate Program in Ecology; FAPESP Biology I area coordination member; FAPESP thematic project coordinator.",
+      "recent_outputs": "FAPESP profile verifies current thematic-project leadership; lab page highlights global change, food webs, body size and traits; Nature Communications-related outreach on Neotropical freshwater ecosystems shows lab relevance to climate impacts.",
+      "grants_or_lab_health": "Strong: FAPESP profile identifies a thematic project on climate change and land use impacts on freshwater ecosystems, plus lab and graduate-program leadership. Specific PhD stipend remains to be verified.",
+      "fit_score": 92,
+      "funding_score": 66,
+      "lab_health_score": 91,
+      "possibility_score": 74,
+      "status": "???",
+      "attitude": "??",
+      "next_action_date": "2026-07-12",
+      "email_subject": "Prospective PhD applicant - freshwater global-change stressors, body size and traits",
+      "email_draft": "Dear Professor Romero,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying how human activities and climate-change-related stressors affect freshwater macroinvertebrate communities.\n\nI was very interested in your lab?s work on global change, land use, food-web structure, body size, trait composition and freshwater ecosystem functioning. This connects closely with my first-author Aquatic Sciences paper on taxonomic and functional diversity of macroinvertebrates across Yangtze tributary basins. My first-author Ecology Letters manuscript under review also uses a second-order meta-analysis to examine how body size shapes vulnerability to global-change pressures.\n\nFor PhD study, I hope to develop a project linking land-use and climate stressors with trait-based vulnerability and ecosystem functioning in freshwater communities. I am exploring 2027-entry opportunities and would be grateful to know whether your group may consider a doctoral applicant through the UNICAMP Ecology programme, FAPESP/CAPES/CNPq support, or an externally funded route.\n\nBest regards,\nQiongjie Huang",
+      "notes": "South America high-fit supervisor lead. The strongest evidence is lab/project fit rather than an active vacancy; keep as priority outreach after confirming UNICAMP 2027 doctoral-call timing.",
+      "application_deadline": "Open/2027 route - next UNICAMP PPG-Ecologia doctoral call needs monitoring",
+      "deadline_priority_notes": "No active 30+ day PhD vacancy verified today; start supervisor contact now and track the next PPG-Ecologia call plus FAPESP/CAPES/CNPq scholarship timing.",
+      "qs_rank": "#=277",
+      "qs_evidence": "QS TopUniversities profile for Universidade Estadual de Campinas (Unicamp), QS World University Rankings 2027 rank #=277",
       "qs_year": "QS WUR 2027",
       "qs_rule_fit": "Yes - QS 1-400"
     }
