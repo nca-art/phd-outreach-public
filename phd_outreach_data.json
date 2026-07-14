@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-14",
   "profile": {
     "name": "Qiongjie Huang",
     "chinese_name": "Qiongjie Huang",
@@ -107,1091 +107,494 @@
   },
   "daily_briefs": [
     {
-      "id": "brief-2026-07-13",
-      "date": "2026-07-13",
-      "summary": "Added 3 QS-compliant, non-duplicate leads for freshwater multiple-stressor ecology: Aalborg University/Nadieh de Jonge, Universiti Sains Malaysia/Che Salmah Md Rawi, and Universidad de Buenos Aires/Ines O'Farrell.",
+      "id": "brief-2026-07-14-teacher-list-reset",
+      "date": "2026-07-14",
+      "summary": "Reset active supervisor list to 8 teacher-nominated European targets and ranked them for sequential cold-email outreach: Sentis, Piggott, Soininen, Zarfl, Brosse, Alahuhta, Graco-Roza, and Garcia-Giron.",
       "candidate_ids": [
-        "2026-07-13-europe-de-jonge",
-        "2026-07-13-asia-rawi",
-        "2026-07-13-south-america-ofarrell"
+        "2026-07-14-europe-sentis",
+        "2026-07-14-europe-piggott",
+        "2026-07-14-europe-soininen",
+        "2026-07-14-europe-zarfl",
+        "2026-07-14-europe-brosse",
+        "2026-07-14-europe-alahuhta",
+        "2026-07-14-europe-graco-roza",
+        "2026-07-14-europe-garcia-giron"
       ],
-      "search_notes": "Prioritized QS 1-400 hosts and source-backed supervisor/recruitment signals. Europe result is the strongest direct project match, a Denmark/Nordic PhD stipend in pond ecology/eDNA, but the official AAU vacancy URL currently returns not found so the deadline must be verified immediately. Asia and South America results are strong supervisor-plus-2027-intake/funding-route leads because no stronger current fully funded freshwater PhD vacancy in QS 1-400 institutions was verified today; funding is labelled needs confirmation rather than overclaimed."
-    },
-    {
-      "id": "brief-2026-07-12",
-      "date": "2026-07-12",
-      "summary": "Added 3 QS-compliant, non-duplicate PhD supervisor/recruitment leads for freshwater multiple-stressor ecology: University of Helsinki RESDOC/Jukka Horppila, NTU Singapore/Janelle Thompson, and UC Chile/Pablo Marquet.",
-      "candidate_ids": [
-        "2026-07-12-europe-horppila",
-        "2026-07-12-asia-thompson",
-        "2026-07-12-south-america-marquet"
-      ],
-      "search_notes": "Prioritized verified 2027-entry or rolling routes with source links and QS 1-400 evidence. Europe result is a current fully funded RESDOC call in Nordic Finland. Asia result follows exclusion rule by using Singapore/NTU and the NTU Research Scholarship window. South America result is a QS-compliant high-fit global-change ecology supervisor lead; no stronger current South American fully funded freshwater PhD opening was verified today, so funding is labelled needs confirmation."
-    },
-    {
-      "id": "brief-2026-07-11",
-      "date": "2026-07-11",
-      "summary": "Added three QS 1-400, region-balanced supervisor leads for freshwater multiple-stressor ecology: Aarhus/Jeppesen (Nordic Europe), SKKU/Lee (South Korea), and UNICAMP/Romero (Brazil). No fully advertised new PhD vacancy was verified today; all are high-fit 2027 supervisor/funding-route leads with funding to confirm.",
-      "candidate_ids": [
-        "2026-07-11-europe-jeppesen",
-        "2026-07-11-asia-lee",
-        "2026-07-11-south-america-romero"
-      ],
-      "search_notes": "Searched current official university/lab/admission/ranking sources. Avoided existing supervisors and Asia exclusions. Europe candidate satisfies Nordic preference. Funding fields distinguish verified institutional scholarship routes from unconfirmed project funding."
-    },
-    {
-      "id": "brief-2026-07-10",
-      "date": "2026-07-10",
-      "summary": "Added 3 QS-compliant candidates: Antwerp fully funded freshwater macrophyte hydrodynamic-stress PhD, NTU Taiwan freshwater macroinvertebrate/ecosystem-functioning supervisor lead, and USP freshwater ecotoxicology/community-ecology PhD route.",
-      "candidate_ids": [
-        "2026-07-10-europe-schoelynck",
-        "2026-07-10-asia-ko",
-        "2026-07-10-south-america-schiesari"
-      ],
-      "search_notes": "Searched current PhD vacancy boards, official university pages, QS evidence, lab pages and programme admissions. Europe preferred France/Nordic/Mediterranean search did not produce a stronger verified freshwater opening today, so Belgium/Antwerp is used as a QS-compliant fully funded substitute. Asia follows the exclusion rule by using Taiwan, not Japan/mainland China/Hong Kong/Macau. South America uses a USP Ecology doctoral route with scholarship/funding to verify before outreach."
-    },
-    {
-      "id": "brief-2026-07-08",
-      "date": "2026-07-08",
-      "summary": "Added 3 QS-compliant candidates: Helsinki RESDOC fully funded freshwater biodiversity route, NUS freshwater/invasion biology PhD route, and USP Ecology stream-restoration/eDNA supervisor lead.",
-      "candidate_ids": [
-        "2026-07-08-europe-soininen",
-        "2026-07-08-asia-yeo",
-        "2026-07-08-south-america-oliveira"
-      ],
-      "search_notes": "Prioritized QS 1-400 and avoided Japan/mainland China/Hong Kong/Macau. Europe match is Nordic and fully funded with 2026-08-31 deadline. Asia is Singapore/NUS with scholarship route and 2027 intake preparation window. South America uses USP because current fully funded aquatic PhD vacancies were not verified; it is marked scholarship/advisor-status needs verification rather than full funding. Cold Email skill was read; local skill CV profile file was missing, so drafts used the automation-supplied CV profile. Repaired malformed mojibake JSON values from the previous run before appending today's records."
-    },
-    {
-      "id": "brief-2026-07-07-global-qs-rule",
-      "date": "2026-07-07",
-      "summary": "Global QS rule updated: QS World University Rankings 1-400 now applies to all candidates, not only Europe.",
-      "candidate_ids": [],
-      "search_notes": "For research institutes or joint doctoral programmes, use the degree-awarding/enrolling/host university QS rank. If QS cannot be verified, mark as needs verification and do not treat as top-priority unless exceptional."
-    },
-    {
-      "id": "brief-2026-07-07-region-ranking-preferences",
-      "date": "2026-07-07",
-      "summary": "Search preferences updated: Asia now excludes Japan, mainland China, Hong Kong and Macau; Europe now prioritizes France, Nordic and Mediterranean Europe with QS 1-400 university hosts.",
-      "candidate_ids": [],
-      "search_notes": "These are forward-looking screening rules for all daily runs. Existing historical records are retained but should not be reused if they violate the new regional filters."
-    },
-    {
-      "id": "brief-2026-07-07-cv-system-fix",
-      "date": "2026-07-07",
-      "summary": "System profile rebuilt from the latest CV and search rules tightened: prioritize 2027-entry/full-funding prospects with >=30-day preparation windows; near-deadline items are now marked as urgent reference only unless exceptional.",
-      "candidate_ids": [
-        "2026-07-07-europe-schilling",
-        "2026-07-07-asia-yin",
-        "2026-07-07-south-america-delariva"
-      ],
-      "search_notes": "Updated from C:\\Users\\Administrator\\Desktop\\Huang_Qiongjie_CV.docx. Added GPA, expanded publication list, research experience metrics, awards, and stronger method keywords. This addresses the issue that prior daily candidates included two 2026-07-10 deadlines; future runs should prefer longer-window opportunities and not treat urgent openings as normal daily recommendations."
-    },
-    {
-      "id": "brief-2026-07-07",
-      "date": "2026-07-07",
-      "summary": "Added 3 verified candidates: Basel funded headwater-catchment PhD, IHB/CAS macroinvertebrate doctoral route, and UEM Brazil biomonitoring doctorate. Europe is a quantitative river-basin substitute because no open macroinvertebrate-specific European PhD vacancy was verified today.",
-      "candidate_ids": [
-        "2026-07-07-europe-schilling",
-        "2026-07-07-asia-yin",
-        "2026-07-07-south-america-delariva"
-      ],
-      "search_notes": "Searched Academic Positions, FindAPhD, EURAXESS-style results, IHB/UCAS admissions, and Brazil PPG/FAPESP-style doctoral calls. South America has a current 2026-07-10 UEM doctorate selection; Europe exact macroinvertebrate openings were not verified, so selected a fully funded University of Basel headwater-catchment ML project. Cold Email skill file was read, but its local CV profile file was missing; used the supplied candidate profile instead."
+      "search_notes": "Old active candidates were cleared from the management JSON after backup. Jeremy J. Piggott was confirmed by the user. Jorge Garcia Giron was corrected by the user to Universidad de Leon, Spain. Ranking prioritises research fit, PI strength, funding window, QS/host quality, and immediate cold-email actionability."
     }
   ],
   "candidates": [
     {
-      "id": "2026-07-07-europe-schilling",
-      "date_found": "2026-07-07",
+      "date_found": "2026-07-14",
       "region": "Europe",
-      "country": "Switzerland",
-      "university": "University of Basel",
-      "supervisor": "Oliver S. Schilling",
-      "title": "Professor / Hydrogeology Research Group; PI of a fully funded headwater-catchment PhD project",
-      "email": "",
-      "lab_url": "https://duw.unibas.ch/en/research-groups/hydrogeology/",
-      "admissions_url": "https://academicpositions.com/ad/university-of-basel/2026/phd-on-hydrological-model-data-interaction-and-machine-learning-for-headwater-catchment-analyses/249866",
+      "status": "待套磁",
+      "attitude": "未知",
+      "qs_year": "QS World University Rankings 2027",
+      "id": "2026-07-14-europe-sentis",
+      "country": "France",
+      "university": "INRAE / Aix-Marseille University (UMR RECOVER)",
+      "supervisor": "Arnaud Sentis",
+      "title": "INRAE researcher; ERC Consolidator Grant PI, ClimateCountDown; freshwater thermal ecology, food webs and multiple stressors",
+      "email": "arnaud.sentis@inrae.fr",
+      "lab_url": "https://arnaudsentis.com/",
+      "admissions_url": "https://college-doctoral.univ-amu.fr/en",
       "sources": [
         {
-          "label": "Academic Positions listing: PhD on hydrological model-data interaction and machine learning for headwater catchment analyses",
-          "url": "https://academicpositions.com/ad/university-of-basel/2026/phd-on-hydrological-model-data-interaction-and-machine-learning-for-headwater-catchment-analyses/249866"
+          "label": "INRAE ERC news: Sentis received Consolidator Grant for ClimateCountDown on lake communities and climate change",
+          "url": "https://www.inrae.fr/en/news/erc-grant-evaluate-thermal-limits-lake-communities"
         },
         {
-          "label": "Academic Positions Switzerland search result showing published timing and 2026-07-10 closing date",
-          "url": "https://academicpositions.com/jobs/field/biogeography/country/switzerland"
+          "label": "SFE ecology archive: PhD position under Arnaud Sentis on thermal vulnerability of freshwater communities",
+          "url": "https://sfecologie.org/offre/ph-d-position-influence-of-food-web-structure-on-the-thermal-vulnerability-of-freshwater-communities/"
         },
         {
-          "label": "Secondary summary noting FutureFlow, Hydrogeology Research Group and four-year fully funded structure",
-          "url": "https://www.globalsouthopportunities.com/2026/06/21/model/"
+          "label": "INRAE news: warming and nutrient enrichment combined effects in freshwater systems",
+          "url": "https://www.inrae.fr/en/news/warming-and-nutrient-enrichment-combined-effects-freshwater-systems"
+        },
+        {
+          "label": "UMR RECOVER: INRAE / Aix-Marseille University unit on aquatic ecosystems under global change",
+          "url": "https://eng-recover.paca.hub.inrae.fr/"
+        },
+        {
+          "label": "QS profile: Aix-Marseille University ranked #=443 in QS WUR 2027",
+          "url": "https://www.topuniversities.com/universities/aix-marseille-university"
         }
       ],
-      "funding": "Fully funded 4-year PhD position; advertised closing date 2026-07-10. Salary/stipend route appears project-funded rather than CSC-dependent.",
-      "csc_fit": "Possible but not necessary. CSC can be mentioned only as backup co-funding; the strongest route is the advertised funded employment/studentship.",
-      "requirements": "MSc in hydrology, environmental sciences, geosciences, civil/environmental engineering, data science or related field; Python/ML and quantitative modelling are important. Apply urgently before 2026-07-10.",
-      "research_directions": "Hydrological model-data interaction, machine learning for headwater catchment analyses, FutureFlow ANR-SNSF project, river-source catchment forecasting and uncertainty.",
-      "match_relation": "Not a macroinvertebrate vacancy, but a strong quantitative river-basin modelling opening. Huang can pitch her LMM/SEM/network/ML and GIS experience, connecting biological vulnerability under multiple stressors to hydrological drivers in headwater catchments.",
-      "hats": "Professor-level PI / Hydrogeology Research Group lead; PI-level role in an international ANR-SNSF FutureFlow project, per listing summaries.",
-      "recent_outputs": "Evidence today is vacancy/project health rather than paper-level verification: 2026 fully funded PhD opening, FutureFlow project, headwater catchment modelling. Representative recent papers should be checked before sending.",
-      "grants_or_lab_health": "Strong: current 4-year funded PhD recruitment, international ANR-SNSF project, active research group. Publication list still寰呮牳瀵?before final application tailoring.",
-      "fit_score": 72,
+      "funding": "Very strong lab funding signal: ERC Consolidator Grant ClimateCountDown and prior project PhD recruitment. The archived PhD call is closed, so 2027 slot/funding must be checked directly.",
+      "csc_fit": "CSC is a parallel route if ERC/project funding is not open for 2027; confirm degree registration through Aix-Marseille University or the relevant French doctoral school.",
+      "requirements": "Send CV, Aquatic Sciences paper, Ecology Letters under-review manuscript context, and a short proposal around body-size/trait-mediated vulnerability under warming and nutrient enrichment.",
+      "research_directions": "Freshwater thermal ecology, warming, nutrient enrichment, lake communities, food webs, multiple stressors, body-size shifts, ecological networks.",
+      "match_relation": "Top fit: direct collaborator/context fit through the Ecology Letters manuscript plus very strong overlap with freshwater warming, nutrient enrichment and body-size vulnerability.",
+      "hats": "INRAE researcher; ERC Consolidator Grant PI; prior PhD supervisor/contact for ClimateCountDown.",
+      "recent_outputs": "2024 INRAE ERC announcement; 2024 freshwater warming/nutrient enrichment news; recent work on warming, body size and freshwater food-web responses.",
+      "grants_or_lab_health": "Excellent: ERC-funded project, active INRAE/RECOVER team, prior PhD recruitment and recent institutional visibility.",
+      "fit_score": 98,
       "funding_score": 88,
-      "lab_health_score": 84,
-      "possibility_score": 76,
-      "status": "time-too-close-reference-only",
-      "attitude": "unknown",
-      "next_action_date": "2026-07-08",
-      "email_subject": "Prospective PhD applicant - headwater catchments and freshwater multiple-stressor ecology",
-      "email_draft": "Dear Professor Schilling,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors affect freshwater macroinvertebrate communities.\n\nI saw your advertised PhD project on hydrological model-data interaction and machine learning for headwater catchment analyses within the FutureFlow initiative. Although my current work is organism- and community-centred, the project connects strongly with my interest in linking hydrological and anthropogenic drivers to freshwater biodiversity responses. My first-author Aquatic Sciences paper examines elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity, and my manuscript under review at Ecology Letters focuses on body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nI would be very interested in discussing whether my background in field sampling, water chemistry, functional diversity, GIS, R/Python, LMM/SEM, network analysis and machine learning could fit this PhD project, particularly where biological response data and catchment-scale predictors can be integrated. I am primarily seeking fully funded PhD opportunities and can also explore CSC funding if co-funding is useful.\n\nThank you very much for your time and consideration.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "Europe substitute: no verified open freshwater macroinvertebrate PhD vacancy found today; selected because it is current, fully funded, river-basin/headwater modelling, and quantitatively compatible. Need verify exact supervisor email and official University of Basel job page before sending.",
-      "application_deadline": "2026-07-10",
-      "deadline_priority_notes": "URGENT: closes in 3 days from 2026-07-07; keep as reference or emergency application only.",
-      "qs_rank": "needs verification",
-      "qs_evidence": "needs verification",
-      "qs_rule_fit": "needs verification"
+      "lab_health_score": 95,
+      "possibility_score": 86,
+      "next_action_date": "2026-07-15",
+      "email_subject": "Prospective PhD applicant: freshwater multiple stressors, body size and thermal vulnerability",
+      "email_draft": "Dear Dr. Sentis,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities. I have been following your ClimateCountDown project on the thermal vulnerability of freshwater communities, especially how food-web structure and body size mediate responses to warming and nutrient enrichment.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether you may consider a 2027-entry PhD applicant whose background links freshwater macroinvertebrate traits, multiple-stressor synthesis and ecological modelling. May I send you my CV and a short research-fit note?\n\nBest regards,\nQiongjie Huang",
+      "notes": "Teacher-nominated first target. France preference fit: yes. QS caveat: Aix-Marseille University is #=443, outside the old 1-400 rule, but retained as an exception because of exceptional fit and ERC funding.",
+      "application_deadline": "No current 2027 PhD deadline verified; prior SFE PhD call ended 2025-06-09.",
+      "deadline_priority_notes": "Send first; best target-journal equivalent despite QS caveat.",
+      "qs_rank": "#=443",
+      "qs_evidence": "QS TopUniversities profile states Aix-Marseille University is ranked #=443 in QS World University Rankings 2027.",
+      "qs_rule_fit": "Exception - outside old QS 1-400 rule, but retained for teacher priority, France fit, ERC project and direct scientific fit.",
+      "europe_priority_fit": "Yes - France is explicitly preferred."
     },
     {
-      "id": "2026-07-07-asia-yin",
-      "date_found": "2026-07-07",
-      "region": "Asia",
-      "country": "China",
-      "university": "Institute of Hydrobiology, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
-      "supervisor": "Xuwang Yin",
-      "title": "Professor; explicitly listed in 2026 IHB PhD/joint research-doctorate recruitment signal",
-      "email": "",
-      "lab_url": "http://www.ihb.cas.cn/",
-      "admissions_url": "https://admission.ucas.ac.cn/info/ZhaoshengDanweiDetail/9adf9e50-424b-44c8-b2dc-900ef9344373/8011922026",
-      "sources": [
-        {
-          "label": "UCAS/IHB 2026 doctoral admissions unit page",
-          "url": "https://admission.ucas.ac.cn/info/ZhaoshengDanweiDetail/9adf9e50-424b-44c8-b2dc-900ef9344373/8011922026"
-        },
-        {
-          "label": "IHB education/admissions portal",
-          "url": "http://edu.ihb.cas.cn/"
-        },
-        {
-          "label": "IHB institute homepage",
-          "url": "http://www.ihb.cas.cn/"
-        }
-      ],
-      "funding": "CAS/UCAS doctoral route; likely institutional stipend/scholarship after admission, but exact scholarship package and international-applicant route need confirmation with IHB Graduate Office.",
-      "csc_fit": "For a Chinese citizen, CSC host logic is weaker than European/overseas hosts. Compatibility is mainly through CAS/UCAS domestic doctoral funding or possible joint-training/sandwich routes later.",
-      "requirements": "IHB 2026 doctoral admissions are application-assessment based; the page reports approximately 73 PhD places, including joint research-doctorate places. Need confirm autumn external-application window and whether Yin Xuwang has an open quota for Huang's entry year.",
-      "research_directions": "Freshwater ecosystem assessment, benthic macroinvertebrates, river ecological health, biological monitoring and conservation of inland waters.",
-      "match_relation": "Very high topic fit: Huang's Aquatic Sciences first-author paper on multiple-pressure effects on macroinvertebrate taxonomic/functional diversity can be connected directly to freshwater bioassessment and river health monitoring; the Ecology Letters manuscript adds trait/body-size vulnerability under co-occurring stressors.",
-      "hats": "Professor and named doctoral/joint research-doctorate supervisor signal in IHB/UCAS 2026 recruitment context; CAS institute platform is strong for inland-water ecology.",
-      "recent_outputs": "Admissions evidence: 2026 IHB doctoral recruitment and IHB platform. Representative recent publications for Yin Xuwang need targeted verification before email personalization.",
-      "grants_or_lab_health": "Strong institutional health: CAS Institute of Hydrobiology doctoral recruitment, large 2026 intake, inland-water national platform. Specific active grant list寰呮牳瀵?",
-      "fit_score": 88,
-      "funding_score": 72,
-      "lab_health_score": 82,
-      "possibility_score": 74,
-      "status": "historical-reference",
-      "attitude": "unknown",
-      "next_action_date": "2026-07-08",
-      "email_subject": "Prospective PhD applicant - freshwater macroinvertebrates and river bioassessment",
-      "email_draft": "Dear Professor Yin,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at the College of Fisheries, Huazhong Agricultural University. My research focuses on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities.\n\nI am very interested in your work on freshwater ecosystem assessment, benthic macroinvertebrates and river ecological health. This direction is closely aligned with my first-author Aquatic Sciences paper on elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity. It also connects with my manuscript currently under review at Ecology Letters, where I examine how body size shapes aquatic biotic vulnerability to co-occurring multiple stressors.\n\nI would be grateful to ask whether you may consider recruiting PhD students through the 2026 IHB/UCAS doctoral route or related research-doctorate quota. My background includes field sampling, water chemistry, macroinvertebrate biodiversity assessment, functional diversity, LMM/SEM, network analysis, machine learning, R/Python and GIS. I hope to further develop trait-based and basin-scale approaches for freshwater bioassessment and conservation.\n\nThank you very much for your time and consideration. I would be happy to send my CV and a short research statement if useful.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "Asia exact-topic candidate. Need verify current email, exact open quota, and recent publication/project details before sending. New Asia rule excludes mainland China, Hong Kong, Macau and Japan; keep this record as historical only.",
-      "application_deadline": "Open/2026 UCAS-IHB cycle",
-      "deadline_priority_notes": "No exact near deadline verified in the stored sources; verify quota and autumn timeline.",
-      "qs_rank": "needs verification",
-      "qs_evidence": "needs verification",
-      "qs_rule_fit": "needs verification"
-    },
-    {
-      "id": "2026-07-07-south-america-delariva",
-      "date_found": "2026-07-07",
-      "region": "South America",
-      "country": "Brazil",
-      "university": "Universidade Estadual de Maring谩 / Universidade Estadual do Oeste do Paran谩",
-      "supervisor": "Rosilene Luciana Delariva",
-      "title": "Associate Professor; doctoral supervisor in Comparative Biology / fish ecology and biomonitoring",
-      "email": "rosilene.delariva@unioeste.br",
-      "lab_url": "https://pgb.uem.br/corpo-docente/rosilene-luciana-delariva",
-      "admissions_url": "https://pgb.uem.br/edital-de-selecao-de-doutorado.pdf",
-      "sources": [
-        {
-          "label": "UEM 2026 Doctorate Selection call; online registration 2026-07-07 to 2026-07-10",
-          "url": "https://pgb.uem.br/edital-de-selecao-de-doutorado.pdf"
-        },
-        {
-          "label": "UEM faculty page for Rosilene Luciana Delariva",
-          "url": "https://pgb.uem.br/corpo-docente/rosilene-luciana-delariva"
-        },
-        {
-          "label": "Unioeste permanent faculty page listing fish ecology and biomonitoring area",
-          "url": "https://www.unioeste.br/portal/pos-pprn/comunidade-pprn/docentes/permanentes"
-        },
-        {
-          "label": "PLOS ONE 2022 paper: Effects of human disturbance on habitat and fish diversity in Neotropical streams",
-          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274191"
-        }
-      ],
-      "funding": "Open doctorate selection, not automatically a full scholarship. Brazilian CAPES/CNPq/program scholarships may be possible after admission; funding must be confirmed with supervisor/program. Deadline is urgent: 2026-07-10.",
-      "csc_fit": "CSC-host compatibility uncertain. Brazil is possible for CSC only if the host/program accepts CSC-supported international doctoral students; this should be asked directly. Treat as scholarship-uncertain unless Rosilene/program confirms funding.",
-      "requirements": "Candidates must contact possible supervisors and be approved by the supervisor before formal registration; online registration is 2026-07-07 to 2026-07-10. Master's degree/defence timing and full-time commitment are required by the call.",
-      "research_directions": "Fish ecology, functional biology of fishes, biomonitoring, Neotropical streams, reservoir impacts, trophic ecology, freshwater ecosystem health.",
-      "match_relation": "Not macroinvertebrate-centred, but highly relevant to freshwater bioassessment under human disturbance. Huang can frame her macroinvertebrate taxonomic/functional diversity work as complementary to Delariva's fish-biomonitoring approach, proposing cross-taxon indicators and trait-based vulnerability in Neotropical streams.",
-      "hats": "Associate Professor; doctoral supervisor with current open line in UEM Comparative Biology; active postgraduate supervision and biomonitoring profile.",
-      "recent_outputs": "PLOS ONE 2022 paper on human disturbance, habitat and fish diversity in Neotropical streams; 2024 Pollution Bulletin review on global microplastic ingestion by fish; current 2026 doctoral selection line in ecology/biomonitoring.",
-      "grants_or_lab_health": "Good supervision/lab signal: UEM doctoral call lists her line with an open supervisor-approval process; Unioeste permanent faculty profile lists fish ecology and biomonitoring. Funding remains寰呮牳瀵?",
-      "fit_score": 78,
-      "funding_score": 55,
-      "lab_health_score": 78,
-      "possibility_score": 68,
-      "status": "time-too-close-reference-only",
-      "attitude": "unknown",
-      "next_action_date": "2026-07-08",
-      "email_subject": "Prospective PhD applicant - freshwater biomonitoring and multiple-stressor ecology",
-      "email_draft": "Dear Professor Delariva,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on freshwater macroinvertebrate responses to human activities and climate-change-related multiple stressors.\n\nI found the UEM Comparative Biology doctoral selection call and your research line in fish ecology, functional biology and biomonitoring. I was particularly interested in your work on human disturbance, habitat and fish diversity in Neotropical streams, because it connects closely with my first-author Aquatic Sciences paper on elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity. My manuscript currently under review at Ecology Letters further examines body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nAlthough my focal organisms are macroinvertebrates, I hope to develop cross-taxon and trait-based approaches for freshwater biomonitoring and river-basin conservation. My experience includes field sampling, water chemistry, biodiversity assessment, functional diversity, LMM/SEM, network analysis, machine learning, R/Python and GIS.\n\nMay I ask whether you would consider supporting an international PhD applicant for the current doctoral selection route, and whether program/CAPES/CNPq or CSC-compatible funding might be possible?\n\nThank you very much for your time and consideration.\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "South America current-open candidate. Strong freshwater biomonitoring fit but lower funding certainty; urgent because registration closes 2026-07-10.",
-      "application_deadline": "2026-07-10",
-      "deadline_priority_notes": "URGENT: closes in 3 days from 2026-07-07 and funding is not guaranteed; keep as reference unless applying immediately.",
-      "qs_rank": "needs verification",
-      "qs_evidence": "needs verification",
-      "qs_rule_fit": "needs verification"
-    },
-    {
-      "id": "2026-07-08-europe-soininen",
-      "date_found": "2026-07-08",
+      "date_found": "2026-07-14",
       "region": "Europe",
+      "status": "待套磁",
+      "attitude": "未知",
+      "qs_year": "QS World University Rankings 2027",
+      "id": "2026-07-14-europe-piggott",
+      "country": "Ireland",
+      "university": "Trinity College Dublin, The University of Dublin",
+      "supervisor": "Jeremy J. Piggott",
+      "title": "Associate Professor in Aquatic Biology; Piggott Lab, freshwater multiple stressors and global change",
+      "email": "piggotjj@tcd.ie",
+      "lab_url": "https://www.tcd.ie/zoology/research/research-groups/the-piggott-lab/research/",
+      "admissions_url": "https://www.tcd.ie/naturalscience/courses/postgraduate/phd-by-research/",
+      "sources": [
+        {
+          "label": "Trinity profile: Jeremy/Jay Piggott, Associate Professor in Aquatic Biology",
+          "url": "https://www.tcd.ie/environment/people/piggotjj/"
+        },
+        {
+          "label": "Piggott Lab research: climate change and multiple stressors in freshwater ecosystems",
+          "url": "https://www.tcd.ie/zoology/research/research-groups/the-piggott-lab/research/"
+        },
+        {
+          "label": "Trinity PhD by Research, School of Natural Sciences",
+          "url": "https://www.tcd.ie/naturalscience/courses/postgraduate/phd-by-research/"
+        },
+        {
+          "label": "Trinity Research Doctorate Award 2026 funding page",
+          "url": "https://www.tcd.ie/naturalscience/news-and-events/news-2026/trinity-research-doctorate-award-2026---school-of-natural-sciences/"
+        },
+        {
+          "label": "QS profile: Trinity College Dublin ranked #75 in QS WUR 2027",
+          "url": "https://www.topuniversities.com/universities/trinity-college-dublin-university-dublin"
+        }
+      ],
+      "funding": "No open 2027 Piggott-specific PhD was verified today. Trinity Research Doctorate Award 2026 was fully funded but closed on 2026-05-01; monitor next award cycle and ask about project funding.",
+      "csc_fit": "Good CSC-compatible route if Piggott agrees to supervise and Trinity accepts CSC-funded registration.",
+      "requirements": "Supervisor agreement first; prepare CV, fit statement, research question on climate/land-use/nutrient/sediment stressor interactions, transcripts and funding alternatives.",
+      "research_directions": "Freshwater multiple stressors, climate change, land-use pressure, biodiversity and ecosystem function, stream mesocosms, ecological networks.",
+      "match_relation": "Near-perfect thematic fit to Huang's macroinvertebrate multiple-stressor profile and Ecology Letters synthesis.",
+      "hats": "Associate Professor in Aquatic Biology; IRC Laureate Award recipient; Early Career Researcher of the Year; PI of Piggott Lab.",
+      "recent_outputs": "Piggott Lab highlights climate change and multiple stressors; recent systematic review work covers freshwater multiple-stressor experiments.",
+      "grants_or_lab_health": "Strong: dedicated lab, associate professor status, Irish Research Council recognition and Trinity funding-route history.",
+      "fit_score": 96,
+      "funding_score": 76,
+      "lab_health_score": 90,
+      "possibility_score": 84,
+      "next_action_date": "2026-07-17",
+      "email_subject": "Prospective PhD applicant: freshwater multiple stressors and macroinvertebrate functional responses",
+      "email_draft": "Dear Professor Piggott,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities. Your lab's work on how climate, land-use and other stressors interact to shape freshwater biodiversity and ecosystem functioning is very close to my current research direction.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether you may consider supervising a 2027-entry PhD applicant interested in linking macroinvertebrate traits, stressor interactions and management-relevant modelling. May I send you my CV and a short research-fit note?\n\nBest regards,\nQiongjie Huang",
+      "notes": "User confirmed piggott is Jeremy J. Piggott. Ireland is not in old France/Nordic/Mediterranean preference, but topic and QS fit are outstanding.",
+      "application_deadline": "Next 2027 funding cycle not open yet; Trinity 2026 Research Doctorate Award closed 2026-05-01.",
+      "deadline_priority_notes": "Second target; contact early to secure supervisor interest before funding/CSC cycle.",
+      "qs_rank": "#75",
+      "qs_evidence": "QS TopUniversities profile states Trinity College Dublin is ranked #75 in QS World University Rankings 2027.",
+      "qs_rule_fit": "Yes - QS #75 is within the old 1-400 range.",
+      "europe_priority_fit": "No - Ireland is strong but not France/Nordic/Mediterranean under the earlier preference rule."
+    },
+    {
+      "date_found": "2026-07-14",
+      "region": "Europe",
+      "status": "待套磁",
+      "attitude": "未知",
+      "qs_year": "QS World University Rankings 2027",
+      "id": "2026-07-14-europe-soininen",
       "country": "Finland",
       "university": "University of Helsinki",
       "supervisor": "Janne Soininen",
-      "title": "Professor; aquatic community ecologist; RESDOC-compatible doctoral supervisor lead",
-      "email": "",
-      "lab_url": "https://researchportal.helsinki.fi/en/persons/janne-soininen/",
-      "admissions_url": "https://www.helsinki.fi/en/research/doctoral-school/resdoc-project",
+      "title": "Professor of Spatial Environmental Research; Aquatic Community Ecology Group",
+      "email": "janne.soininen@helsinki.fi",
+      "lab_url": "https://blogs.helsinki.fi/jhsoinin/",
+      "admissions_url": "https://jobs.helsinki.fi/job/Helsinki-Doctoral-Researchers-%2830-positions%29-in-various-disciplines-at-the-University-of-Helsinki%2C-Finland/1362391557/",
       "sources": [
         {
-          "label": "University of Helsinki RESDOC project: fully funded doctoral degree, call open until 2026-08-31",
-          "url": "https://www.helsinki.fi/en/research/doctoral-school/resdoc-project"
-        },
-        {
-          "label": "University of Helsinki RESDOC job advertisement: 30 salaried doctoral researchers, salary and eligibility",
-          "url": "https://jobs.helsinki.fi/job/Helsinki-Doctoral-Researchers-%2830-positions%29-in-various-disciplines-at-the-University-of-Helsinki%2C-Finland/1362391557/"
-        },
-        {
-          "label": "Janne Soininen research portal: professor and doctoral programme supervisor",
+          "label": "University of Helsinki research portal: Soininen established Aquatic Community Ecology Group",
           "url": "https://researchportal.helsinki.fi/en/persons/janne-soininen/"
         },
         {
-          "label": "QS profile: University of Helsinki ranked #=123 in QS World University Rankings 2027",
+          "label": "University of Helsinki people finder: Professor and email",
+          "url": "https://www.helsinki.fi/en/about-us/people/people-finder/janne-soininen-9066213"
+        },
+        {
+          "label": "Aquatic Community Ecology Group",
+          "url": "https://blogs.helsinki.fi/jhsoinin/"
+        },
+        {
+          "label": "University of Helsinki RESDOC: 30 salaried doctoral researcher positions, deadline 31 August 2026",
+          "url": "https://jobs.helsinki.fi/job/Helsinki-Doctoral-Researchers-%2830-positions%29-in-various-disciplines-at-the-University-of-Helsinki%2C-Finland/1362391557/"
+        },
+        {
+          "label": "QS profile: University of Helsinki ranked #=123 in QS WUR 2027",
           "url": "https://www.topuniversities.com/universities/university-helsinki"
         }
       ],
-      "funding": "RESDOC is a fully funded/salaried doctoral route. Official pages state 30 doctoral researchers will be recruited, with 4-year full-time employment starting Jan-Mar 2027 and about EUR 2,900 gross monthly salary.",
-      "csc_fit": "CSC not needed for the main route because RESDOC is salaried and MSCA COFUND-backed. CSC can remain a backup only for a separate supervisor-led study-right route.",
-      "requirements": "Master's degree by 2026-08-31, early-stage researcher status, MSCA mobility rule, English proof, research topic fitting RESDOC themes/supervision, residence in Finland during employment.",
-      "research_directions": "Aquatic community ecology, freshwater biodiversity, biogeography, macroecology, biodiversity responses to environmental gradients; RESDOC themes include biodiversity and nature's resilience plus sustainable food and water systems.",
-      "match_relation": "Strong fit with Huang's Aquatic Sciences first-author paper on macroinvertebrate taxonomic/functional diversity under multiple pressures and her Ecology Letters under-review manuscript on body-size vulnerability to co-occurring stressors.",
-      "hats": "Professor and doctoral programme supervisor at University of Helsinki; RESDOC provides a leading-researcher supervision framework under the University of Helsinki Doctoral School.",
-      "recent_outputs": "RESDOC is a current 2026 recruitment call; Soininen's portal confirms professor status and doctoral supervision. Further paper-level tailoring should be done before sending.",
-      "grants_or_lab_health": "Very strong: EU Horizon Europe MSCA COFUND plus University of Helsinki funding for 30 doctoral researchers in 2027-2031, with biodiversity and water-system themes.",
-      "fit_score": 90,
-      "funding_score": 92,
-      "lab_health_score": 90,
-      "possibility_score": 82,
-      "status": "pending-screening",
-      "attitude": "unknown",
-      "next_action_date": "2026-07-09",
-      "email_subject": "Prospective RESDOC PhD applicant - freshwater multiple-stressor biodiversity resilience",
-      "email_draft": "Dear Professor Soininen,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying how human activities and climate-change-related multiple stressors affect freshwater macroinvertebrate communities.\n\nI am very interested in your aquatic community ecology research and the University of Helsinki RESDOC call, especially its themes on biodiversity resilience and sustainable water systems. My first-author Aquatic Sciences paper examines elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity, and my manuscript under review at Ecology Letters focuses on body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nFor RESDOC, I hope to develop a doctoral proposal on how land-use, climatic and hydrological stressors jointly shape freshwater biodiversity, functional traits and community stability. My background includes field sampling, water chemistry, macroinvertebrate assessment, functional diversity, eDNA/morphology-based biodiversity assessment, GIS, R/Python, LMM/SEM and REML meta-analysis.\n\nMay I ask whether this direction could fit your supervision interests for the RESDOC application, and whether you would be open to a brief discussion before I prepare a full proposal?\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "Europe priority candidate. Confirm Soininen's RESDOC supervisor availability and Huang's MSCA mobility/degree-certificate timing before application.",
-      "application_deadline": "2026-08-31",
-      "deadline_priority_notes": "Good preparation window: 54 days from 2026-07-08; start supervisor alignment and proposal outline now.",
+      "funding": "Current strong route: Helsinki RESDOC has 30 four-year salaried doctoral researcher positions for 2027, deadline 2026-08-31, if topic and supervision align.",
+      "csc_fit": "CSC plausible as fallback; try active salaried RESDOC route first.",
+      "requirements": "Prepare RESDOC-style research plan, CV, publication list, transcripts and English evidence; obtain Soininen support before submission.",
+      "research_directions": "Aquatic community ecology, biogeography, macroecology, benthic diatoms, phytoplankton, bacteria, freshwater conservation and biomonitoring.",
+      "match_relation": "Very strong for macroecology, freshwater biodiversity and modelling; less macroinvertebrate-specific than Sentis/Piggott but has a live funding window.",
+      "hats": "Professor; founder of Aquatic Community Ecology Group; chair of Biogeosciences research programme; extensive PhD supervision.",
+      "recent_outputs": "Active group site and research portal; connected to Helsinki RESDOC doctoral funding call.",
+      "grants_or_lab_health": "Excellent: active professor-led group, live doctoral employment call, strong supervision record and QS #123 host.",
+      "fit_score": 93,
+      "funding_score": 90,
+      "lab_health_score": 92,
+      "possibility_score": 88,
+      "next_action_date": "2026-07-19",
+      "email_subject": "Prospective RESDOC PhD applicant: freshwater biodiversity, traits and multiple stressors",
+      "email_draft": "Dear Professor Soininen,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities. Your Aquatic Community Ecology Group's work on freshwater biodiversity, biogeography, macroecology and biomonitoring is highly relevant to my planned PhD direction.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether my background could fit a 2027 PhD application through RESDOC or related doctoral routes, possibly on trait-based freshwater biodiversity change under multiple stressors. May I send you my CV and a short research-fit note?\n\nBest regards,\nQiongjie Huang",
+      "notes": "Teacher-nominated and already known from old system; kept top three because of active Helsinki RESDOC funding.",
+      "application_deadline": "2026-08-31 for current University of Helsinki RESDOC salaried doctoral researcher call.",
+      "deadline_priority_notes": "Third target but time-sensitive.",
       "qs_rank": "#=123",
-      "qs_evidence": "QS World University Rankings 2027, University of Helsinki profile",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400",
-      "europe_priority_fit": "Yes - Nordic country (Finland)"
+      "qs_evidence": "QS TopUniversities profile states University of Helsinki is ranked #=123 in QS World University Rankings 2027.",
+      "qs_rule_fit": "Yes - QS #=123 is within the old 1-400 range.",
+      "europe_priority_fit": "Yes - Finland is Nordic."
     },
     {
-      "id": "2026-07-08-asia-yeo",
-      "date_found": "2026-07-08",
-      "region": "Asia",
-      "country": "Singapore",
-      "university": "National University of Singapore",
-      "supervisor": "Darren Yeo Chong Jinn",
-      "title": "Associate Professor; Head, Lee Kong Chian Natural History Museum; Freshwater and Invasion Biology Lab",
-      "email": "dbsyeod@nus.edu.sg; nhmyeod@nus.edu.sg",
-      "lab_url": "https://www.dbs.nus.edu.sg/staffs/darren-yeo-chong-jinn/",
-      "admissions_url": "https://www.dbs.nus.edu.sg/education/graduates/doctor-of-philosophy/",
+      "date_found": "2026-07-14",
+      "region": "Europe",
+      "status": "待套磁",
+      "attitude": "未知",
+      "qs_year": "QS World University Rankings 2027",
+      "id": "2026-07-14-europe-zarfl",
+      "country": "Germany",
+      "university": "Eberhard Karls Universität Tübingen",
+      "supervisor": "Christiane Zarfl",
+      "title": "Professor of Environmental Systems Analysis; river fragmentation, dams, hydropower and freshwater impacts",
+      "email": "christiane.zarfl@uni-tuebingen.de",
+      "lab_url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geo-und-umweltnaturwissenschaften/geo-und-umweltnaturwissenschaften/umweltsystemanalyse/arbeitsgruppe/",
+      "admissions_url": "https://uni-tuebingen.de/en/international/study-in-tuebingen/international-phd-candidates/",
       "sources": [
         {
-          "label": "NUS DBS profile for Darren Yeo: Associate Professor, LKCNHM Head, Freshwater and Invasion Biology Lab",
-          "url": "https://www.dbs.nus.edu.sg/staffs/darren-yeo-chong-jinn/"
+          "label": "University of Tübingen Environmental Systems Analysis group",
+          "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geo-und-umweltnaturwissenschaften/geo-und-umweltnaturwissenschaften/umweltsystemanalyse/arbeitsgruppe/"
         },
         {
-          "label": "NUS Biological Sciences PhD: applications open year-round, early/regular 2027 intake deadlines",
-          "url": "https://www.dbs.nus.edu.sg/education/graduates/doctor-of-philosophy/"
+          "label": "Tübingen international PhD candidates: first step is finding a supervisor",
+          "url": "https://uni-tuebingen.de/en/international/study-in-tuebingen/international-phd-candidates/"
         },
         {
-          "label": "NUS Research Scholarship: stipend, 4-year PhD award period and full tuition waiver",
-          "url": "https://nusgs.nus.edu.sg/scholarships/nus-research-scholarship"
+          "label": "PubMed: future large hydropower dams impact global freshwater megafauna",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31811208/"
         },
         {
-          "label": "QS profile: NUS ranked #10 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/national-university-singapore-nus"
+          "label": "Smart Water Magazine: Zarfl, water transfer megaprojects",
+          "url": "https://smartwatermagazine.com/news/universitat-tubingen/comparing-worlds-mega-canals"
+        },
+        {
+          "label": "QS profile: University of Tübingen ranked #=230 in QS WUR 2027",
+          "url": "https://www.topuniversities.com/universities/eberhard-karls-universitat-tubingen"
         }
       ],
-      "funding": "NUS PhD admission can be paired with the NUS Research Scholarship. Official scholarship page lists SGD 3,000/month for international PhD students, full tuition waiver, and a typical/maximum 4-year PhD award period.",
-      "csc_fit": "CSC-compatible as backup overseas host route, but NUS institutional scholarship should be the first funding route.",
-      "requirements": "NUS DBS applications open year-round. For August 2027 intake, early offer deadline is 2026-08-01 and regular deadline is 2026-11-15; TOEFL/IELTS and GRE are relevant, plus publications/CV/personal statement.",
-      "research_directions": "Freshwater biodiversity and ecology, aquatic invasions, freshwater invertebrates/fishes/crustaceans, functional diversity, anthropogenic variables, conservation and habitat restoration.",
-      "match_relation": "Good non-excluded Asia fit. Huang can connect multiple-stressor macroinvertebrate work with Yeo's freshwater biodiversity/invasion work, especially trait-based vulnerability and biodiversity responses in tropical urban and reservoir systems.",
-      "hats": "Associate Professor; Head of Lee Kong Chian Natural History Museum; Freshwater and Invasion Biology Lab lead; Research Affiliate at Tropical Marine Science Institute; editorial roles in Freshwater Biology and invasion journals.",
-      "recent_outputs": "NUS profile lists current projects on Singapore freshwater fauna, anthropogenic variables, functional diversity, food webs and restoration; selected recent publications include 2022-2024 freshwater biodiversity and invasion outputs.",
-      "grants_or_lab_health": "Strong: active faculty/lab profile, museum leadership, PhD programme, and scholarship route at a top-ranked institution.",
-      "fit_score": 84,
-      "funding_score": 82,
-      "lab_health_score": 88,
-      "possibility_score": 80,
-      "status": "pending-screening",
-      "attitude": "unknown",
-      "next_action_date": "2026-07-09",
-      "email_subject": "Prospective PhD applicant - freshwater biodiversity and multiple-stressor ecology",
-      "email_draft": "Dear Associate Professor Yeo,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on freshwater macroinvertebrate responses to human activities and climate-change-related multiple stressors.\n\nI am interested in your Freshwater and Invasion Biology Lab at NUS and your work linking freshwater biodiversity, invasion biology and conservation in Southeast Asian systems. My first-author Aquatic Sciences paper examines elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity, while my Ecology Letters manuscript under review focuses on body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nI hope to pursue a PhD project on trait-based freshwater biodiversity responses under combined land-use, hydrological and climate-related stressors, potentially integrating morphology, eDNA, functional traits and ecological modelling. My background includes field sampling, water chemistry, macroinvertebrate assessment, functional diversity, GIS, R/Python, LMM/SEM, network analysis and REML meta-analysis.\n\nMay I ask whether you may consider PhD applicants for the NUS Biological Sciences programme and whether my background could fit your group's current research directions?\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "Asia rule compliant: Singapore is outside Japan/mainland China/Hong Kong/Macau. Confirm supervisor capacity and scholarship nomination path before sending.",
-      "application_deadline": "2026-08-01 early offer; 2026-11-15 regular for likely August 2027 intake",
-      "deadline_priority_notes": "Early-offer window is 24 days from 2026-07-08; regular window is about 130 days. Use early contact now, regular deadline as fallback.",
-      "qs_rank": "#10",
-      "qs_evidence": "QS World University Rankings 2027, NUS profile",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400"
-    },
-    {
-      "id": "2026-07-08-south-america-oliveira",
-      "date_found": "2026-07-08",
-      "region": "South America",
-      "country": "Brazil",
-      "university": "Universidade de S茫o Paulo",
-      "supervisor": "Paula Caroline dos Reis Oliveira",
-      "title": "Researcher at USP/ESALQ; aquatic biodiversity coordinator; freshwater invertebrate/eDNA monitoring lead",
-      "email": "reolivpaula@gmail.com",
-      "lab_url": "https://bv.fapesp.br/pt/pesquisador/43080/paula-caroline-dos-reis-oliveira/",
-      "admissions_url": "https://posecologia.ib.usp.br/ingresso/proximo-exame.html",
-      "sources": [
-        {
-          "label": "USP Ecology 2026 entrance exam: 10 doctoral places, registration 2026-08-24 to 2026-09-11",
-          "url": "https://posecologia.ib.usp.br/ingresso/proximo-exame.html"
-        },
-        {
-          "label": "FAPESP researcher profile: USP/ESALQ researcher; freshwater invertebrates, river restoration, remote sensing and eDNA monitoring",
-          "url": "https://bv.fapesp.br/pt/pesquisador/43080/paula-caroline-dos-reis-oliveira/"
-        },
-        {
-          "label": "QS profile: Universidade de S茫o Paulo ranked #133 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/universidade-de-sao-paulo"
-        }
-      ],
-      "funding": "USP Ecology has a current doctoral entrance window, and USP is a public tuition-free university, but no automatic full stipend was verified. Treat as CSC-compatible/supervisor-scholarship route; CAPES/CNPq/FAPESP or host project funding must be confirmed.",
-      "csc_fit": "Potential overseas host route if USP accepts CSC-supported doctoral students and a formal advisor/co-advisor agrees. Ask directly before investing in application materials.",
-      "requirements": "USP Ecology 2026 entrance page lists 10 doctoral vacancies, registration 2026-08-24 to 2026-09-11, exam 2026-10-05 and result 2026-11-03. Formal advisor eligibility for Oliveira must be verified.",
-      "research_directions": "Freshwater ecosystem ecology, river restoration, benthic invertebrates, ecosystem processes, remote sensing and environmental DNA for stream monitoring, agricultural-landscape stream impacts.",
-      "match_relation": "Very strong topic fit but funding/advisor status needs verification. Huang's macroinvertebrate functional diversity, eDNA/morphology experience and basin-scale multiple-stressor modelling connect directly to Oliveira's stream restoration and aquatic monitoring work.",
-      "hats": "Researcher at USP/ESALQ; co-president of the Society for Freshwater Science Latin America Chapter; aquatic biodiversity coordinator at TWRA according to FAPESP/Lattes-sourced profile.",
-      "recent_outputs": "FAPESP profile lists recent/concluded work on multi-scale effects of riparian forest restoration on streams in agricultural landscapes and aquatic monitoring technologies including eDNA.",
-      "grants_or_lab_health": "Moderate to strong: FAPESP profile plus current USP Ecology doctoral intake; main uncertainty is scholarship availability and formal USP advisor eligibility.",
+      "funding": "No dedicated 2027 funded PhD opening verified. Routes: Tübingen vacant doctoral positions, DFG/project posts, DAAD/CSC or faculty admission after supervisor agreement.",
+      "csc_fit": "Good: Germany + Tübingen QS #230 is a clean CSC-compatible host route if Zarfl agrees.",
+      "requirements": "Ask about supervision capacity and projects; prepare proposal on river barriers as multiple stressors plus CV, publications and funding plan.",
+      "research_directions": "Environmental systems analysis, global dams, river fragmentation, hydropower, water-transfer megaprojects, freshwater megafauna, environmental modelling.",
+      "match_relation": "Strong for Huang's upstream barrier records, basin conservation and multiple-stressor modelling; less direct macroinvertebrate-lab fit.",
+      "hats": "Professor of Environmental Systems Analysis; highly cited river fragmentation/dam impact researcher.",
+      "recent_outputs": "Active 2026 group page; river fragmentation and hydropower impact work remains central.",
+      "grants_or_lab_health": "Strong: professor-led group at QS #230 university with high-impact environmental systems outputs.",
       "fit_score": 88,
-      "funding_score": 55,
-      "lab_health_score": 76,
-      "possibility_score": 68,
-      "status": "pending-screening",
-      "attitude": "unknown",
-      "next_action_date": "2026-07-09",
-      "email_subject": "Prospective PhD applicant - stream restoration, eDNA and freshwater multiple stressors",
-      "email_draft": "Dear Dr. Oliveira,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying freshwater macroinvertebrate responses to human activities and climate-change-related multiple stressors.\n\nI was very interested in your work at USP/ESALQ on river restoration, benthic invertebrates, stream ecosystem processes and new monitoring approaches such as remote sensing and environmental DNA. This connects closely with my first-author Aquatic Sciences paper on elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity. My manuscript under review at Ecology Letters further examines body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nI hope to develop PhD research on trait-based and eDNA-assisted assessment of freshwater biodiversity under land-use, hydrological and climate-related stressors, with a focus on river-basin conservation. My background includes field sampling, water chemistry, macroinvertebrate assessment, functional diversity, GIS, R/Python, LMM/SEM and REML meta-analysis.\n\nMay I ask whether you may be able to advise or co-advise doctoral applicants through the USP Ecology programme, and whether CAPES/CNPq/FAPESP or CSC-compatible funding routes might be possible?\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "South America QS-compliant substitute for a verified fully funded vacancy. High topic fit and feasible intake window, but should not be treated as full-funding until scholarship and formal advisor status are confirmed.",
-      "application_deadline": "2026-09-11",
-      "deadline_priority_notes": "Good preparation window: 65 days from 2026-07-08; contact first because advisor/scholarship status is the gating issue.",
-      "qs_rank": "#133",
-      "qs_evidence": "QS World University Rankings 2027, Universidade de S茫o Paulo profile",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400"
-    },
-    {
-      "id": "2026-07-10-europe-schoelynck",
-      "date_found": "2026-07-10",
-      "region": "Europe",
-      "country": "Belgium",
-      "university": "University of Antwerp",
-      "supervisor": "Jonas Schoelynck",
-      "title": "Full Professor of Aquatic Ecology; co-supervisor for fully funded doctoral scholarship in plant ecophysiology",
-      "email": "jonas.schoelynck@uantwerpen.be",
-      "lab_url": "https://www.uantwerpen.be/en/staff/jonas-schoelynck/research/",
-      "admissions_url": "https://academicpositions.com/ad/university-of-antwerp/2026/doctoral-scholarship-holder-plant-ecophysiology/250360",
-      "sources": [
-        {
-          "label": "Academic Positions vacancy: doctoral scholarship holder plant ecophysiology, deadline 2026-08-31",
-          "url": "https://academicpositions.com/ad/university-of-antwerp/2026/doctoral-scholarship-holder-plant-ecophysiology/250360"
-        },
-        {
-          "label": "University of Antwerp staff research page: submerged macrophytes and hydrodynamic stress project",
-          "url": "https://www.uantwerpen.be/en/staff/jonas-schoelynck/research/"
-        },
-        {
-          "label": "ECOSPHERE projects page: hydrodynamic forcing and submerged macrophyte root development",
-          "url": "https://www.uantwerpen.be/en/research-groups/ecosphere/research/projects/"
-        },
-        {
-          "label": "University of Antwerp ranking page: QS World 2027 rank 277",
-          "url": "https://www.uantwerpen.be/en/about-uantwerp/organisation/facts-figures-rankings/rankings/"
-        }
-      ],
-      "funding": "Fully funded doctoral scholarship. The vacancy states application through University of Antwerp online platform up to and including 31 August 2026; project uses plant physiology/biochemistry and the Mesodrome artificial river.",
-      "csc_fit": "CSC is not needed for the main route because this is an advertised funded doctoral scholarship; CSC can be mentioned only as backup if institutional co-funding is useful.",
-      "requirements": "MSc-level background fitting plant ecophysiology, aquatic ecology, biology, environmental science or related quantitative/experimental ecology. Prepare CV, motivation letter, MSc thesis summary and two reference letters before 2026-08-31.",
-      "research_directions": "Hydrodynamic forcing, submerged freshwater macrophytes, root development, Mesodrome artificial river experiments, aquatic ecosystem engineering and resistance to flow stress.",
-      "match_relation": "Strong freshwater-stressor mechanism fit, although the focal organisms are macrophytes rather than macroinvertebrates. Huang can connect her Aquatic Sciences paper on pressure effects across elevation and functional diversity to flow stress, community resistance and trait-mediated vulnerability in freshwater ecosystems.",
-      "hats": "Full Professor of Aquatic Ecology at University of Antwerp; ECOSPHERE aquatic ecology PI/co-supervisor; project advertised with Prof. Kris Vissenberg and Prof. Jonas Schoelynck.",
-      "recent_outputs": "2026 vacancy and ECOSPHERE project pages verify current activity. Recent evidence includes 2026 aquatic-plant symposium material and continuing work on hydrodynamic stress, aquatic plants and freshwater restoration.",
-      "grants_or_lab_health": "Strong: current funded doctoral recruitment, active ECOSPHERE project infrastructure, Mesodrome experimental facility and professor-level supervision.",
-      "fit_score": 82,
-      "funding_score": 92,
-      "lab_health_score": 88,
-      "possibility_score": 78,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-11",
-      "email_subject": "Prospective PhD applicant - freshwater stressor ecology and hydrodynamic resilience",
-      "email_draft": "Dear Professor Schoelynck,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying how human activities and climate-change-related multiple stressors affect freshwater macroinvertebrate communities.\n\nI was very interested in the University of Antwerp doctoral scholarship on hydrodynamic forcing and root development in submerged macrophytes, especially its use of the Mesodrome to test how freshwater organisms resist flow stress. My first-author Aquatic Sciences paper examines elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity, and my Ecology Letters manuscript under review focuses on body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nAlthough my current focal organisms are macroinvertebrates, I am very interested in trait-based mechanisms of freshwater community resilience under combined hydrological, land-use and climate-related pressures. My background includes field sampling, water chemistry, functional diversity, GIS, R/Python, LMM/SEM and REML meta-analysis.\n\nMay I ask whether my background could fit the advertised PhD project, particularly around stressor mechanisms and trait-based freshwater resilience?\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "Europe substitute: Belgium is not France/Nordic/Mediterranean, but this is a stronger verified QS-compliant and fully funded freshwater stressor project than preferred-region openings found today.",
-      "application_deadline": "2026-08-31",
-      "deadline_priority_notes": "Good preparation window: 52 days from 2026-07-10; prioritize document preparation and supervisor-specific tailoring.",
-      "qs_rank": "#277",
-      "qs_evidence": "University of Antwerp official rankings page, QS World 2027 - Rank 277",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400",
-      "europe_priority_fit": "No - Belgium is not France/Nordic/Mediterranean; selected as fully funded QS-compliant freshwater substitute."
-    },
-    {
-      "id": "2026-07-10-asia-ko",
-      "date_found": "2026-07-10",
-      "region": "Asia",
-      "country": "Taiwan",
-      "university": "National Taiwan University",
-      "supervisor": "Chia-Ying Jessie Ko",
-      "title": "Associate Professor / Principal Investigator, Environment, Ecology & Resource Lab, Institute of Fisheries Science",
-      "email": "cyko235@ntu.edu.tw",
-      "lab_url": "https://homepage.ntu.edu.tw/~cyko235/en_people.html",
-      "admissions_url": "https://oia.ntu.edu.tw/en/apply-at-ntu",
-      "sources": [
-        {
-          "label": "Ko Lab people page: Principal Investigator at NTU Institute of Fisheries Science",
-          "url": "https://homepage.ntu.edu.tw/~cyko235/en_people.html"
-        },
-        {
-          "label": "NTU Lab Spotlight: Chia-Ying Ko, Associate Professor, email and lab profile",
-          "url": "https://labspotlight.ntu.edu.tw/labs/97"
-        },
-        {
-          "label": "NTU OIA eligibility page for international PhD applicants",
-          "url": "https://oia.ntu.edu.tw/en/apply-at-ntu"
-        },
-        {
-          "label": "QS profile: National Taiwan University ranked #54 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/national-taiwan-university-ntu"
-        }
-      ],
-      "funding": "No project-funded PhD vacancy was verified today. Route is NTU international PhD admission plus NTU/Taiwan scholarship or CSC host funding; funding must be confirmed with the lab and OIA before application.",
-      "csc_fit": "Good CSC-compatible host route if Professor Ko can support a 2027 doctoral proposal and NTU accepts the external funding pathway. NTU institutional scholarships should also be checked in parallel.",
-      "requirements": "International applicants with a Master degree are eligible for PhD programmes per NTU OIA. For 2027 entry, monitor NTU international degree application guidelines and prepare CV, transcript, research proposal, English proof and supervisor contact first.",
-      "research_directions": "Freshwater macroinvertebrate diversity, environmental drivers, aquatic microbial ecosystem functioning, watershed transformation, food webs, biodiversity and ecosystem multifunctionality.",
-      "match_relation": "Very strong Asia fit and compliant with the exclusion rule. Huang can align her macroinvertebrate trait/diversity work, eDNA-morphology experience and Ecology Letters body-size manuscript with Ko Lab work on benthic macroinvertebrates and ecosystem functioning.",
-      "hats": "Associate Professor and PI at NTU Institute of Fisheries Science / Department of Life Science; lab spotlight and personal page identify her as principal investigator.",
-      "recent_outputs": "Recent evidence includes PubMed-indexed 2025 aquatic microbial ecosystem multifunctionality work and Ko Lab publication list with benthic macroinvertebrate watershed papers.",
-      "grants_or_lab_health": "Moderate to strong: active PI/lab pages, current NTU ranking/admissions pages and recent publications; explicit PhD funding and intake timing need verification.",
-      "fit_score": 89,
-      "funding_score": 58,
-      "lab_health_score": 82,
-      "possibility_score": 72,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-11",
-      "email_subject": "Prospective PhD applicant - freshwater macroinvertebrate traits and ecosystem functioning",
-      "email_draft": "Dear Professor Ko,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying freshwater macroinvertebrate responses to human activities and climate-change-related multiple stressors.\n\nI was very interested in your Environment, Ecology & Resource Lab at National Taiwan University, especially your work on benthic macroinvertebrates, watershed environmental drivers, biodiversity and ecosystem functioning. My first-author Aquatic Sciences paper examines elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity, and my Ecology Letters manuscript under review focuses on body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nFor a PhD, I hope to develop trait-based and modelling approaches to understand how land-use, hydrological and climate-related stressors jointly shape freshwater biodiversity and ecosystem functioning. My background includes field sampling, water chemistry, macroinvertebrate assessment, functional diversity, eDNA/morphology biodiversity assessment, GIS, R/Python, LMM/SEM and REML meta-analysis.\n\nMay I ask whether you may consider PhD applicants for 2027 entry at NTU, and whether NTU scholarships or a CSC-supported route could be feasible for this direction?\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "Asia rule compliant: Taiwan is outside Japan/mainland China/Hong Kong/Macau. Treat as a high-fit supervisor lead, not a verified full-funding vacancy.",
-      "application_deadline": "2027 entry timeline / scholarship deadline needs verification",
-      "deadline_priority_notes": "Preparation route: contact now, monitor NTU OIA 2027 international degree call, and verify scholarship/CSC feasibility before full application.",
-      "qs_rank": "#54",
-      "qs_evidence": "QS World University Rankings 2027, National Taiwan University profile",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400"
-    },
-    {
-      "id": "2026-07-10-south-america-schiesari",
-      "date_found": "2026-07-10",
-      "region": "South America",
-      "country": "Brazil",
-      "university": "Universidade de S?o Paulo",
-      "supervisor": "Luis C. Schiesari",
-      "title": "Professor of Environmental Management / USP Ecology postgraduate advisor; freshwater ecotoxicology and applied ecology lead",
-      "email": "lschiesa@usp.br",
-      "lab_url": "https://lschiesari.wixsite.com/ecologia-aplicada/doze-publicacoes-selecionadas",
-      "admissions_url": "https://posecologia.ib.usp.br/ingresso/proximo-exame.html",
-      "sources": [
-        {
-          "label": "USP Ecology 2026 entrance exam: 10 doctoral places and 2026-09-11 registration close",
-          "url": "https://posecologia.ib.usp.br/ingresso/proximo-exame.html"
-        },
-        {
-          "label": "USP community ecology course page listing Luis Schiesari as professor and contact",
-          "url": "https://ecologia.ib.usp.br/bie5778/"
-        },
-        {
-          "label": "FAPESP researcher profile: Luis Cesar Schiesari, USP, ecology/ecotoxicology",
-          "url": "https://bv.fapesp.br/en/pesquisador/3096/luis-cesar-schiesari/"
-        },
-        {
-          "label": "QS profile: Universidade de S?o Paulo ranked #133 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/universidade-de-sao-paulo"
-        }
-      ],
-      "funding": "USP Ecology has a current doctoral entrance route and USP is a public university; automatic full stipend was not verified. Main routes to verify are CAPES/CNPq/FAPESP programme quota, project funding, and CSC host support.",
-      "csc_fit": "Potentially good CSC-compatible host route if Professor Schiesari supports a proposal and USP programme admission permits externally funded international doctoral students. Ask about CAPES/CNPq/FAPESP first, CSC second.",
-      "requirements": "USP Ecology 2026 call lists doctoral vacancies with registration 2026-08-24 to 2026-09-11, exam 2026-10-05 and results 2026-11-03. Portuguese/English documentation and formal advisor approval should be checked early.",
-      "research_directions": "Freshwater ecotoxicology, aquatic community ecology, environmental impacts of agriculture/pesticides, amphibian/aquatic food webs, applied ecology, bioindication and community-level stressor effects.",
-      "match_relation": "Strong South America fit for multiple-stressor freshwater ecology. Huang can connect macroinvertebrate functional diversity and body-size vulnerability to Schiesari work on aquatic ecotoxicology, agricultural impacts, food webs and freshwater community responses.",
-      "hats": "USP professor/advisor; FAPESP profile verifies USP affiliation and ecology/ecotoxicology focus; listed instructor in USP graduate ecology/community ecology context.",
-      "recent_outputs": "Selected evidence includes Freshwater Biology work and USP/FAPESP profile; recent paper-level tailoring should check pesticide/agricultural-impact outputs before sending.",
-      "grants_or_lab_health": "Moderate to strong: USP Ecology has a current doctoral entrance window, FAPESP profile and graduate teaching/advising signal; stipend/project funding remains the gating uncertainty.",
-      "fit_score": 84,
-      "funding_score": 56,
-      "lab_health_score": 78,
-      "possibility_score": 70,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-11",
-      "email_subject": "Prospective PhD applicant - freshwater ecotoxicology and multiple-stressor community ecology",
-      "email_draft": "Dear Professor Schiesari,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on freshwater macroinvertebrate responses to human activities and climate-change-related multiple stressors.\n\nI was very interested in your work at USP on applied ecology, freshwater ecotoxicology and environmental impacts of agricultural activities on aquatic communities. This connects closely with my first-author Aquatic Sciences paper on elevational variability in multiple-pressure effects on macroinvertebrate taxonomic and functional diversity. My Ecology Letters manuscript under review further examines body-size-dependent vulnerability of aquatic organisms to co-occurring stressors.\n\nFor a PhD, I hope to study how land-use, chemical, hydrological and climate-related pressures jointly shape freshwater community structure, functional traits and ecosystem responses. My background includes field sampling, water chemistry, macroinvertebrate assessment, eDNA/morphology biodiversity assessment, functional diversity, GIS, R/Python, LMM/SEM and REML meta-analysis.\n\nMay I ask whether you may consider supporting an international applicant through the USP Ecology doctoral route, and whether CAPES/CNPq/FAPESP or CSC-compatible funding might be possible?\n\nBest regards,\nQiongjie Huang\nHuazhong Agricultural University\nHQJ123@webmail.hzau.edu.cn",
-      "notes": "South America current intake route with high topic fit; not full-funding until stipend/project support is confirmed.",
-      "application_deadline": "2026-09-11",
-      "deadline_priority_notes": "Good preparation window: 63 days from 2026-07-10; contact first because advisor support and stipend route are gating issues.",
-      "qs_rank": "#133",
-      "qs_evidence": "QS World University Rankings 2027, Universidade de S?o Paulo profile",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400"
-    },
-    {
-      "id": "2026-07-11-europe-jeppesen",
-      "date_found": "2026-07-11",
-      "region": "Europe",
-      "country": "Denmark",
-      "university": "Aarhus University",
-      "supervisor": "Erik Jeppesen",
-      "title": "Professor, Department of Ecoscience - Freshwater Ecology; WATEC and Arctic Research Centre professor",
-      "email": "ej@ecos.au.dk",
-      "lab_url": "https://pure.au.dk/portal/en/persons/ej%40ecos.au.dk/",
-      "admissions_url": "https://phd.au.dk/phd-fellowships-and-scholarships",
-      "sources": [
-        {
-          "label": "Aarhus University PURE profile: Professor in Freshwater Ecology / WATEC / Arctic Research Centre",
-          "url": "https://pure.au.dk/portal/en/persons/ej%40ecos.au.dk/"
-        },
-        {
-          "label": "Aarhus University PhD fellowships and scholarships: individual/predefined projects and funding prerequisite",
-          "url": "https://phd.au.dk/phd-fellowships-and-scholarships"
-        },
-        {
-          "label": "QS profile: Aarhus University ranked #=128 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/aarhus-university"
-        },
-        {
-          "label": "Aarhus PURE 2026 output: Effects of Eutrophication and Warming on Lake Ecosystems",
-          "url": "https://pure.au.dk/portal/en/publications/effects-of-eutrophication-and-warming-on-lake-ecosystems/"
-        }
-      ],
-      "funding": "No specific newly advertised PhD vacancy with Jeppesen was verified today. Viable routes are Aarhus Graduate School of Natural/Technical Sciences scholarships, predefined PhD calls, or an individual project with documented funding; AU states documented full funding is required for PhD admission.",
-      "csc_fit": "Good CSC-compatible host route if Professor Jeppesen supports a 2027 proposal; CSC can cover living support while AU/graduate school confirms admission and any host-side requirements. Also monitor AU predefined funded PhD calls.",
-      "requirements": "Prepare a focused research proposal, CV, transcripts, English documentation, first-author Aquatic Sciences paper, Ecology Letters under-review abstract, and evidence of quantitative ecology/R skills. Ask whether the freshwater ecology group expects a 3-year or 4-year PhD route and whether a co-supervisor is needed.",
-      "research_directions": "Freshwater ecology, shallow lakes, eutrophication, warming, climate change, lake/reservoir restoration, macrophytes, plankton, mesocosms and large-scale freshwater ecosystem responses.",
-      "match_relation": "Strong multiple-stressor freshwater fit. Huang can connect her Yangtze tributary macroinvertebrate trait/diversity work and Ecology Letters body-size meta-analysis to Jeppesen research on eutrophication, warming, land-use signals and lake community responses.",
-      "hats": "Professor at Aarhus University Department of Ecoscience - Freshwater Ecology; Professor at WATEC; Professor at Arctic Research Centre; exceptionally high-output limnology PI with current 2026 publications.",
-      "recent_outputs": "Aarhus PURE lists research activity through 2026 and 1061 research outputs. Recent items include 2026 papers on eutrophication and warming in lake ecosystems, lake nitrous oxide drivers and climate-driven dispersal of pathogenic bacteria in large lakes/reservoirs.",
-      "grants_or_lab_health": "Strong lab-health signal from active AU professor profile, WATEC/Arctic Centre appointments, ongoing 2026 outputs and PhD supervision page. Funding route must be verified because no dedicated open vacancy was found today.",
-      "fit_score": 91,
-      "funding_score": 62,
-      "lab_health_score": 93,
-      "possibility_score": 76,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-12",
-      "email_subject": "Prospective PhD applicant - freshwater multiple-stressor ecology and lake community responses",
-      "email_draft": "Dear Professor Jeppesen,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related stressors shape freshwater macroinvertebrate communities.\n\nI have been following your work on shallow lakes, eutrophication, warming and large-scale freshwater ecosystem responses. Your recent synthesis on eutrophication and warming in lake ecosystems is especially close to my interests in linking stressor gradients with community structure and functional vulnerability. In my first-author Aquatic Sciences paper, I analysed macroinvertebrate taxonomic and functional diversity across Yangtze tributary basins; my Ecology Letters manuscript under review uses a second-order meta-analysis to examine body-size vulnerability under global-change pressures.\n\nI am now exploring PhD opportunities for 2027 entry and would be very interested in developing a project on freshwater community responses to interacting nutrient, land-use and climate stressors. May I ask whether your group may consider prospective doctoral students through Aarhus scholarships, predefined PhD calls, or a CSC-supported route?\n\nBest regards,\nQiongjie Huang",
-      "notes": "Europe priority fit: Denmark is Nordic and satisfies the Europe preference rule. High-priority supervisor lead, not a verified live funded vacancy.",
-      "application_deadline": "Open/2027 route - no live project deadline verified on 2026-07-11",
-      "deadline_priority_notes": "Preparation window is suitable for 2027 entry: contact now, monitor AU graduate school predefined calls, and prepare a CSC/individual-project proposal by autumn 2026.",
-      "qs_rank": "#=128",
-      "qs_evidence": "QS TopUniversities profile for Aarhus University, QS World University Rankings 2027 rank #=128",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400",
-      "europe_priority_fit": "Yes - Denmark is Nordic; matches the Europe preference rule."
-    },
-    {
-      "id": "2026-07-11-asia-lee",
-      "date_found": "2026-07-11",
-      "region": "Asia",
-      "country": "South Korea",
-      "university": "Sungkyunkwan University (SKKU)",
-      "supervisor": "Jae-Seong Lee",
-      "title": "Distinguished Chair Professor / SKKU Fellow, Biological Sciences; aquatic ecotoxicology and molecular environmental biology",
-      "email": "jslee2@skku.edu",
-      "lab_url": "https://professor.skku.edu/researcher_eng/professorList.do?categoryId=G&jojikCode1=3172&jojikCode2=710181&mode=view&perId=LZStrFoJgCg0gtgYgLgGwCoE4BOBGADgDgBJQBCOADEoQIoC8VQA+",
-      "admissions_url": "https://admission-global.skku.edu/eng/grad/scholarship_grad.html",
-      "sources": [
-        {
-          "label": "SKKU faculty profile: Distinguished Chair Professor, research interests microplastic and hypoxia, email",
-          "url": "https://professor.skku.edu/researcher_eng/professorList.do?categoryId=G&jojikCode1=3172&jojikCode2=710181&mode=view&perId=LZStrFoJgCg0gtgYgLgGwCoE4BOBGADgDgBJQBCOADEoQIoC8VQA+"
-        },
-        {
-          "label": "SKKU graduate scholarship page: STEM scholarship requires professor recommendation and can cover up to 100% tuition",
-          "url": "https://admission-global.skku.edu/eng/grad/scholarship_grad.html"
-        },
-        {
-          "label": "SKKU 4th BK21 page: PhD students in participating groups may receive monthly scholarship support",
-          "url": "https://www.skku.edu/eng/Research/industry/BK21_4.do"
-        },
-        {
-          "label": "QS profile: SKKU ranked #108 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/sungkyunkwan-university-skku"
-        },
-        {
-          "label": "SKKU news: Lee recognised for aquatic model-species toxicity research",
-          "url": "https://www.skku.edu/skku/campus/skk_comm/popup_news_en.do?article.offset=0&articleLimit=10&articleNo=128964&mode=view"
-        }
-      ],
-      "funding": "No dedicated project-funded PhD vacancy was verified today. SKKU official scholarship routes include STEM tuition scholarship up to 100% with advising-professor recommendation and BK21 monthly support for eligible students in participating project groups; stipend eligibility must be confirmed with the lab.",
-      "csc_fit": "Good Asia-compliant non-excluded host route. CSC can be a backup or co-funding route if SKKU/lab support is partial; ask first about STEM scholarship, BK21 participation and lab-funded RA support.",
-      "requirements": "Before applying, contact Professor Lee because SKKU STEM scholarship requires professor recommendation. Prepare CV, transcripts, English score, research proposal, publication list, aquatic ecotoxicology/multiple-stressor statement and evidence of R/Python modelling skills.",
-      "research_directions": "Aquatic ecotoxicology, molecular environmental biology, microplastics, hypoxia, ocean acidification, host-microbiome interactions, aquatic model species including rotifers, copepods, Daphnia and fish.",
-      "match_relation": "Strong stressor-mechanism fit for Huang, especially the body-size vulnerability and multiple-stressor manuscript. The organism system differs from river macroinvertebrate biomonitoring, but Lee lab offers a mechanistic ecotoxicology route linking microplastics/hypoxia to aquatic-community vulnerability.",
-      "hats": "Distinguished Chair Professor, SKKU Fellow, Chair Professor at SKKU, Fellow of the Korean Academy of Science and Technology, Alexander von Humboldt Research Award recipient.",
-      "recent_outputs": "SKKU faculty profile and 2025 SKKU news show active leadership; recent publication evidence includes model aquatic species toxicity, microplastic and hypoxia work, and the Aquatic Ecotoxicology book listed on the faculty page.",
-      "grants_or_lab_health": "Strong PI-status and institutional funding ecosystem; exact BK21/lab stipend availability for 2027 requires direct confirmation.",
-      "fit_score": 84,
-      "funding_score": 68,
-      "lab_health_score": 90,
-      "possibility_score": 75,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-12",
-      "email_subject": "Prospective PhD applicant - aquatic multiple-stressor ecotoxicology and trait vulnerability",
-      "email_draft": "Dear Professor Lee,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying freshwater macroinvertebrate responses to human activities and climate-change-related stressors.\n\nYour work on aquatic ecotoxicology, especially microplastics, hypoxia and model aquatic organisms, is highly relevant to my interest in the mechanisms behind stressor vulnerability. In my first-author Aquatic Sciences paper, I analysed macroinvertebrate taxonomic and functional diversity across Yangtze tributary basins. I also have a first-author Ecology Letters manuscript under review using a second-order meta-analysis to test how body size shapes vulnerability under global-change pressures.\n\nFor PhD study, I hope to connect community-level freshwater biomonitoring with mechanistic ecotoxicology, for example by linking trait and body-size responses to combined pollution and climate stressors. I am exploring 2027-entry PhD routes and would be grateful to know whether your group may consider a doctoral applicant through SKKU STEM/BK21 support, lab funding, or a CSC-compatible route.\n\nBest regards,\nQiongjie Huang",
-      "notes": "Asia rule compliant: South Korea is outside Japan/mainland China/Hong Kong/Macau. High-fit mechanistic ecotoxicology lead; funding needs supervisor confirmation.",
-      "application_deadline": "Open/2027 route - SKKU graduate admission/scholarship cycle needs monitoring",
-      "deadline_priority_notes": "Contact before formal application because professor recommendation is required for SKKU STEM scholarship; prepare for the next international graduate admission cycle.",
-      "qs_rank": "#108",
-      "qs_evidence": "QS TopUniversities profile for Sungkyunkwan University (SKKU), QS World University Rankings 2027 rank #108",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400"
-    },
-    {
-      "id": "2026-07-11-south-america-romero",
-      "date_found": "2026-07-11",
-      "region": "South America",
-      "country": "Brazil",
-      "university": "Universidade Estadual de Campinas (Unicamp)",
-      "supervisor": "Gustavo Quevedo Romero",
-      "title": "Full Professor at UNICAMP; coordinator, Laboratory of Multitrophic Interactions and Biodiversity",
-      "email": "gqromero@unicamp.br",
-      "lab_url": "https://gqromero.wixsite.com/lab",
-      "admissions_url": "https://www.ib.unicamp.br/pos_ecologia/editais-de-selecao",
-      "sources": [
-        {
-          "label": "FAPESP researcher profile: Full Professor at UNICAMP; coordinates FAPESP thematic project on climate change, land use and freshwater ecosystems",
-          "url": "https://bv.fapesp.br/en/pesquisador/2748/gustavo-quevedo-romero/"
-        },
-        {
-          "label": "Romero Lab: global change, trophic diversity, body size, traits and ecosystem functioning",
-          "url": "https://gqromero.wixsite.com/lab"
-        },
-        {
-          "label": "UNICAMP Ecology selection page: doctoral selection calls are posted here",
-          "url": "https://www.ib.unicamp.br/pos_ecologia/editais-de-selecao"
-        },
-        {
-          "label": "UNICAMP graduate grants page: CAPES/CNPq quotas and FAPESP applications after enrollment",
-          "url": "https://portal.ige.unicamp.br/en/graduate/grants"
-        },
-        {
-          "label": "QS profile: UNICAMP ranked #=277 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/universidade-estadual-de-campinas-unicamp"
-        }
-      ],
-      "funding": "No currently open PhD scholarship tied to Romero was verified today. Strong funding routes exist: FAPESP thematic-project context, CAPES/CNPq programme quotas after enrollment, and FAPESP scholarship applications with the advisor. Treat funding as promising but not secured.",
-      "csc_fit": "CSC host route may be possible if UNICAMP accepts external funding and Professor Romero supports the project; however, Brazil-side FAPESP/CAPES/CNPq routes should be checked first because the lab has an active FAPESP thematic project signal.",
-      "requirements": "Monitor UNICAMP PPG-Ecologia doctoral calls, confirm international application requirements, Portuguese/English exam expectations, advisor pre-approval and scholarship eligibility. Prepare a proposal connecting land-use/climate stressors to freshwater community functional diversity and body-size vulnerability.",
-      "research_directions": "Global change impacts on freshwater ecosystems, warming, precipitation variation, land use, food-web structure, trophic diversity, body size, species and trait composition, biodiversity and ecosystem functioning.",
-      "match_relation": "Very strong South America topic fit. Huang can directly connect the Ecology Letters body-size meta-analysis and Aquatic Sciences trait-diversity paper to Romero Lab interests in body size, trait composition, global-change stressors and freshwater ecosystem functioning.",
-      "hats": "Full Professor at UNICAMP; coordinator of the Laboratory of Multitrophic Interactions and Biodiversity; former coordinator of UNICAMP Graduate Program in Ecology; FAPESP Biology I area coordination member; FAPESP thematic project coordinator.",
-      "recent_outputs": "FAPESP profile verifies current thematic-project leadership; lab page highlights global change, food webs, body size and traits; Nature Communications-related outreach on Neotropical freshwater ecosystems shows lab relevance to climate impacts.",
-      "grants_or_lab_health": "Strong: FAPESP profile identifies a thematic project on climate change and land use impacts on freshwater ecosystems, plus lab and graduate-program leadership. Specific PhD stipend remains to be verified.",
-      "fit_score": 92,
-      "funding_score": 66,
-      "lab_health_score": 91,
+      "funding_score": 64,
+      "lab_health_score": 86,
       "possibility_score": 74,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-12",
-      "email_subject": "Prospective PhD applicant - freshwater global-change stressors, body size and traits",
-      "email_draft": "Dear Professor Romero,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying how human activities and climate-change-related stressors affect freshwater macroinvertebrate communities.\n\nI was very interested in your lab?s work on global change, land use, food-web structure, body size, trait composition and freshwater ecosystem functioning. This connects closely with my first-author Aquatic Sciences paper on taxonomic and functional diversity of macroinvertebrates across Yangtze tributary basins. My first-author Ecology Letters manuscript under review also uses a second-order meta-analysis to examine how body size shapes vulnerability to global-change pressures.\n\nFor PhD study, I hope to develop a project linking land-use and climate stressors with trait-based vulnerability and ecosystem functioning in freshwater communities. I am exploring 2027-entry opportunities and would be grateful to know whether your group may consider a doctoral applicant through the UNICAMP Ecology programme, FAPESP/CAPES/CNPq support, or an externally funded route.\n\nBest regards,\nQiongjie Huang",
-      "notes": "South America high-fit supervisor lead. The strongest evidence is lab/project fit rather than an active vacancy; keep as priority outreach after confirming UNICAMP 2027 doctoral-call timing.",
-      "application_deadline": "Open/2027 route - next UNICAMP PPG-Ecologia doctoral call needs monitoring",
-      "deadline_priority_notes": "No active 30+ day PhD vacancy verified today; start supervisor contact now and track the next PPG-Ecologia call plus FAPESP/CAPES/CNPq scholarship timing.",
-      "qs_rank": "#=277",
-      "qs_evidence": "QS TopUniversities profile for Universidade Estadual de Campinas (Unicamp), QS World University Rankings 2027 rank #=277",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - QS 1-400"
+      "next_action_date": "2026-07-23",
+      "email_subject": "Prospective PhD applicant: river barriers, freshwater biodiversity and multiple stressors",
+      "email_draft": "Dear Professor Zarfl,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities. Your work on river fragmentation, dams, hydropower development and environmental systems analysis is highly relevant to my interest in basin-scale freshwater conservation.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether you may consider supervising a 2027-entry PhD applicant interested in linking river barriers, land-use pressure and trait-based freshwater biodiversity responses. May I send you my CV and a short research-fit note?\n\nBest regards,\nQiongjie Huang",
+      "notes": "Teacher-nominated. Germany is outside old Europe preference set, but QS and river-barrier fit are strong.",
+      "application_deadline": "No current project deadline verified.",
+      "deadline_priority_notes": "Fourth target.",
+      "qs_rank": "#=230",
+      "qs_evidence": "QS TopUniversities profile states Eberhard Karls Universität Tübingen is ranked #=230 in QS World University Rankings 2027.",
+      "qs_rule_fit": "Yes - QS #=230 is within the old 1-400 range.",
+      "europe_priority_fit": "No - Germany is strong but not France/Nordic/Mediterranean under the earlier preference rule."
     },
     {
-      "id": "2026-07-12-europe-horppila",
-      "date_found": "2026-07-12",
+      "date_found": "2026-07-14",
       "region": "Europe",
+      "status": "待套磁",
+      "attitude": "未知",
+      "qs_year": "QS World University Rankings 2027",
+      "id": "2026-07-14-europe-brosse",
+      "country": "France",
+      "university": "Université Toulouse III - Paul Sabatier / CRBE-CNRS",
+      "supervisor": "Sébastien Brosse",
+      "title": "Full Professor of Ecology; freshwater fish biodiversity, global change, functional and phylogenetic diversity",
+      "email": "sebastien.brosse@univ-tlse3.fr",
+      "lab_url": "https://crbe.cnrs.fr/en/annuaire/brosse/",
+      "admissions_url": "https://en.univ-toulouse.fr/research-dynamics-phd/doctoral-programmes",
+      "sources": [
+        {
+          "label": "CRBE-CNRS profile: freshwater fish distribution under natural and anthropogenic effects",
+          "url": "https://crbe.cnrs.fr/en/annuaire/brosse/"
+        },
+        {
+          "label": "PubMed: Human impacts on global freshwater fish biodiversity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33602854/"
+        },
+        {
+          "label": "Google Scholar: freshwater fish functional diversity and biodiversity outputs",
+          "url": "https://scholar.google.com/citations?hl=fr&user=ZLCF2LIAAAAJ"
+        },
+        {
+          "label": "University of Toulouse doctoral programmes",
+          "url": "https://en.univ-toulouse.fr/research-dynamics-phd/doctoral-programmes"
+        },
+        {
+          "label": "QS profile: Université Paul Sabatier Toulouse III ranked #=565 in QS WUR 2027",
+          "url": "https://www.topuniversities.com/universities/universite-paul-sabatier-toulouse-iii"
+        }
+      ],
+      "funding": "No dedicated funded 2027 PhD opening verified. Routes: French doctoral-school contracts, project-funded PhD calls, CSC with supervisor support.",
+      "csc_fit": "Plausible if Brosse/CRBE agrees and Toulouse doctoral registration is arranged; QS outside old 1-400 rule.",
+      "requirements": "Contact with precise fit note; prepare CV, biodiversity synthesis angle, trait/functional diversity methods and funding options.",
+      "research_directions": "Freshwater fish biodiversity, global change, anthropogenic impacts, functional and phylogenetic diversity, eDNA, biogeography.",
+      "match_relation": "Excellent biodiversity/macroecology fit; taxon mismatch because main focus is fish rather than macroinvertebrates.",
+      "hats": "Full Professor at Université Toulouse III / CRBE-CNRS; leading freshwater fish macroecologist.",
+      "recent_outputs": "Freshwater fish biodiversity, human impact, functional diversity and eDNA outputs.",
+      "grants_or_lab_health": "Strong scientific/lab-health signal; funding availability needs direct check.",
+      "fit_score": 86,
+      "funding_score": 58,
+      "lab_health_score": 88,
+      "possibility_score": 70,
+      "next_action_date": "2026-07-26",
+      "email_subject": "Prospective PhD applicant: freshwater biodiversity, functional traits and human impacts",
+      "email_draft": "Dear Professor Brosse,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities. Your research on global freshwater fish biodiversity, functional diversity and anthropogenic impacts is very close to the broader questions I hope to pursue in my PhD.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether you may consider a 2027-entry PhD applicant interested in extending trait-based freshwater biodiversity analysis across taxa and river basins. May I send you my CV and a short research-fit note?\n\nBest regards,\nQiongjie Huang",
+      "notes": "France preference fit: yes. Strong scientific target but Toulouse III QS #=565 is outside old 1-400 rule.",
+      "application_deadline": "No current 2027 funded call verified.",
+      "deadline_priority_notes": "Fifth target.",
+      "qs_rank": "#=565",
+      "qs_evidence": "QS TopUniversities profile states Université Paul Sabatier Toulouse III is ranked #=565 in QS World University Rankings 2027.",
+      "qs_rule_fit": "Exception - outside old QS 1-400 rule, but retained for teacher nomination and strong France/freshwater biodiversity fit.",
+      "europe_priority_fit": "Yes - France is explicitly preferred."
+    },
+    {
+      "date_found": "2026-07-14",
+      "region": "Europe",
+      "status": "待套磁",
+      "attitude": "未知",
+      "qs_year": "QS World University Rankings 2027",
+      "id": "2026-07-14-europe-alahuhta",
+      "country": "Finland",
+      "university": "University of Oulu",
+      "supervisor": "Janne Alahuhta",
+      "title": "Senior Researcher, Physical Geography; freshwater organism biogeography, macroecology and macrophyte biodiversity",
+      "email": "janne.alahuhta@oulu.fi",
+      "lab_url": "https://www.oulu.fi/en/researchers/janne-alahuhta",
+      "admissions_url": "https://www.oulu.fi/en/research/doctoral-training",
+      "sources": [
+        {
+          "label": "University of Oulu profile: freshwater organism biogeography and macroecology",
+          "url": "https://www.oulu.fi/en/researchers/janne-alahuhta"
+        },
+        {
+          "label": "Google Scholar: Janne Alahuhta",
+          "url": "https://scholar.google.fi/citations?hl=en&user=1VkZktMAAAAJ"
+        },
+        {
+          "label": "OYLUMA group page: PI of Macrophyte Biogeography Lab",
+          "url": "https://oyluma.weebly.com/members.html"
+        },
+        {
+          "label": "University of Oulu doctoral training",
+          "url": "https://www.oulu.fi/en/research/doctoral-training"
+        },
+        {
+          "label": "QS profile: University of Oulu ranked #=360 in QS WUR 2027",
+          "url": "https://www.topuniversities.com/universities/university-oulu"
+        }
+      ],
+      "funding": "No current 2027 funded PhD opening verified. Routes: Oulu doctoral training, project posts, Finnish foundation grants, CSC.",
+      "csc_fit": "Good: Oulu is QS #=360 and Finland is CSC-compatible if supervision/admission are secured.",
+      "requirements": "Contact with proposal linking macroinvertebrate trait diversity to freshwater macrophyte/macroecological frameworks.",
+      "research_directions": "Freshwater organism biogeography, macroecology, aquatic plants/macrophytes, geodiversity-biodiversity relationships.",
+      "match_relation": "Strong for macroecology and functional diversity; taxon fit is less direct.",
+      "hats": "Senior researcher; PI in multiple projects; PI of Macrophyte Biogeography Lab.",
+      "recent_outputs": "Recent work on freshwater macrophyte ecological uniqueness, beta diversity and global plant-ecosystem functioning.",
+      "grants_or_lab_health": "Good: PI history, active Oulu profile and QS-compliant Nordic host.",
+      "fit_score": 82,
+      "funding_score": 60,
+      "lab_health_score": 80,
+      "possibility_score": 72,
+      "next_action_date": "2026-07-29",
+      "email_subject": "Prospective PhD applicant: freshwater trait diversity and macroecology under multiple stressors",
+      "email_draft": "Dear Dr. Alahuhta,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities. Your research on freshwater organism biogeography, macroecology and aquatic plant biodiversity is very relevant to my interest in trait-based freshwater biodiversity change.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether you may consider supervising or advising a 2027-entry PhD applicant interested in linking trait-based freshwater community responses with macroecological and biogeographical approaches. May I send you my CV and a short research-fit note?\n\nBest regards,\nQiongjie Huang",
+      "notes": "Finland/Nordic preference fit and QS-compliant. Ranked below Soininen because taxon fit is less direct and no active funded call was verified.",
+      "application_deadline": "No current project deadline verified.",
+      "deadline_priority_notes": "Sixth target.",
+      "qs_rank": "#=360",
+      "qs_evidence": "QS TopUniversities profile states University of Oulu is ranked #=360 in QS World University Rankings 2027.",
+      "qs_rule_fit": "Yes - QS #=360 is within the old 1-400 range.",
+      "europe_priority_fit": "Yes - Finland is Nordic."
+    },
+    {
+      "date_found": "2026-07-14",
+      "region": "Europe",
+      "status": "待套磁",
+      "attitude": "未知",
+      "qs_year": "QS World University Rankings 2027",
+      "id": "2026-07-14-europe-graco-roza",
       "country": "Finland",
       "university": "University of Helsinki",
-      "supervisor": "Jukka Horppila",
-      "title": "Professor of Limnology; leader, Lake Ecosystem Dynamics group; doctoral supervisor",
-      "email": "jukka.horppila@helsinki.fi",
-      "lab_url": "https://www.helsinki.fi/en/researchgroups/lake-ecosystem-dynamics/people",
-      "admissions_url": "https://www.helsinki.fi/en/research/doctoral-school/resdoc-project/how-apply",
+      "supervisor": "Caio Graco-Roza",
+      "title": "University Researcher / Group Leader, Lammi Biological Station; ecological synthesis, functional turnover and human pressures",
+      "email": "caio.graco-roza@helsinki.fi",
+      "lab_url": "https://www.helsinki.fi/en/researchgroups/ecological-synthesis/people",
+      "admissions_url": "https://jobs.helsinki.fi/job/Helsinki-Doctoral-Researchers-%2830-positions%29-in-various-disciplines-at-the-University-of-Helsinki%2C-Finland/1362391557/",
       "sources": [
         {
-          "label": "University of Helsinki RESDOC call: 30 fully funded doctoral researchers, 2027 start, deadline 31 Aug 2026",
-          "url": "https://www.helsinki.fi/en/research/doctoral-school/resdoc-project/how-apply"
+          "label": "University of Helsinki research portal: traits, biodiversity gradients and human pressures",
+          "url": "https://researchportal.helsinki.fi/en/persons/caio-graco-rodrigues-leandro-roza/"
         },
         {
-          "label": "University of Helsinki RESDOC project page: fully funded doctoral degree, themes include biodiversity, food and water systems",
-          "url": "https://www.helsinki.fi/en/research/doctoral-school/resdoc-project"
+          "label": "Ecological Synthesis people page: Graco-Roza as Group Leader",
+          "url": "https://www.helsinki.fi/en/researchgroups/ecological-synthesis/people"
         },
         {
-          "label": "Lake Ecosystem Dynamics people page: Horppila leads the group and studies lake food webs, turbulence, macrophytes, nutrient loading and anoxia",
-          "url": "https://www.helsinki.fi/en/researchgroups/lake-ecosystem-dynamics/people"
+          "label": "University of Helsinki people finder",
+          "url": "https://www.helsinki.fi/en/about-us/people/people-finder/caio-graco-rodrigues-leandro-roza-9388349"
         },
         {
-          "label": "University of Helsinki research portal / people finder: Professor, doctoral supervisor, email",
-          "url": "https://researchportal.helsinki.fi/en/persons/jukka-horppila/"
+          "label": "University of Helsinki RESDOC call",
+          "url": "https://jobs.helsinki.fi/job/Helsinki-Doctoral-Researchers-%2830-positions%29-in-various-disciplines-at-the-University-of-Helsinki%2C-Finland/1362391557/"
         },
         {
-          "label": "QS profile: University of Helsinki ranked #=123 in QS World University Rankings 2027",
+          "label": "QS profile: University of Helsinki ranked #=123 in QS WUR 2027",
           "url": "https://www.topuniversities.com/universities/university-helsinki"
         }
       ],
-      "funding": "Verified fully funded route: University of Helsinki RESDOC recruits 30 international doctoral researchers for early-2027 start under MSCA COFUND/Horizon Europe; applications close 31 August 2026. Candidate must propose a topic fitting RESDOC themes and supervision, and meet MSCA mobility rule.",
-      "csc_fit": "Full RESDOC funding should be the first route. CSC is a backup/parallel host-supervisor option if RESDOC fit or mobility eligibility fails, but the August 2026 RESDOC call is stronger and time-sensitive.",
-      "requirements": "Prepare Europass-style CV, motivation letter, doctoral study/research plan, degree certificate and transcript, English proof, ethics self-assessment, intersectoral mobility plan, and 2-3 suggested supervisors. Confirm with Professor Horppila whether a proposal on freshwater multiple stressors and lake food-web resilience fits his supervision capacity.",
-      "research_directions": "Limnology, lake ecosystem dynamics, food webs, invertebrate predators, predator-prey interactions, lake restoration, macrophytes, internal nutrient loading, anoxia, artificial aeration, biodiversity and water-system resilience.",
-      "match_relation": "Strong freshwater ecosystem and multiple-stressor fit. Huang can connect her Yangtze tributary trait/diversity work to Horppila group questions on invertebrate predators, food webs, eutrophication, turbulence and restoration, and frame the Ecology Letters body-size meta-analysis as a tool for predicting lake-community vulnerability.",
-      "hats": "Professor of Limnology at University of Helsinki; leader of Lake Ecosystem Dynamics group; doctoral supervisor; active research group with postdoctoral researchers and PhD students.",
-      "recent_outputs": "Official group page lists recent topics including invertebrate predators in lake food webs, turbulence effects on predator-prey interactions, macrophytes and nutrient loading, anoxia and artificial aeration. Recent 2025 biomonitoring/browning stream work appears in indexed search results with Horppila as corresponding author.",
-      "grants_or_lab_health": "Strong: active research-group page, doctoral supervision status, and a current fully funded institutional RESDOC call with 30 doctoral researcher positions. Lab fit should be confirmed before naming him as one of the 2-3 supervisors.",
-      "fit_score": 89,
-      "funding_score": 92,
-      "lab_health_score": 88,
-      "possibility_score": 84,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-13",
-      "email_subject": "Prospective RESDOC PhD applicant - freshwater multiple stressors and lake food-web resilience",
-      "email_draft": "Dear Professor Horppila,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying how human activities and climate-change-related stressors shape freshwater macroinvertebrate communities.\n\nI am preparing an application for the University of Helsinki RESDOC doctoral call and was very interested in your Lake Ecosystem Dynamics group, especially your work on lake food webs, invertebrate predators, macrophytes, nutrient loading and restoration. My first-author Aquatic Sciences paper examines taxonomic and functional responses of macroinvertebrates across 195 sampling events in Yangtze tributary basins. I also have a first-author manuscript under review at Ecology Letters using a second-order meta-analysis to evaluate body-size vulnerability under global-change stressors.\n\nI would like to ask whether a RESDOC proposal linking freshwater multiple stressors, trait/body-size responses and lake food-web resilience could fit your supervision interests. If appropriate, I would be grateful for the opportunity to send a short proposal outline and CV for your advice before submitting.\n\nThank you very much for your time.\n\nBest regards,\nQiongjie Huang",
-      "notes": "Europe slot satisfies Nordic preference and QS rule. This is the strongest verified opening today because it is a current fully funded 2027-start doctoral call with more than 30 days before deadline.",
-      "application_deadline": "2026-08-31",
-      "deadline_priority_notes": "Priority: apply now. About 50 days from 2026-07-12; enough time for supervisor-fit email, proposal, English proof and document preparation, but RESDOC attachments are substantial.",
-      "qs_rank": "#=123",
-      "qs_evidence": "QS TopUniversities profile: University of Helsinki ranked #=123 in QS World University Rankings 2027.",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - within QS 1-400.",
-      "europe_priority_fit": "Yes - Finland is a Nordic country and matches the Europe preference rule."
-    },
-    {
-      "id": "2026-07-12-asia-thompson",
-      "date_found": "2026-07-12",
-      "region": "Asia",
-      "country": "Singapore",
-      "university": "Nanyang Technological University, Singapore (NTU Singapore)",
-      "supervisor": "Janelle Thompson",
-      "title": "Associate Professor, Asian School of the Environment; Principal Investigator at SCELSE; water quality and environmental genomics",
-      "email": "janelle.thompson@ntu.edu.sg",
-      "lab_url": "https://www.ntu.edu.sg/ase/aboutus/staff-directory/ecology-and-ecosystems---microbial-ecology-and-environmental-genomics/janelle-thompson",
-      "admissions_url": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide",
-      "sources": [
-        {
-          "label": "NTU ASE profile: Associate Professor, PI at SCELSE, water quality, molecular ecology and environmental genomics",
-          "url": "https://www.ntu.edu.sg/ase/aboutus/staff-directory/ecology-and-ecosystems---microbial-ecology-and-environmental-genomics/janelle-thompson"
-        },
-        {
-          "label": "NTU research programme admission guide: January 2027 intake open; August intake deadline 31 January",
-          "url": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide"
-        },
-        {
-          "label": "NTU Research Scholarship: international full-time research students eligible; stipend and tuition coverage",
-          "url": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss"
-        },
-        {
-          "label": "NTU ASE PhD page: contact faculty before applying to discuss potential PhD opportunities and supervisor fit",
-          "url": "https://www.ntu.edu.sg/education/graduate-programme/ase-doctor-of-philosophy-%28phd%29-%28by-research%29"
-        },
-        {
-          "label": "QS 2027 Singapore rankings: NTU Singapore ranked #12 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/world-university-rankings?countries=sg"
-        }
-      ],
-      "funding": "NTU Research Scholarship is an official full-funding route for international full-time graduate research students, covering tuition and monthly stipend subject to award. For 2027 timing, January 2027 closes 31 July 2026 and is too close for a polished application; August 2027 opens 1 October 2026 and closes 31 January 2027.",
-      "csc_fit": "Good Asia-compliant non-excluded route. Prefer NTU Research Scholarship/NPGS first; CSC can be a backup if the lab can host CSC-funded students or if scholarship competition is uncertain.",
-      "requirements": "Email the supervisor first, then prepare NTU online application, CV, transcripts, TOEFL/IELTS if needed, research proposal, personal statement, publication abstracts and two academic references. Clarify whether ASE can host a freshwater eDNA / water-quality ecology project under Thompson supervision.",
-      "research_directions": "Water quality, molecular ecology, environmental genomics, microbial water quality, environmental DNA/RNA methods, tropical water systems, biological mediators of water quality and environmental microbiology.",
-      "match_relation": "Moderate-to-strong fit through eDNA/molecular biodiversity assessment and water-quality stressors. It is less macroinvertebrate-community focused than Huang?s core work, but it offers a strong Singapore/QS/funding path for combining eDNA, catchment stressors and ecological modelling.",
-      "hats": "Associate Professor at NTU Asian School of the Environment; Principal Investigator at SCELSE; former MIT assistant professor and Singapore-MIT Alliance for Research and Technology PI/associate director roles.",
-      "recent_outputs": "NTU profile lists active work on wastewater epidemiology, water quality, environmental genomics and selected publications in Water Research, Environmental Science & Technology and Frontiers in Microbiology. Profile states she is building an environmental microbiology research team at ASE/SCELSE.",
-      "grants_or_lab_health": "Strong institutional and lab-health signals: SCELSE PI status, newly funded NRF IntraCREATE project noted on profile, and NTU official scholarship/admission routes. Specific student opening must be confirmed by email.",
-      "fit_score": 80,
-      "funding_score": 86,
-      "lab_health_score": 88,
-      "possibility_score": 80,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-13",
-      "email_subject": "Prospective PhD applicant - freshwater stressors, eDNA and water-quality ecology",
-      "email_draft": "Dear Professor Thompson,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University working on freshwater biodiversity responses to human activities and climate-change-related stressors.\n\nI read about your work at NTU ASE and SCELSE on water quality, molecular ecology and environmental genomics. My first-author Aquatic Sciences paper analyzes taxonomic and functional responses of freshwater macroinvertebrates across Yangtze tributary basins using field, trait and environmental data. I am also leading an Ecology Letters manuscript under review that uses second-order meta-analysis to evaluate body-size vulnerability under global-change stressors.\n\nFor PhD study, I hope to develop a project that links freshwater stressor gradients, biodiversity monitoring and eDNA/molecular tools with ecological modelling. I would be grateful to ask whether this direction could fit your group and whether you may consider PhD applicants for the 2027 NTU research scholarship route.\n\nIf appropriate, I would be happy to send a concise proposal outline and CV.\n\nBest regards,\nQiongjie Huang",
-      "notes": "Asia slot obeys exclusion rule: Singapore is allowed; not Japan, mainland China, Hong Kong or Macau. Current January 2027 application window is short, so treat August 2027/RSS as the main preparation window.",
-      "application_deadline": "2027-01-31",
-      "deadline_priority_notes": "Main preparation window: August 2027 intake, application portal 2026-10-01 to 2027-01-31. January 2027 intake closes 2026-07-31 and is time-too-close/reference-only unless documents are already complete.",
-      "qs_rank": "#12",
-      "qs_evidence": "QS World University Rankings 2027 Singapore listing: NTU Singapore ranked #12.",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - within QS 1-400."
-    },
-    {
-      "id": "2026-07-12-south-america-marquet",
-      "date_found": "2026-07-12",
-      "region": "South America",
-      "country": "Chile",
-      "university": "Pontificia Universidad Cat?lica de Chile (UC Chile)",
-      "supervisor": "Pablo Marquet",
-      "title": "Full Professor / Profesor Titular, Department of Ecology; macroecology, biodiversity and global change",
-      "email": "pmarquet@bio.puc.cl",
-      "lab_url": "https://cambioglobal.uc.cl/personas/pablo-marquet/",
-      "admissions_url": "https://postgrado.bio.uc.cl/admision/descripcion-de-requisitos/",
-      "sources": [
-        {
-          "label": "UC Global Change Center profile: Professor, email, macroecology and population ecology specialization",
-          "url": "https://cambioglobal.uc.cl/personas/pablo-marquet/"
-        },
-        {
-          "label": "Faculty of Biological Sciences UC profile: work on ecological diversity, climate-change impacts on biodiversity and ecological theory",
-          "url": "https://biologia.uc.cl/marquet-pablo/"
-        },
-        {
-          "label": "UC news: Marquet is full professor, former ecology department director, active in biodiversity and climate-change projects",
-          "url": "https://www.uc.cl/noticias/profesor-pablo-marquet-es-incorporado-al-grupo-de-cientificos-de-la-earth-comission/"
-        },
-        {
-          "label": "Doctorado en Ciencias Biol?gicas UC admission requirements and application calendar",
-          "url": "https://postgrado.bio.uc.cl/admision/descripcion-de-requisitos/"
-        },
-        {
-          "label": "QS Chile listing: Pontificia Universidad Cat?lica de Chile ranked #=119 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/world-university-rankings?countries=cl"
-        }
-      ],
-      "funding": "No dedicated project-funded PhD vacancy was verified today. Funding routes are UC/ANID national doctoral scholarship competitions, potential internal doctoral benefits, and supervisor/project-linked support if available. Treat as QS-compliant high-fit supervisor lead, not a confirmed funded opening.",
-      "csc_fit": "CSC-compatible host route is plausible if UC Chile and Professor Marquet support an international doctoral admission and external funding; however, ANID/UC funding and any project-based RA support should be checked first.",
-      "requirements": "Contact Professor Marquet before applying; prepare CV, publication list, transcripts, research proposal, Spanish/English requirement check, and a funding plan. Verify the exact 2027 admission calendar because the doctoral site shows both standing requirements and calendar-event information.",
-      "research_directions": "Macroecology, theoretical ecology, biodiversity, climate-change impacts, conservation decision support, global change, ecological complexity, population ecology, large-scale ecological data and modelling.",
-      "match_relation": "Strong conceptual fit for Huang?s Ecology Letters second-order meta-analysis and trait/body-size vulnerability work; moderate direct freshwater fit. The strongest angle is to frame freshwater macroinvertebrate trait responses as a data-rich test case for biodiversity responses to global change and conservation prioritisation in river basins.",
-      "hats": "Profesor Titular / Full Professor at UC Chile Department of Ecology; major Latin American macroecologist; former Ecology Department director; Earth Commission scientist group recognition; affiliated with UC Global Change Center and IEB.",
-      "recent_outputs": "Official UC and IEB pages emphasize ongoing biodiversity, climate-change and conservation research. Search results link Marquet to recent global-change/ecological-theory recognition and freshwater fish macroecology collaborations, though a dedicated freshwater PhD opening was not found today.",
-      "grants_or_lab_health": "Strong PI and institutional-health signal from UC full professor status, Global Change Center profile, high-impact ecology leadership and active university news. Student funding availability must be confirmed directly.",
-      "fit_score": 82,
-      "funding_score": 58,
-      "lab_health_score": 90,
-      "possibility_score": 70,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-14",
-      "email_subject": "Prospective PhD applicant - global-change biodiversity, traits and freshwater multiple stressors",
-      "email_draft": "Dear Professor Marquet,\n\nI hope this message finds you well. My name is Qiongjie Huang, and I am an M.S. candidate at Huazhong Agricultural University studying freshwater biodiversity responses to human activities and climate-change-related stressors.\n\nI was very interested in your work on macroecology, biodiversity and global-change impacts. My first-author Aquatic Sciences paper examines taxonomic and functional responses of freshwater macroinvertebrate communities across 195 sampling events in Yangtze tributary basins. I also have a first-author Ecology Letters manuscript under review using second-order meta-analysis to assess body-size vulnerability under global-change stressors.\n\nFor doctoral study, I hope to develop a project connecting trait/body-size responses, multiple stressors and river-basin conservation modelling. I would be grateful to ask whether this direction could fit your group or the UC Biological Sciences doctoral programme, and whether there may be suitable funding routes for an international applicant for 2027 entry.\n\nIf appropriate, I would be pleased to send a brief proposal outline and CV.\n\nBest regards,\nQiongjie Huang",
-      "notes": "South America slot satisfies QS rule. This is a high-level supervisor/CSC or ANID route rather than a verified funded vacancy; included because no stronger South American fully funded freshwater multiple-stressor PhD opening was verified today within QS 1-400.",
-      "application_deadline": "2026-09-14",
-      "deadline_priority_notes": "Preparation window is about two months from 2026-07-12 if the UC 2027 doctoral calendar event closing on 2026-09-14 applies. Verify the current application page before final submission because one requirements page still displays older 2025 date text.",
-      "qs_rank": "#=119",
-      "qs_evidence": "QS World University Rankings 2027 Chile listing: Pontificia Universidad Cat?lica de Chile ranked #=119.",
-      "qs_year": "QS WUR 2027",
-      "qs_rule_fit": "Yes - within QS 1-400."
-    },
-    {
-      "id": "2026-07-13-europe-de-jonge",
-      "date_found": "2026-07-13",
-      "region": "Europe",
-      "country": "Denmark",
-      "university": "Aalborg University (AAU)",
-      "supervisor": "Nadieh de Jonge",
-      "title": "Tenure Track Assistant Professor, Molecular Ecology / Environmental Biomonitoring; advertised PhD stipend in Ecology of Ponds",
-      "email": "ndj@bio.aau.dk",
-      "lab_url": "https://vbn.aau.dk/en/persons/ndj/",
-      "admissions_url": "https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Ecology-Of-Ponds-Aalborg-University%3DuVhBRV4-8RG_6wzEeuBOuw",
-      "sources": [
-        {
-          "label": "ScholarshipDb cached AAU PhD stipend: Ecology of Ponds, eDNA, computational tools, appointment from 1 September 2026",
-          "url": "https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Ecology-Of-Ponds-Aalborg-University%3DuVhBRV4-8RG_6wzEeuBOuw"
-        },
-        {
-          "label": "AAU research portal: Nadieh de Jonge, Tenure Track Assistant Professor, Molecular Ecology and Environmental Biomonitoring",
-          "url": "https://vbn.aau.dk/en/persons/ndj/"
-        },
-        {
-          "label": "AAU news: de Jonge develops eDNA methods for stream biodiversity monitoring",
-          "url": "https://www.bio.aau.dk/a-new-e-dna-method-for-monitoring-the-biodiversity-of-streams-n102304"
-        },
-        {
-          "label": "AAU Environmental Biomonitoring section lists Nadieh de Jonge",
-          "url": "https://www.en.bio.aau.dk/research/sections/environmental-biomonitoring"
-        },
-        {
-          "label": "QS profile: Aalborg University ranked #=329 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/aalborg-university"
-        }
-      ],
-      "funding": "The advertised AAU PhD stipend is a 3-year paid PhD appointment under Danish university employment terms. However, the official AAU vacancy URL now returns not found, so treat the project as high-priority but deadline/status-needs-immediate-verification before applying.",
-      "csc_fit": "CSC is a fallback rather than the first route because the ad is framed as an employed PhD stipend. If the stipend has closed, de Jonge/AAU could still be approached for CSC-compatible 2027 supervision in eDNA freshwater biomonitoring.",
-      "requirements": "Master degree in biology, molecular biology, ecology or related field; eDNA/molecular lab skills; R, machine learning and/or ecological modelling; English; field experience in freshwater habitats advantageous. Verify current vacancy status and deadline before preparing a full application.",
-      "research_directions": "Pond and lake biodiversity, small lentic freshwater systems, eDNA/metabarcoding, molecular biomonitoring, conventional plus molecular survey comparison, multiple trophic layers, ecological quality, computational ecology and machine learning.",
-      "match_relation": "Very strong fit to Huang's freshwater macroinvertebrate, eDNA/morphology biodiversity assessment, functional diversity and ecological modelling profile. The project's pond biodiversity and molecular/computational approach can directly connect to her Aquatic Sciences first-author macroinvertebrate pressure-gradient paper.",
-      "hats": "Tenure Track Assistant Professor; Molecular Ecology group lead in the PhD ad; AAU Environmental Biomonitoring member; PI-level contact for a dedicated PhD stipend.",
-      "recent_outputs": "AAU news highlights active eDNA stream-biodiversity method development; recent outputs include passive eDNA sampling and freshwater ecological-quality metabarcoding work by de Jonge and collaborators.",
-      "grants_or_lab_health": "Strong active-lab signal from AAU research portal, Environmental Biomonitoring section, current eDNA method news, and a dedicated PhD stipend listing. Official vacancy availability must be rechecked.",
-      "fit_score": 94,
+      "funding": "Potential active route through Helsinki RESDOC salaried doctoral researcher positions due 2026-08-31, if he can supervise and topic aligns.",
+      "csc_fit": "Good fallback; confirm supervision eligibility and capacity.",
+      "requirements": "Ask whether he can supervise PhD students as group leader/university researcher; prepare trait-turnover proposal and funding plan.",
+      "research_directions": "Ecological synthesis, biodiversity change, species turnover, functional trait replacement, human pressures, freshwater and terrestrial systems.",
+      "match_relation": "Very good methods fit to functional diversity and trait-based vulnerability; supervision seniority less clear than professors above.",
+      "hats": "University Researcher; Group Leader in Ecological Synthesis; active Helsinki researcher.",
+      "recent_outputs": "Taxonomic/functional turnover synthesis and stream community assembly work.",
+      "grants_or_lab_health": "Good and rising: active group-leader profile, Helsinki host, RESDOC funding window.",
+      "fit_score": 81,
       "funding_score": 82,
-      "lab_health_score": 84,
-      "possibility_score": 78,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-14",
-      "email_subject": "Prospective PhD applicant: eDNA and freshwater macroinvertebrate responses to multiple stressors",
-      "email_draft": "Dear Dr. de Jonge,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related stressors shape freshwater macroinvertebrate communities. Your advertised PhD stipend on pond ecology, eDNA and computational biodiversity assessment strongly matches my current direction.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressures, barriers, functional traits and linear mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring multiple stressors.\n\nI would be very interested in discussing whether my background in macroinvertebrate assessment, eDNA/morphology-based biodiversity work, R modelling and freshwater field sampling could fit your Molecular Ecology group and the pond biodiversity project. May I send you a CV and a short research fit statement?\n\nBest regards,\nQiongjie Huang",
-      "notes": "Europe preference fit: Denmark is Nordic and satisfies the Europe preference rule. Recruitment link is currently from ScholarshipDb because the official AAU vacancy URL returned not found during verification; use as urgent lead, not confirmed-open until AAU confirms.",
-      "application_deadline": "Not displayed on cached ad; appointment from 2026-09-01; official AAU vacancy status needs immediate verification",
-      "deadline_priority_notes": "High priority but status-sensitive. Contact/verify within 1-2 days because the official vacancy URL may have expired or moved.",
-      "qs_rank": "#=329",
-      "qs_evidence": "QS TopUniversities Aalborg University profile states Aalborg University is ranked #=329 in QS World University Rankings 2027.",
-      "qs_year": "QS World University Rankings 2027",
-      "qs_rule_fit": "Yes - QS #=329 is within the required 1-400 range.",
-      "europe_priority_fit": "Yes - Denmark is a Nordic country, matching the Europe preference rule."
-    },
-    {
-      "id": "2026-07-13-asia-rawi",
-      "date_found": "2026-07-13",
-      "region": "Asia",
-      "country": "Malaysia",
-      "university": "Universiti Sains Malaysia (USM)",
-      "supervisor": "Che Salmah Md Rawi",
-      "title": "Professor, School of Biological Sciences; aquatic entomology, freshwater biomonitoring and macroinvertebrate ecology",
-      "email": "csalmah@usm.my",
-      "lab_url": "https://www.researchgate.net/profile/Md-Salmah",
-      "admissions_url": "https://admission.usm.my/index.php/postgraduate/financial-assistance",
-      "sources": [
-        {
-          "label": "ResearchGate profile: USM researcher with freshwater macroinvertebrate sampling and biomonitoring outputs",
-          "url": "https://www.researchgate.net/profile/Md-Salmah"
-        },
-        {
-          "label": "USM Tropical Life Sciences Research article: Che Salmah Md Rawi, School of Biological Sciences, aquatic insects for water quality assessment",
-          "url": "https://ejournal.usm.my/tlsr/article/view/tlsr_vol28-no-2-2017_11"
-        },
-        {
-          "label": "PubMed paper: agricultural, industrial and anthropogenic stresses on tropical river macroinvertebrate communities",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/21419486/"
-        },
-        {
-          "label": "USM postgraduate financial assistance page: scholarships and funding routes for research-mode PhD students",
-          "url": "https://admission.usm.my/index.php/postgraduate/financial-assistance"
-        },
-        {
-          "label": "QS profile: Universiti Sains Malaysia ranked #=128 in QS World University Rankings 2027",
-          "url": "https://www.topuniversities.com/universities/universiti-sains-malaysia-usm"
-        }
-      ],
-      "funding": "No dedicated project-funded PhD vacancy was verified today. Funding routes to verify include USM graduate financial assistance, Malaysia International Scholarship or other external scholarships, and supervisor-linked research funding. Treat as strong QS-compliant supervisor lead with funding needs confirmation.",
-      "csc_fit": "CSC-compatible host route is plausible because Malaysia is Asia-compliant and USM is a QS 1-400 public university. Confirm whether Professor Rawi can host a CSC-funded international PhD and whether USM accepts the timing for 2027 entry.",
-      "requirements": "Contact supervisor before applying; prepare CV, publications, transcripts, research proposal on macroinvertebrate biomonitoring/multiple stressors, English evidence, and funding plan. Check USM research-mode PhD admission and scholarship eligibility for Chinese applicants.",
-      "research_directions": "Freshwater macroinvertebrate biomonitoring, aquatic insects, tropical stream water quality, anthropogenic stressors, industrial/agricultural impacts, river health assessment, bioindicator method development.",
-      "match_relation": "Very strong topical fit to Huang's macroinvertebrate community, functional diversity and anthropogenic-pressure work. Malaysia offers a tropical Asian comparison system for extending her Yangtze basin stressor-gradient framework.",
-      "hats": "Professor at USM School of Biological Sciences according to public CV/reference sources; long-term aquatic entomology and freshwater biomonitoring researcher with many publications and postgraduate supervision signals.",
-      "recent_outputs": "Search evidence shows continuing citation and publication footprint in aquatic insects, macroinvertebrate sampling and freshwater biomonitoring; the USM journal articles remain directly relevant to Huang's target methods.",
-      "grants_or_lab_health": "Moderate-to-strong supervisor health signal from long publication history, professor status, USM QS strength and postgraduate funding pages. Current project funding must be confirmed directly.",
-      "fit_score": 90,
-      "funding_score": 57,
       "lab_health_score": 76,
-      "possibility_score": 70,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-18",
-      "email_subject": "Prospective PhD applicant: tropical stream macroinvertebrates and multiple-stressor biomonitoring",
-      "email_draft": "Dear Professor Che Salmah Md Rawi,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University studying freshwater macroinvertebrate responses to human activities and climate-change-related multiple stressors. Your work on aquatic insects, tropical stream biomonitoring and anthropogenic stress in Malaysian rivers is very close to my research background.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrate assemblages from 195 sampling events across three Yangtze tributary basins, combining land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether you may consider supervising a 2027-entry PhD student working on macroinvertebrate-based biomonitoring and multiple-stressor effects in tropical Asian streams. I would be glad to send my CV and a short proposal outline if this direction fits your group.\n\nBest regards,\nQiongjie Huang",
-      "notes": "Asia rule fit: Malaysia is allowed and avoids Japan, mainland China, Hong Kong and Macau. This is not a confirmed funded vacancy; use as a supervisor-first route.",
-      "application_deadline": "Rolling/needs verification for 2027 research-mode PhD; funding calls vary by scholarship route",
-      "deadline_priority_notes": "Medium priority. Start contact now to clarify 2027 intake, international eligibility, and whether a scholarship or CSC route is feasible.",
-      "qs_rank": "#=128",
-      "qs_evidence": "QS TopUniversities profile states Universiti Sains Malaysia is ranked #=128 in QS World University Rankings 2027.",
-      "qs_year": "QS World University Rankings 2027",
-      "qs_rule_fit": "Yes - QS #=128 is within the required 1-400 range."
+      "possibility_score": 74,
+      "next_action_date": "2026-08-01",
+      "email_subject": "Prospective PhD applicant: functional turnover and freshwater multiple-stressor responses",
+      "email_draft": "Dear Dr. Graco-Roza,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities. Your work on ecological synthesis, species turnover, functional trait replacement and human pressures across freshwater and terrestrial systems strongly matches my methodological interests.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether you may consider supervising or advising a 2027 PhD application, potentially through RESDOC, on functional turnover in freshwater communities under multiple stressors. May I send you my CV and a short research-fit note?\n\nBest regards,\nQiongjie Huang",
+      "notes": "Finland/Nordic and QS-compliant. Verify supervisory eligibility before treating as main PI target.",
+      "application_deadline": "2026-08-31 for current University of Helsinki RESDOC call.",
+      "deadline_priority_notes": "Seventh target; can move up if Soininen redirects to him.",
+      "qs_rank": "#=123",
+      "qs_evidence": "QS TopUniversities profile states University of Helsinki is ranked #=123 in QS World University Rankings 2027.",
+      "qs_rule_fit": "Yes - QS #=123 is within the old 1-400 range.",
+      "europe_priority_fit": "Yes - Finland is Nordic."
     },
     {
-      "id": "2026-07-13-south-america-ofarrell",
-      "date_found": "2026-07-13",
-      "region": "South America",
-      "country": "Argentina",
-      "university": "Universidad de Buenos Aires (UBA)",
-      "supervisor": "Ines O'Farrell",
-      "title": "CONICET / UBA freshwater limnologist; plankton ecology, cyanobacteria, reservoirs, rivers and floodplain lakes",
-      "email": "ines@ege.fcen.uba.ar",
-      "lab_url": "https://www.researchgate.net/profile/Ines-Ofarrell",
-      "admissions_url": "https://www.conicet.gov.ar/scholar/?lan=en",
+      "date_found": "2026-07-14",
+      "region": "Europe",
+      "status": "待套磁",
+      "attitude": "未知",
+      "qs_year": "QS World University Rankings 2027",
+      "id": "2026-07-14-europe-garcia-giron",
+      "country": "Spain",
+      "university": "Universidad de León",
+      "supervisor": "Jorge García Girón",
+      "title": "Professor / Associate Professor profile; freshwater macrophyte macroecology, functional and phylogenetic biodiversity",
+      "email": "jogarg@unileon.es",
+      "lab_url": "https://portalcientifico.unileon.es/investigadores/97639/publicaciones?lang=en",
+      "admissions_url": "https://esdule.unileon.es/en/doctoral-candidates/access-and-admission/",
       "sources": [
         {
-          "label": "ResearchGate profile: freshwater aquatic systems, rivers, reservoirs, floodplain lakes, phytoplankton and eutrophication",
-          "url": "https://www.researchgate.net/profile/Ines-Ofarrell"
+          "label": "Universidad de León scientific portal: Jorge García Girón publications",
+          "url": "https://portalcientifico.unileon.es/investigadores/97639/publicaciones?lang=en"
         },
         {
-          "label": "PubMed paper: human-impacted Pampean shallow lakes and cyanobacterial blooms, IEGEBA UBA-CONICET affiliation",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34273767/"
+          "label": "ResearchGate profile: Universidad de León and freshwater biogeography/macroecology",
+          "url": "https://www.researchgate.net/profile/Jorge-Garcia-Giron-2"
         },
         {
-          "label": "Limnologica editorial board: Ines O'Farrell, CONICET, plankton ecology and cyanobacteria",
-          "url": "https://www.sciencedirect.com/journal/limnologica/about/editorial-board"
+          "label": "PubMed: global lake macrophyte taxonomic, functional and phylogenetic beta diversity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32213415/"
         },
         {
-          "label": "CONICET fellowships page: doctoral fellowships for Argentine and foreign university graduates",
-          "url": "https://www.conicet.gov.ar/scholar/?lan=en"
+          "label": "University of León doctoral admission",
+          "url": "https://esdule.unileon.es/en/doctoral-candidates/access-and-admission/"
         },
         {
-          "label": "UBA news: Universidad de Buenos Aires ranked #84 in QS World University Rankings 2027",
-          "url": "https://www.uba.ar/ubanoticias/noticias/1217"
+          "label": "QS profile: Universidad de León ranked #1001-1200 in QS WUR 2027",
+          "url": "https://www.topuniversities.com/universities/universidad-de-leon"
         }
       ],
-      "funding": "No single advertised UBA freshwater PhD vacancy was verified today. CONICET lists doctoral fellowships for Argentine and foreign graduates; exact 2027 call timing and foreign-applicant constraints must be checked. Treat as a strong South America QS-compliant supervisor/fellowship-route lead, not confirmed funding.",
-      "csc_fit": "CSC-compatible route may be possible if UBA/CONICET supervision and UBA doctoral admission are secured, but Argentina funding and CSC co-funding mechanics need direct confirmation. CONICET doctoral fellowship should be checked first because it explicitly covers doctoral research.",
-      "requirements": "Contact Dr. O'Farrell or IEGEBA before applying; prepare Spanish/English CV, publication list, transcripts, research proposal linking freshwater community indicators to eutrophication/multiple stressors, and verify UBA doctoral admission plus CONICET call requirements.",
-      "research_directions": "Freshwater limnology, plankton ecology, cyanobacteria, eutrophication, shallow lakes, reservoirs, floodplain lakes, pollution indicators, hydrological variability, human impacts on aquatic ecosystems.",
-      "match_relation": "Good South America fit for multiple-stressor freshwater ecology, especially eutrophication, pollution and climate/hydrological stress in shallow lakes and river-floodplain systems. The strongest connection is using Huang's macroinvertebrate trait and diversity framework alongside plankton/cyanobacteria indicators of degraded freshwater systems.",
-      "hats": "CONICET researcher affiliated with UBA/IEGEBA; Limnologica editorial board member; established freshwater limnologist with international society and editorial visibility.",
-      "recent_outputs": "Recent evidence includes the 2021 Environmental Pollution paper on human-impacted Pampean shallow lakes and cyanobacterial blooms, plus active editorial-board listing in Limnologica.",
-      "grants_or_lab_health": "Moderate lab-health signal: CONICET/UBA institutional base, editorial board activity, current profile visibility and QS-strong UBA host. Funding route and current student capacity must be confirmed.",
-      "fit_score": 84,
-      "funding_score": 60,
-      "lab_health_score": 73,
-      "possibility_score": 68,
-      "status": "???",
-      "attitude": "??",
-      "next_action_date": "2026-07-20",
-      "email_subject": "Prospective PhD applicant: freshwater multiple stressors and community indicators",
-      "email_draft": "Dear Dr. O'Farrell,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on freshwater community responses to human activities and climate-change-related multiple stressors. I read about your work on rivers, reservoirs, floodplain lakes, phytoplankton indicators and cyanobacterial blooms in human-impacted Pampean shallow lakes, and I found it closely connected to my research interests.\n\nMy first-author Aquatic Sciences paper analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events in three Yangtze tributary basins, integrating land-use pressures, barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability under co-occurring stressors.\n\nI would like to ask whether you may consider supervising a 2027-entry PhD applicant interested in linking macroinvertebrate trait indicators with eutrophication and hydrological stress in South American freshwater systems. May I send you my CV and a short research idea?\n\nBest regards,\nQiongjie Huang",
-      "notes": "South America lead selected because a stronger advertised, funded, QS 1-400 freshwater PhD opening was not verified today. Use as a high-fit supervisor plus CONICET/UBA route; funding remains needs confirmation.",
-      "application_deadline": "CONICET/UBA 2027 doctoral route: call timing needs verification; no current project-specific deadline found",
-      "deadline_priority_notes": "Medium priority. Begin supervisor contact and separately monitor CONICET doctoral fellowship call dates for 2027.",
-      "qs_rank": "#84",
-      "qs_evidence": "UBA official news states Universidad de Buenos Aires ranked #84 in QS World University Rankings 2027.",
-      "qs_year": "QS World University Rankings 2027",
-      "qs_rule_fit": "Yes - QS #84 is within the required 1-400 range."
+      "funding": "No current funded PhD opening verified. Funding likely requires Spanish doctoral admission, project funding, external scholarship or CSC-compatible arrangement.",
+      "csc_fit": "Weak under old QS rule because Universidad de León is #1001-1200; only proceed if teacher strongly prioritises him or a co-funded project exists.",
+      "requirements": "Prepare macrophyte/macroecology fit note; ask directly about funding and whether he can host an international PhD student.",
+      "research_directions": "Freshwater plant/macrophyte macroecology, biogeography, functional and phylogenetic beta diversity, freshwater conservation.",
+      "match_relation": "Good methods fit for trait/functional diversity and macroecology; less direct macroinvertebrate fit and weaker QS/funding position.",
+      "hats": "Professor/Associate Professor profile at Universidad de León; active freshwater macroecology publication record.",
+      "recent_outputs": "Freshwater macrophyte functional/phylogenetic biodiversity and anthropogenic threat work.",
+      "grants_or_lab_health": "Moderate: strong publication fit, but funding and QS route are weak compared with the others.",
+      "fit_score": 74,
+      "funding_score": 45,
+      "lab_health_score": 68,
+      "possibility_score": 55,
+      "next_action_date": "2026-08-04",
+      "email_subject": "Prospective PhD applicant: freshwater functional diversity and macroecology",
+      "email_draft": "Dear Dr. García Girón,\n\nI am Qiongjie Huang, an M.S. candidate at Huazhong Agricultural University working on how human activities and climate-change-related multiple stressors shape freshwater macroinvertebrate communities. Your research on freshwater macrophyte macroecology, functional and phylogenetic biodiversity, and large-scale biodiversity shortfalls is closely related to my interest in trait-based freshwater community change.\n\nIn my first-author Aquatic Sciences paper, I analysed taxonomic and functional diversity of macroinvertebrates across 195 sampling events from three Yangtze tributary basins, integrating land-use pressure, upstream barriers, functional traits and mixed models. I am also leading an Ecology Letters manuscript on body-size-dependent vulnerability to co-occurring stressors.\n\nI would like to ask whether you may consider advising a 2027 PhD applicant interested in freshwater functional diversity under multiple stressors, and whether your group has a suitable doctoral route. May I send you my CV and a short research-fit note?\n\nBest regards,\nQiongjie Huang",
+      "notes": "User corrected: this target is Universidad de León / Spain. Kept in the system, but ranked last because QS is outside 1-400 and funding is unclear.",
+      "application_deadline": "No current project deadline verified.",
+      "deadline_priority_notes": "Eighth target; only send after higher-probability targets or if teacher wants this one specifically.",
+      "qs_rank": "#1001-1200",
+      "qs_evidence": "QS TopUniversities profile states Universidad de León is ranked #1001-1200 in QS World University Rankings 2027.",
+      "qs_rule_fit": "No under old QS 1-400 rule; teacher-nominated exception only.",
+      "europe_priority_fit": "Yes by geography if Mediterranean Europe is interpreted broadly as Spain, but ranking/funding caveat is material."
     }
   ]
 }
