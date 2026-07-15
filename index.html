@@ -1305,14 +1305,52 @@ ${currentDraft}
       document.getElementById("monitorRules").innerHTML = `<h2>邮箱监听设置</h2>
         <div class="kv">
           <div><b>监听邮箱</b>${esc(supervision.email_account || "HQJ123@webmail.hzau.edu.cn")}</div>
-          <div><b>模式</b>${esc(supervision.monitoring_mode || "manual_email_tracking")}</div>
-          <div><b>上次轮询</b>${esc(supervision.last_mail_poll || "尚未运行 IMAP 监听")}</div>
-          <div><b>上次匹配回复数</b>${esc(matches.length)}</div>
+          <div><b>模式</b>网页登录人工查看 + 粘贴回复自动建档</div>
+          <div><b>上次手动记录</b>${esc(supervision.last_manual_reply_record || "尚未记录回复")}</div>
+          <div><b>上次 IMAP 匹配回复数</b>${esc(matches.length)}</div>
         </div>
+        <h3 style="margin-top:14px">粘贴导师回复</h3>
+        <div class="field"><label>导师</label><select id="replyCandidate">${(data.candidates || []).map(c => `<option value="${esc(c.id)}">${esc(c.supervisor)} · ${esc(c.university)}</option>`).join("")}</select></div>
+        <div class="field"><label>发件人</label><input id="replyFrom" placeholder="例如 piggotjj@tcd.ie"></div>
+        <div class="field"><label>邮件主题</label><input id="replySubject" placeholder="粘贴回复邮件主题，可留空"></div>
+        <div class="field"><label>回复日期</label><input id="replyDate" type="date"></div>
+        <div class="field"><label>回复正文</label><textarea id="replyText" placeholder="把导师回复正文粘贴到这里。系统会按关键词初步判断积极/拒绝/资金讨论，并写入监督状态。"></textarea></div>
+        <div class="button-row"><button class="btn primary" onclick="recordManualReply()">保存回复并生成对策</button></div>
+        <div id="replyRecordStatus" class="prompt-status"></div>
         <h3 style="margin-top:14px">监督规则</h3>
         <ul class="bullets">${(supervision.rules || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>
-        <h3 style="margin-top:14px">本机监听脚本</h3>
-        <p class="meta">单次检查：work\run_mail_monitor_once.ps1；持续轮询：work\start_mail_monitor_loop.ps1。脚本只读收件箱，不自动发信。</p>`;
+        <h3 style="margin-top:14px">说明</h3>
+        <p class="meta">学校邮箱需要手机验证码且没有客户端授权码时，后台 IMAP 无法稳定监听。请网页登录邮箱查看回复，再把回复粘贴到这里。系统会写回 JSON 并刷新本地/OneDrive 页面。</p>`;
+      const replyDate = document.getElementById("replyDate");
+      if (replyDate && !replyDate.value) replyDate.value = new Date().toISOString().slice(0, 10);
+    }
+    async function recordManualReply() {
+      const statusEl = document.getElementById("replyRecordStatus");
+      const payload = {
+        candidate_id: document.getElementById("replyCandidate")?.value || "",
+        reply_from: document.getElementById("replyFrom")?.value || "",
+        reply_subject: document.getElementById("replySubject")?.value || "",
+        reply_date: document.getElementById("replyDate")?.value || "",
+        reply_text: document.getElementById("replyText")?.value || "",
+      };
+      if (!payload.candidate_id || !payload.reply_text.trim()) {
+        if (statusEl) statusEl.textContent = "请选择导师并粘贴回复正文。";
+        return;
+      }
+      if (statusEl) statusEl.textContent = "正在写入系统...";
+      try {
+        const res = await fetch("/api/record-reply", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify(payload),
+        });
+        const json = await res.json();
+        if (!res.ok) throw new Error(json.error || `HTTP ${res.status}`);
+        if (statusEl) statusEl.textContent = `已记录：${json.candidate} · ${json.status} · ${json.suggested_action}`;
+        setTimeout(() => window.location.reload(), 1200);
+      } catch (err) {
+        if (statusEl) statusEl.textContent = `记录失败：${err.message}。请确认从 http://127.0.0.1:8765/ 打开系统。`;
+      }
     }
     function renderProfile() {
       const p = data.profile || {};
